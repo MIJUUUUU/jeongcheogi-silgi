@@ -884,7 +884,7 @@ const QUESTIONS = [
   {
     "id": "q61",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "세 속성 A, B, C의 도메인 원소 수가 각각 2, 3, 5개다. 추가 제약이 없다면 가능한 튜플의 최대 수는?",
     "answer": "30",
     "aliases": [
@@ -897,7 +897,7 @@ const QUESTIONS = [
   {
     "id": "q62",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "세 속성 A, B, C의 도메인 원소 수가 각각 4, 2, 6개다. 추가 제약이 없다면 가능한 튜플의 최대 수는?",
     "answer": "48",
     "aliases": [
@@ -910,7 +910,7 @@ const QUESTIONS = [
   {
     "id": "q63",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "세 속성 A, B, C의 도메인 원소 수가 각각 3, 5, 4개다. 추가 제약이 없다면 가능한 튜플의 최대 수는?",
     "answer": "60",
     "aliases": [
@@ -923,7 +923,7 @@ const QUESTIONS = [
   {
     "id": "q64",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "세 속성 A, B, C의 도메인 원소 수가 각각 6, 2, 3개다. 추가 제약이 없다면 가능한 튜플의 최대 수는?",
     "answer": "36",
     "aliases": [
@@ -936,7 +936,7 @@ const QUESTIONS = [
   {
     "id": "q65",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "세 속성 A, B, C의 도메인 원소 수가 각각 4, 4, 3개다. 추가 제약이 없다면 가능한 튜플의 최대 수는?",
     "answer": "48",
     "aliases": [
@@ -949,7 +949,7 @@ const QUESTIONS = [
   {
     "id": "q66",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /24에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "254",
     "aliases": [
@@ -962,7 +962,7 @@ const QUESTIONS = [
   {
     "id": "q67",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /25에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "126",
     "aliases": [
@@ -975,7 +975,7 @@ const QUESTIONS = [
   {
     "id": "q68",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /26에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "62",
     "aliases": [
@@ -988,7 +988,7 @@ const QUESTIONS = [
   {
     "id": "q69",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /27에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "30",
     "aliases": [
@@ -1001,7 +1001,7 @@ const QUESTIONS = [
   {
     "id": "q70",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /28에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "14",
     "aliases": [
@@ -1014,7 +1014,7 @@ const QUESTIONS = [
   {
     "id": "q71",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /29에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "6",
     "aliases": [
@@ -1027,7 +1027,7 @@ const QUESTIONS = [
   {
     "id": "q72",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "일반적인 IPv4 서브넷 /30에서 네트워크 주소와 브로드캐스트 주소를 제외한 사용 가능한 호스트 주소 수는?",
     "answer": "2",
     "aliases": [
@@ -1040,7 +1040,7 @@ const QUESTIONS = [
   {
     "id": "q73",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "7개 행과 4개 열을 가진 릴레이션의 카디널리티와 차수를 순서대로 쓰세요. (쉼표로 구분)",
     "answer": "7, 4",
     "aliases": [
@@ -1053,7 +1053,7 @@ const QUESTIONS = [
   {
     "id": "q74",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "12개 행과 5개 열을 가진 릴레이션의 카디널리티와 차수를 순서대로 쓰세요. (쉼표로 구분)",
     "answer": "12, 5",
     "aliases": [
@@ -1066,7 +1066,7 @@ const QUESTIONS = [
   {
     "id": "q75",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "3개 행과 8개 열을 가진 릴레이션의 카디널리티와 차수를 순서대로 쓰세요. (쉼표로 구분)",
     "answer": "3, 8",
     "aliases": [
@@ -1079,7 +1079,7 @@ const QUESTIONS = [
   {
     "id": "q76",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "9개 행과 6개 열을 가진 릴레이션의 카디널리티와 차수를 순서대로 쓰세요. (쉼표로 구분)",
     "answer": "9, 6",
     "aliases": [
@@ -1092,7 +1092,7 @@ const QUESTIONS = [
   {
     "id": "q77",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "15개 행과 3개 열을 가진 릴레이션의 카디널리티와 차수를 순서대로 쓰세요. (쉼표로 구분)",
     "answer": "15, 3",
     "aliases": [
@@ -1105,7 +1105,7 @@ const QUESTIONS = [
   {
     "id": "q78",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 7, 2, 9, 4, 1에 왼쪽부터 인접 원소를 비교하는 오름차순 버블 정렬을 1회전 수행한 결과는? (쉼표로 구분)",
     "answer": "2, 7, 4, 1, 9",
     "aliases": [
@@ -1118,7 +1118,7 @@ const QUESTIONS = [
   {
     "id": "q79",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 8, 5, 3, 6, 2에 왼쪽부터 인접 원소를 비교하는 오름차순 버블 정렬을 1회전 수행한 결과는? (쉼표로 구분)",
     "answer": "5, 3, 6, 2, 8",
     "aliases": [
@@ -1131,7 +1131,7 @@ const QUESTIONS = [
   {
     "id": "q80",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 4, 9, 1, 7, 3에 왼쪽부터 인접 원소를 비교하는 오름차순 버블 정렬을 1회전 수행한 결과는? (쉼표로 구분)",
     "answer": "4, 1, 7, 3, 9",
     "aliases": [
@@ -1144,7 +1144,7 @@ const QUESTIONS = [
   {
     "id": "q81",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 6, 3, 8, 2, 5에 왼쪽부터 인접 원소를 비교하는 오름차순 버블 정렬을 1회전 수행한 결과는? (쉼표로 구분)",
     "answer": "3, 6, 2, 5, 8",
     "aliases": [
@@ -1157,7 +1157,7 @@ const QUESTIONS = [
   {
     "id": "q82",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "PERT에서 낙관 시간 6일, 최빈 시간 9일, 비관 시간 12일이다. 기대 소요 시간은 몇 일인가?",
     "answer": "9",
     "aliases": [
@@ -1170,7 +1170,7 @@ const QUESTIONS = [
   {
     "id": "q83",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "PERT에서 낙관 시간 3일, 최빈 시간 6일, 비관 시간 9일이다. 기대 소요 시간은 몇 일인가?",
     "answer": "6",
     "aliases": [
@@ -1183,7 +1183,7 @@ const QUESTIONS = [
   {
     "id": "q84",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "PERT에서 낙관 시간 2일, 최빈 시간 5일, 비관 시간 8일이다. 기대 소요 시간은 몇 일인가?",
     "answer": "5",
     "aliases": [
@@ -1196,7 +1196,7 @@ const QUESTIONS = [
   {
     "id": "q85",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "PERT에서 낙관 시간 4일, 최빈 시간 7일, 비관 시간 10일이다. 기대 소요 시간은 몇 일인가?",
     "answer": "7",
     "aliases": [
@@ -1209,167 +1209,147 @@ const QUESTIONS = [
   {
     "id": "q86",
     "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "애자일 개발 가치와 가장 거리가 먼 설명은?",
-    "choices": [
-      "고객과 자주 협업한다.",
-      "실행되는 소프트웨어를 중요하게 여긴다.",
-      "변화가 생기면 개발 계획을 조정한다.",
-      "초기 계획을 모든 변화보다 우선한다."
-    ],
-    "answer": "초기 계획을 모든 변화보다 우선한다.",
-    "explanation": "애자일은 계획 준수보다 변화에 대한 대응에 더 큰 가치를 둡니다.",
+    "type": "blank",
+    "prompt": "애자일의 핵심 가치를 완성하시오.\n계획을 따르는 것보다 (     )에 대응하는 것에 더 가치를 둔다.",
+    "answer": "변화",
+    "explanation": "애자일은 요구사항 변화에 유연하게 대응합니다.",
     "source": 4,
-    "page": 1
+    "page": 1,
+    "aliases": [
+      "변화",
+      "변경"
+    ]
   },
   {
     "id": "q87",
     "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "다음 중 UML의 정적 구조를 표현하는 다이어그램은?",
-    "choices": [
-      "시퀀스 다이어그램",
-      "활동 다이어그램",
-      "클래스 다이어그램",
-      "상태 다이어그램"
-    ],
+    "type": "short",
+    "prompt": "클래스의 속성·연산과 클래스 사이의 정적 관계를 표현하는 UML 다이어그램의 명칭을 쓰시오.",
     "answer": "클래스 다이어그램",
-    "explanation": "클래스 다이어그램은 클래스의 속성, 연산, 클래스 사이 관계를 정적으로 표현합니다.",
+    "explanation": "클래스 다이어그램은 시스템의 정적 구조를 나타냅니다.",
     "source": 2,
-    "page": 6
+    "page": 6,
+    "aliases": [
+      "클래스 다이어그램",
+      "Class Diagram"
+    ]
   },
   {
     "id": "q88",
     "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "XP의 핵심 가치에 포함되지 않는 것은?",
-    "choices": [
-      "존중",
-      "단순성",
-      "피드백",
-      "경쟁"
-    ],
-    "answer": "경쟁",
-    "explanation": "XP의 다섯 가치는 의사소통, 단순성, 용기, 피드백, 존중입니다.",
+    "type": "blank",
+    "prompt": "XP의 다섯 핵심 가치 중 빈칸에 해당하는 용어를 쓰시오.\n의사소통, 단순성, 용기, 피드백, (     )",
+    "answer": "존중",
+    "explanation": "XP의 핵심 가치는 의사소통, 단순성, 용기, 피드백, 존중입니다.",
     "source": 2,
-    "page": 5
+    "page": 5,
+    "aliases": [
+      "존중",
+      "Respect"
+    ]
   },
   {
     "id": "q89",
     "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "모듈 설계의 일반적인 목표로 가장 적절한 것은?",
-    "choices": [
-      "높은 결합도와 낮은 응집도",
-      "낮은 결합도와 높은 응집도",
-      "결합도와 응집도 모두 최대화",
-      "결합도와 응집도 모두 최소화"
-    ],
-    "answer": "낮은 결합도와 높은 응집도",
-    "explanation": "외부 의존성은 줄이고 내부 기능의 관련성은 높여야 유지보수가 쉬워집니다.",
+    "type": "blank",
+    "prompt": "모듈 독립성을 높이는 설계 방향을 완성하시오.\n결합도는 (①), 응집도는 (②).\n①, ②를 순서대로 쓰시오.",
+    "answer": "낮게, 높게",
+    "explanation": "다른 모듈에 대한 의존은 낮추고 모듈 내부의 기능 관련성은 높입니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "aliases": [
+      "낮게, 높게",
+      "낮음, 높음",
+      "낮추고, 높인다",
+      "낮은, 높은"
+    ]
   },
   {
     "id": "q90",
     "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "블랙박스 테스트 기법에 해당하는 것은?",
-    "choices": [
-      "기초 경로 검사",
-      "문장 커버리지 검사",
-      "조건 커버리지 검사",
-      "경계값 분석"
-    ],
+    "type": "short",
+    "prompt": "입력값의 허용 범위 끝과 바로 주변 값을 집중적으로 검사하는 블랙박스 테스트 기법의 명칭을 쓰시오.",
     "answer": "경계값 분석",
-    "explanation": "경계값 분석은 입력 범위의 경계와 그 주변을 검사하는 블랙박스 기법입니다.",
+    "explanation": "경계값과 그 직전·직후에서 발생하는 결함을 찾는 기법입니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "aliases": [
+      "경계값 분석",
+      "Boundary Value Analysis"
+    ]
   },
   {
     "id": "q91",
     "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "SQL 명령 중 데이터 제어어(DCL)에 속하는 것은?",
-    "choices": [
-      "INSERT",
-      "SELECT",
-      "GRANT",
-      "CREATE"
-    ],
+    "type": "blank",
+    "prompt": "다음 SQL의 빈칸을 채우시오.\n(     ) SELECT ON Student TO learner;",
     "answer": "GRANT",
-    "explanation": "GRANT는 권한을 부여하는 DCL입니다. INSERT와 SELECT는 DML, CREATE는 DDL입니다.",
+    "explanation": "GRANT는 사용자에게 접근 권한을 부여합니다.",
     "source": 2,
-    "page": 22
+    "page": 22,
+    "aliases": [
+      "GRANT"
+    ]
   },
   {
     "id": "q92",
     "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "WHERE와 HAVING에 대한 올바른 설명은?",
-    "choices": [
-      "WHERE는 그룹에만 적용한다.",
-      "HAVING은 GROUP BY 이전 행에 적용한다.",
-      "WHERE는 행을, HAVING은 그룹을 필터링한다.",
-      "두 절은 항상 서로 대체할 수 있다."
-    ],
-    "answer": "WHERE는 행을, HAVING은 그룹을 필터링한다.",
-    "explanation": "WHERE로 행을 먼저 고른 다음 GROUP BY로 그룹화하고 HAVING으로 그룹을 제한합니다.",
+    "type": "short",
+    "prompt": "SQL에서 그룹화 이전에 개별 행에 조건을 적용하는 절의 명칭을 쓰시오.",
+    "answer": "WHERE",
+    "explanation": "WHERE로 행을 먼저 선택하고 GROUP BY로 그룹을 만든 뒤 HAVING으로 그룹을 제한합니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "aliases": [
+      "WHERE"
+    ]
   },
   {
     "id": "q93",
     "category": "운영체제",
-    "type": "choice",
-    "prompt": "교착 상태의 필요 조건에 포함되지 않는 것은?",
-    "choices": [
-      "상호 배제",
-      "점유와 대기",
-      "순환 대기",
-      "선점 가능"
-    ],
-    "answer": "선점 가능",
-    "explanation": "필요 조건은 비선점입니다. 선점이 가능하면 교착 상태를 해소할 수 있습니다.",
+    "type": "blank",
+    "prompt": "교착 상태의 필요 조건을 완성하시오.\n상호 배제, 점유와 대기, 비선점, (     )",
+    "answer": "순환 대기",
+    "explanation": "프로세스들이 자원을 순환 관계로 기다리는 조건입니다.",
     "source": 2,
-    "page": 14
+    "page": 14,
+    "aliases": [
+      "순환 대기",
+      "Circular Wait"
+    ]
   },
   {
     "id": "q94",
     "category": "네트워크",
-    "type": "choice",
-    "prompt": "OSI 7계층을 아래에서 위로 나열한 순서는?",
-    "choices": [
-      "물리 → 데이터 링크 → 네트워크 → 전송 → 세션 → 표현 → 응용",
-      "물리 → 네트워크 → 데이터 링크 → 전송 → 표현 → 세션 → 응용",
-      "데이터 링크 → 물리 → 네트워크 → 세션 → 전송 → 표현 → 응용",
-      "물리 → 데이터 링크 → 전송 → 네트워크 → 세션 → 응용 → 표현"
-    ],
-    "answer": "물리 → 데이터 링크 → 네트워크 → 전송 → 세션 → 표현 → 응용",
-    "explanation": "1계층부터 물리, 데이터 링크, 네트워크, 전송, 세션, 표현, 응용입니다.",
+    "type": "short",
+    "prompt": "OSI 7계층에서 응용 계층 바로 아래에 위치하여 데이터 표현 방식과 암호화·압축을 담당하는 계층의 명칭을 쓰시오.",
+    "answer": "표현 계층",
+    "explanation": "표현 계층은 OSI 6계층입니다.",
     "source": 2,
-    "page": 16
+    "page": 16,
+    "aliases": [
+      "표현 계층",
+      "표현",
+      "Presentation Layer"
+    ]
   },
   {
     "id": "q95",
     "category": "보안",
-    "type": "choice",
-    "prompt": "암호화에 쓰는 키와 복호화에 쓰는 키가 동일한 알고리즘은?",
-    "choices": [
-      "RSA",
-      "AES",
-      "ECC",
-      "ElGamal"
-    ],
+    "type": "short",
+    "prompt": "블록 크기가 128비트이고 키 길이로 128·192·256비트를 사용하는 대칭키 암호 알고리즘의 약어를 쓰시오.",
     "answer": "AES",
-    "explanation": "AES는 대칭키 알고리즘입니다. 나머지는 비대칭키 방식에 해당합니다.",
+    "explanation": "AES는 대칭키 블록 암호 알고리즘입니다.",
     "source": 2,
-    "page": 18
+    "page": 18,
+    "aliases": [
+      "AES"
+    ]
   },
   {
     "id": "q96",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 Python 코드의 출력 결과는?\n\na = [2, 4, 6, 8, 10]\nprint(a[1:4:2])",
     "answer": "[4, 8]",
     "aliases": [
@@ -1382,7 +1362,7 @@ const QUESTIONS = [
   {
     "id": "q97",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 Python 코드의 출력 결과는?\n\ns = \"DATABASE\"\nprint(s[2:6])",
     "answer": "TABA",
     "aliases": [
@@ -1395,7 +1375,7 @@ const QUESTIONS = [
   {
     "id": "q98",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 Python 코드의 출력 결과는?\n\nf = lambda x, y: x * 2 + y\nprint(f(3, 4))",
     "answer": "10",
     "aliases": [
@@ -1408,7 +1388,7 @@ const QUESTIONS = [
   {
     "id": "q99",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 Python 코드의 출력 결과는?\n\na = [1, 3]\na.append(5)\na.remove(1)\nprint(a)",
     "answer": "[3, 5]",
     "aliases": [
@@ -1421,7 +1401,7 @@ const QUESTIONS = [
   {
     "id": "q100",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 Python 코드의 출력 결과는?\n\na = {1, 2, 2, 3}\nprint(len(a))",
     "answer": "3",
     "aliases": [
@@ -1434,7 +1414,7 @@ const QUESTIONS = [
   {
     "id": "q101",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 C 코드의 출력 결과는?\n\n#include <stdio.h>\nint main(void) {\n    int a = 8;\n    int *p = &a;\n    *p += 3;\n    printf(\"%d\", a);\n    return 0;\n}",
     "answer": "11",
     "aliases": [
@@ -1447,7 +1427,7 @@ const QUESTIONS = [
   {
     "id": "q102",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 C 코드의 출력 결과는?\n\n#include <stdio.h>\nint f(int n) {\n    if (n <= 1) return 1;\n    return n * f(n - 1);\n}\nint main(void) {\n    printf(\"%d\", f(4));\n    return 0;\n}",
     "answer": "24",
     "aliases": [
@@ -1460,7 +1440,7 @@ const QUESTIONS = [
   {
     "id": "q103",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 C 코드의 출력 결과는?\n\n#include <stdio.h>\nint main(void) {\n    int a[] = {3, 6, 9};\n    printf(\"%d\", a[1]);\n    return 0;\n}",
     "answer": "6",
     "aliases": [
@@ -3068,777 +3048,9 @@ const QUESTIONS = [
     "page": 20
   },
   {
-    "id": "q214",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n사용자가 시스템과 상호작용하며 수행하는 목표를 액터와 사용 사례로 표현하는 UML 다이어그램은?",
-    "choices": [
-      "유스케이스 다이어그램",
-      "시퀀스 다이어그램",
-      "상태 다이어그램",
-      "활동 다이어그램"
-    ],
-    "answer": "유스케이스 다이어그램",
-    "explanation": "액터가 시스템을 이용하는 기능을 사용자 관점에서 보여줍니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q215",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n객체 사이의 메시지를 시간 순서에 따라 표현하는 UML 다이어그램은?",
-    "choices": [
-      "배치 다이어그램",
-      "시퀀스 다이어그램",
-      "와이어프레임",
-      "목업"
-    ],
-    "answer": "시퀀스 다이어그램",
-    "explanation": "생명선과 메시지로 상호작용의 순서를 표현합니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q216",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n객체가 이벤트에 따라 어떤 상태로 전이하는지 표현하는 UML 다이어그램은?",
-    "choices": [
-      "MVC",
-      "제이콥슨",
-      "상태 다이어그램",
-      "캡슐화"
-    ],
-    "answer": "상태 다이어그램",
-    "explanation": "상태와 이벤트에 따른 전이를 표현하는 행위 다이어그램입니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q217",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n조건과 분기를 포함해 작업의 처리 흐름을 표현하는 UML 다이어그램은?",
-    "choices": [
-      "상속",
-      "다형성",
-      "추상화",
-      "활동 다이어그램"
-    ],
-    "answer": "활동 다이어그램",
-    "explanation": "액티비티의 실행 흐름과 분기, 병렬 처리를 나타냅니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q218",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n소프트웨어 구성 요소가 어떤 물리적 노드에 배치되는지 보여주는 UML 다이어그램은?",
-    "choices": [
-      "배치 다이어그램",
-      "인스턴스",
-      "오버라이딩",
-      "오버로딩"
-    ],
-    "answer": "배치 다이어그램",
-    "explanation": "서버 등 물리적 노드와 그 노드에 배치된 요소를 표현합니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q219",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n화면의 레이아웃과 요소 위치를 기획 초기에 선과 상자로 나타내는 설계 산출물은?",
-    "choices": [
-      "SRP",
-      "와이어프레임",
-      "ISP",
-      "DIP"
-    ],
-    "answer": "와이어프레임",
-    "explanation": "상세한 디자인 이전에 화면 구조를 잡는 데 사용합니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q220",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n실제 화면처럼 보이지만 상호작용 기능은 없는 정적인 화면 모형은?",
-    "choices": [
-      "공통 결합도",
-      "내용 결합도",
-      "목업",
-      "제어 결합도"
-    ],
-    "answer": "목업",
-    "explanation": "목업은 화면의 시각적 모습을 확인하는 정적인 모형입니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q221",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n데이터·화면·입력 제어를 Model, View, Controller로 나누는 아키텍처의 약어는?",
-    "choices": [
-      "스탬프 결합도",
-      "기능적 응집도",
-      "순차적 응집도",
-      "MVC"
-    ],
-    "answer": "MVC",
-    "explanation": "Model은 데이터와 핵심 로직, View는 표시, Controller는 입력 처리를 맡습니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q222",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n사용 사례를 중심으로 사용자와 외부 시스템의 상호작용을 분석하는 방법론의 제안자는?",
-    "choices": [
-      "제이콥슨",
-      "통신적 응집도",
-      "메멘토",
-      "전략"
-    ],
-    "answer": "제이콥슨",
-    "explanation": "Jacobson 방법론은 유스케이스를 중시합니다.",
-    "source": 2,
-    "page": 6
-  },
-  {
-    "id": "q223",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n데이터와 이를 처리하는 메서드를 하나로 묶고 내부 구현의 접근을 제한하는 객체지향 특성은?",
-    "choices": [
-      "상태",
-      "캡슐화",
-      "반복자",
-      "중재자"
-    ],
-    "answer": "캡슐화",
-    "explanation": "관련 데이터와 동작을 묶고 외부에 필요한 인터페이스를 제공합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q224",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n상위 클래스의 속성과 메서드를 하위 클래스에서 물려받는 객체지향 특성은?",
-    "choices": [
-      "커맨드",
-      "책임 연쇄",
-      "상속",
-      "템플릿 메서드"
-    ],
-    "answer": "상속",
-    "explanation": "상속은 공통 기능을 재사용하고 상위 타입을 확장하는 데 사용됩니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q225",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n같은 메시지나 메서드 호출이 객체의 실제 타입에 따라 다르게 동작하는 특성은?",
-    "choices": [
-      "살충제 패러독스",
-      "정적 테스트",
-      "문장 커버리지",
-      "다형성"
-    ],
-    "answer": "다형성",
-    "explanation": "공통 인터페이스를 통해 서로 다른 구현을 사용할 수 있습니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q226",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n복잡한 대상에서 공통된 본질만 뽑고 불필요한 세부사항을 생략하는 개념은?",
-    "choices": [
-      "추상화",
-      "분기 커버리지",
-      "통합 테스트",
-      "알파 테스트"
-    ],
-    "answer": "추상화",
-    "explanation": "추상화는 중요한 특징을 중심으로 모델을 단순화합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q227",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n클래스 정의를 바탕으로 실제 생성된 개별 객체를 무엇이라고 하는가?",
-    "choices": [
-      "베타 테스트",
-      "인스턴스",
-      "형상 관리",
-      "IaaS"
-    ],
-    "answer": "인스턴스",
-    "explanation": "클래스가 설계도라면 인스턴스는 그 설계도로 만든 객체입니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q228",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n상위 클래스의 메서드를 하위 클래스에서 같은 시그니처로 재정의하는 것은?",
-    "choices": [
-      "PaaS",
-      "SaaS",
-      "오버라이딩",
-      "EAI"
-    ],
-    "answer": "오버라이딩",
-    "explanation": "상속된 메서드의 구현을 하위 클래스에서 새로 제공합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q229",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n메서드 이름은 같고 매개변수의 타입이나 개수가 다른 메서드들을 정의하는 것은?",
-    "choices": [
-      "JSON",
-      "SOAP",
-      "유스케이스 다이어그램",
-      "오버로딩"
-    ],
-    "answer": "오버로딩",
-    "explanation": "호출 시 전달한 매개변수에 따라 사용할 메서드를 선택합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q230",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n클래스는 하나의 책임과 변경 이유만 가져야 한다는 SOLID 원칙의 약어는?",
-    "choices": [
-      "SRP",
-      "시퀀스 다이어그램",
-      "상태 다이어그램",
-      "활동 다이어그램"
-    ],
-    "answer": "SRP",
-    "explanation": "단일 책임 원칙은 서로 다른 변경 이유를 분리하도록 합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q231",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n클라이언트가 사용하지 않는 메서드에 의존하지 않도록 인터페이스를 나누는 원칙은?",
-    "choices": [
-      "배치 다이어그램",
-      "ISP",
-      "와이어프레임",
-      "목업"
-    ],
-    "answer": "ISP",
-    "explanation": "인터페이스 분리 원칙은 클라이언트별로 필요한 인터페이스를 제공합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q232",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n상위 모듈과 하위 모듈이 구체적인 구현보다 추상화에 의존해야 한다는 원칙은?",
-    "choices": [
-      "MVC",
-      "제이콥슨",
-      "DIP",
-      "캡슐화"
-    ],
-    "answer": "DIP",
-    "explanation": "의존 역전 원칙은 구현 세부사항보다 인터페이스 등 추상화에 의존하도록 합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q233",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n여러 모듈이 같은 전역 데이터를 공유할 때 나타나는 결합도는?",
-    "choices": [
-      "상속",
-      "다형성",
-      "추상화",
-      "공통 결합도"
-    ],
-    "answer": "공통 결합도",
-    "explanation": "공유 전역 데이터의 변경이 여러 모듈에 영향을 줄 수 있습니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q234",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n한 모듈이 다른 모듈의 내부 코드나 자료를 직접 참조·수정하는 결합도는?",
-    "choices": [
-      "내용 결합도",
-      "인스턴스",
-      "오버라이딩",
-      "오버로딩"
-    ],
-    "answer": "내용 결합도",
-    "explanation": "다른 모듈의 내부에 직접 의존하므로 결합도가 매우 높습니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q235",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n모듈 간에 처리 방식을 결정하는 플래그 같은 제어 정보를 전달하는 결합도는?",
-    "choices": [
-      "SRP",
-      "제어 결합도",
-      "ISP",
-      "DIP"
-    ],
-    "answer": "제어 결합도",
-    "explanation": "데이터뿐 아니라 상대 모듈의 처리 방식에 대한 정보도 전달합니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q236",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n모듈 간에 배열이나 레코드 같은 자료 구조 전체를 전달하는 결합도는?",
-    "choices": [
-      "공통 결합도",
-      "내용 결합도",
-      "스탬프 결합도",
-      "제어 결합도"
-    ],
-    "answer": "스탬프 결합도",
-    "explanation": "자료 구조 변경이 전달받는 모듈에도 영향을 줍니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q237",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n모듈의 모든 요소가 하나의 명확한 기능을 수행하는 가장 높은 수준의 응집도는?",
-    "choices": [
-      "스탬프 결합도",
-      "순차적 응집도",
-      "통신적 응집도",
-      "기능적 응집도"
-    ],
-    "answer": "기능적 응집도",
-    "explanation": "하나의 목적을 위한 요소들로 구성되어 관련성이 높습니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q238",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n한 처리의 출력이 다음 처리의 입력으로 이어지도록 구성한 모듈의 응집도는?",
-    "choices": [
-      "순차적 응집도",
-      "메멘토",
-      "전략",
-      "상태"
-    ],
-    "answer": "순차적 응집도",
-    "explanation": "처리 단계가 데이터의 흐름으로 연결됩니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q239",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n동일한 입력 또는 출력 데이터를 사용하는 처리들을 모은 응집도는?",
-    "choices": [
-      "반복자",
-      "통신적 응집도",
-      "중재자",
-      "커맨드"
-    ],
-    "answer": "통신적 응집도",
-    "explanation": "여러 처리가 같은 데이터를 사용하는 관계로 묶입니다.",
-    "source": 2,
-    "page": 7
-  },
-  {
-    "id": "q240",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n객체의 상태를 저장해 두었다가 이전 상태로 복원하는 행위 패턴은?",
-    "choices": [
-      "책임 연쇄",
-      "템플릿 메서드",
-      "메멘토",
-      "살충제 패러독스"
-    ],
-    "answer": "메멘토",
-    "explanation": "Memento는 객체의 내부 상태를 보존하고 복원하는 데 사용됩니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q241",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n교체 가능한 알고리즘들을 각각 캡슐화하여 실행 시 선택하는 패턴은?",
-    "choices": [
-      "정적 테스트",
-      "문장 커버리지",
-      "분기 커버리지",
-      "전략"
-    ],
-    "answer": "전략",
-    "explanation": "Strategy는 알고리즘들을 공통 인터페이스로 분리합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q242",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n객체의 내부 상태에 따라 동일한 요청의 처리 방식이 달라지게 하는 패턴은?",
-    "choices": [
-      "상태",
-      "통합 테스트",
-      "알파 테스트",
-      "베타 테스트"
-    ],
-    "answer": "상태",
-    "explanation": "State는 상태별 동작을 별도 객체로 분리합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q243",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n컬렉션의 내부 구조를 공개하지 않고 요소에 순차적으로 접근하게 하는 패턴은?",
-    "choices": [
-      "형상 관리",
-      "반복자",
-      "IaaS",
-      "PaaS"
-    ],
-    "answer": "반복자",
-    "explanation": "Iterator는 순회 동작을 컬렉션의 표현 방식과 분리합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q244",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n객체 간 복잡한 상호작용을 하나의 중재 객체로 모으는 패턴은?",
-    "choices": [
-      "SaaS",
-      "EAI",
-      "중재자",
-      "JSON"
-    ],
-    "answer": "중재자",
-    "explanation": "Mediator는 객체들이 서로를 직접 참조하는 관계를 줄입니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q245",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n요청 자체를 객체로 만들어 큐에 저장하거나 실행 취소를 지원하는 패턴은?",
-    "choices": [
-      "SOAP",
-      "유스케이스 다이어그램",
-      "시퀀스 다이어그램",
-      "커맨드"
-    ],
-    "answer": "커맨드",
-    "explanation": "Command는 요청을 실행하는 대상과 호출자를 분리합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q246",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n여러 처리 객체를 연결하여 요청을 처리할 수 있는 객체까지 전달하는 패턴은?",
-    "choices": [
-      "책임 연쇄",
-      "상태 다이어그램",
-      "활동 다이어그램",
-      "배치 다이어그램"
-    ],
-    "answer": "책임 연쇄",
-    "explanation": "Chain of Responsibility는 요청을 처리자들의 연결을 따라 넘깁니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q247",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n알고리즘의 큰 흐름은 상위 클래스에 두고 일부 단계는 하위 클래스가 구현하는 패턴은?",
-    "choices": [
-      "와이어프레임",
-      "템플릿 메서드",
-      "목업",
-      "MVC"
-    ],
-    "answer": "템플릿 메서드",
-    "explanation": "Template Method는 공통 절차와 변경되는 단계를 분리합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q248",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n같은 테스트만 반복해서 새로운 결함을 찾기 어려워지는 현상은?",
-    "choices": [
-      "제이콥슨",
-      "캡슐화",
-      "살충제 패러독스",
-      "상속"
-    ],
-    "answer": "살충제 패러독스",
-    "explanation": "새로운 결함을 찾으려면 테스트 데이터와 케이스를 검토하고 개선해야 합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q249",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n프로그램을 실행하지 않고 문서나 소스코드를 검토하는 테스트는?",
-    "choices": [
-      "다형성",
-      "추상화",
-      "인스턴스",
-      "정적 테스트"
-    ],
-    "answer": "정적 테스트",
-    "explanation": "코드 검토, 인스펙션, 워크스루 등은 실행하지 않고 수행합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q250",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n모든 실행 문장을 최소 한 번씩 실행하는지 측정하는 커버리지는?",
-    "choices": [
-      "문장 커버리지",
-      "오버라이딩",
-      "오버로딩",
-      "SRP"
-    ],
-    "answer": "문장 커버리지",
-    "explanation": "문장 실행 여부를 측정하며 모든 분기 결과를 보장하지는 않습니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q251",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n각 분기의 참과 거짓 결과를 최소 한 번씩 수행하는 커버리지는?",
-    "choices": [
-      "ISP",
-      "분기 커버리지",
-      "DIP",
-      "공통 결합도"
-    ],
-    "answer": "분기 커버리지",
-    "explanation": "결정 결과의 각 경로가 실행되는지 확인합니다.",
-    "source": 2,
-    "page": 8
-  },
-  {
-    "id": "q252",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n모듈들을 결합하며 모듈 사이 인터페이스의 결함을 찾는 테스트는?",
-    "choices": [
-      "내용 결합도",
-      "제어 결합도",
-      "통합 테스트",
-      "스탬프 결합도"
-    ],
-    "answer": "통합 테스트",
-    "explanation": "개별 단위 검증 이후 연결된 모듈 간의 상호작용을 검사합니다.",
-    "source": 2,
-    "page": 9
-  },
-  {
-    "id": "q253",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n사용자가 개발자의 통제된 환경에서 수행하는 인수 테스트는?",
-    "choices": [
-      "기능적 응집도",
-      "순차적 응집도",
-      "통신적 응집도",
-      "알파 테스트"
-    ],
-    "answer": "알파 테스트",
-    "explanation": "알파 테스트는 개발자와 함께 통제된 환경에서 수행합니다.",
-    "source": 2,
-    "page": 9
-  },
-  {
-    "id": "q254",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n실제 사용자가 자신의 사용 환경에서 제품을 사용하며 검증하는 인수 테스트는?",
-    "choices": [
-      "베타 테스트",
-      "메멘토",
-      "전략",
-      "상태"
-    ],
-    "answer": "베타 테스트",
-    "explanation": "베타 테스트는 실제 환경에서 사용자가 수행합니다.",
-    "source": 2,
-    "page": 9
-  },
-  {
-    "id": "q255",
-    "category": "소프트웨어",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n소프트웨어 변경 사항을 식별·통제·감사하고 상태를 기록하는 관리 활동은?",
-    "choices": [
-      "반복자",
-      "형상 관리",
-      "중재자",
-      "커맨드"
-    ],
-    "answer": "형상 관리",
-    "explanation": "버전 및 변경 이력을 추적하고 기준선을 관리합니다.",
-    "source": 2,
-    "page": 9
-  },
-  {
-    "id": "q256",
-    "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n사용자마다 필요로 하는 데이터의 논리적 관점을 나타내는 스키마는?",
-    "choices": [
-      "참조 무결성",
-      "삭제 이상",
-      "외부 스키마",
-      "갱신 이상"
-    ],
-    "answer": "외부 스키마",
-    "explanation": "하나의 데이터베이스에 사용자별 외부 스키마가 여러 개 있을 수 있습니다.",
-    "source": 2,
-    "page": 10
-  },
-  {
-    "id": "q257",
-    "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n데이터베이스 전체의 논리적 구조와 제약을 정의하는 스키마는?",
-    "choices": [
-      "셀렉션",
-      "프로젝션",
-      "CREATE",
-      "개념 스키마"
-    ],
-    "answer": "개념 스키마",
-    "explanation": "조직 전체의 통합된 논리적 데이터 구조를 정의합니다.",
-    "source": 2,
-    "page": 10
-  },
-  {
-    "id": "q258",
-    "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n파일 구성과 저장 방식 등 데이터의 물리적 저장 구조를 정의하는 스키마는?",
-    "choices": [
-      "내부 스키마",
-      "ALTER",
-      "DROP",
-      "REVOKE"
-    ],
-    "answer": "내부 스키마",
-    "explanation": "내부 스키마는 물리적인 저장장치에서의 구현을 나타냅니다.",
-    "source": 2,
-    "page": 10
-  },
-  {
-    "id": "q259",
-    "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n튜플을 유일하게 식별하는 속성 집합 중 최소성을 만족하는 키는?",
-    "choices": [
-      "ROLLBACK",
-      "후보키",
-      "DESC",
-      "IS NULL"
-    ],
-    "answer": "후보키",
-    "explanation": "후보키는 유일성과 최소성을 모두 만족합니다.",
-    "source": 2,
-    "page": 10
-  },
-  {
-    "id": "q260",
-    "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n튜플을 유일하게 식별하지만 불필요한 속성을 포함할 수도 있는 키는?",
-    "choices": [
-      "UNION ALL",
-      "함께 삭제된다",
-      "슈퍼키",
-      "외부 스키마"
-    ],
-    "answer": "슈퍼키",
-    "explanation": "슈퍼키는 유일성을 만족하며 최소성은 요구하지 않습니다.",
-    "source": 2,
-    "page": 10
-  },
-  {
-    "id": "q261",
-    "category": "데이터베이스",
-    "type": "choice",
-    "prompt": "알맞은 용어를 고르세요.\n후보키 중 기본키로 선택되지 않은 나머지 키는?",
-    "choices": [
-      "개념 스키마",
-      "내부 스키마",
-      "후보키",
-      "대체키"
-    ],
-    "answer": "대체키",
-    "explanation": "기본키를 제외한 후보키를 대체키라고 합니다.",
-    "source": 2,
-    "page": 10
-  },
-  {
     "id": "q262",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 3개에서 FIFO 페이지 교체를 사용한다. 참조열 1, 2, 3, 1, 4, 2, 5, 1의 페이지 부재 횟수는?",
     "answer": "6",
     "aliases": [
@@ -3851,7 +3063,7 @@ const QUESTIONS = [
   {
     "id": "q263",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 3개에서 LRU 페이지 교체를 사용한다. 참조열 1, 2, 3, 1, 4, 2, 5, 1의 페이지 부재 횟수는?",
     "answer": "7",
     "aliases": [
@@ -3864,7 +3076,7 @@ const QUESTIONS = [
   {
     "id": "q264",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 3개에서 FIFO 페이지 교체를 사용한다. 참조열 2, 1, 2, 3, 4, 1, 2, 5의 페이지 부재 횟수는?",
     "answer": "6",
     "aliases": [
@@ -3877,7 +3089,7 @@ const QUESTIONS = [
   {
     "id": "q265",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 3개에서 LRU 페이지 교체를 사용한다. 참조열 2, 1, 2, 3, 4, 1, 2, 5의 페이지 부재 횟수는?",
     "answer": "7",
     "aliases": [
@@ -3890,7 +3102,7 @@ const QUESTIONS = [
   {
     "id": "q266",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 4개에서 FIFO 페이지 교체를 사용한다. 참조열 1, 2, 3, 4, 1, 5, 2, 6의 페이지 부재 횟수는?",
     "answer": "6",
     "aliases": [
@@ -3903,7 +3115,7 @@ const QUESTIONS = [
   {
     "id": "q267",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 4개에서 LRU 페이지 교체를 사용한다. 참조열 1, 2, 3, 4, 1, 5, 2, 6의 페이지 부재 횟수는?",
     "answer": "7",
     "aliases": [
@@ -3916,7 +3128,7 @@ const QUESTIONS = [
   {
     "id": "q268",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 2개에서 FIFO 페이지 교체를 사용한다. 참조열 1, 2, 1, 3, 2, 4, 1의 페이지 부재 횟수는?",
     "answer": "5",
     "aliases": [
@@ -3929,7 +3141,7 @@ const QUESTIONS = [
   {
     "id": "q269",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 2개에서 LRU 페이지 교체를 사용한다. 참조열 1, 2, 1, 3, 2, 4, 1의 페이지 부재 횟수는?",
     "answer": "6",
     "aliases": [
@@ -3942,7 +3154,7 @@ const QUESTIONS = [
   {
     "id": "q270",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 3개에서 FIFO 페이지 교체를 사용한다. 참조열 4, 3, 2, 4, 1, 2, 5, 3의 페이지 부재 횟수는?",
     "answer": "6",
     "aliases": [
@@ -3955,7 +3167,7 @@ const QUESTIONS = [
   {
     "id": "q271",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "빈 페이지 프레임 3개에서 LRU 페이지 교체를 사용한다. 참조열 4, 3, 2, 4, 1, 2, 5, 3의 페이지 부재 횟수는?",
     "answer": "6",
     "aliases": [
@@ -3968,7 +3180,7 @@ const QUESTIONS = [
   {
     "id": "q272",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "HRN 스케줄링에서 대기 시간 12, 실행 시간 4인 프로세스의 우선순위(응답 비율)는?",
     "answer": "4",
     "aliases": [
@@ -3981,7 +3193,7 @@ const QUESTIONS = [
   {
     "id": "q273",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "HRN 스케줄링에서 대기 시간 18, 실행 시간 6인 프로세스의 우선순위(응답 비율)는?",
     "answer": "4",
     "aliases": [
@@ -3994,7 +3206,7 @@ const QUESTIONS = [
   {
     "id": "q274",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "HRN 스케줄링에서 대기 시간 8, 실행 시간 2인 프로세스의 우선순위(응답 비율)는?",
     "answer": "5",
     "aliases": [
@@ -4007,7 +3219,7 @@ const QUESTIONS = [
   {
     "id": "q275",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "HRN 스케줄링에서 대기 시간 15, 실행 시간 5인 프로세스의 우선순위(응답 비율)는?",
     "answer": "4",
     "aliases": [
@@ -4020,7 +3232,7 @@ const QUESTIONS = [
   {
     "id": "q276",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "HRN 스케줄링에서 대기 시간 24, 실행 시간 8인 프로세스의 우선순위(응답 비율)는?",
     "answer": "4",
     "aliases": [
@@ -4033,7 +3245,7 @@ const QUESTIONS = [
   {
     "id": "q277",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "A, B, C가 시각 0에 이 순서로 준비 큐에 들어왔다. 실행 시간은 각각 4, 6, 2ms이다. FCFS의 평균 대기 시간은? (단위 제외, 필요하면 소수점 둘째 자리까지)",
     "answer": "4.67",
     "aliases": [
@@ -4046,7 +3258,7 @@ const QUESTIONS = [
   {
     "id": "q278",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "A, B, C가 시각 0에 이 순서로 준비 큐에 들어왔다. 실행 시간은 각각 3, 5, 7ms이다. FCFS의 평균 대기 시간은? (단위 제외, 필요하면 소수점 둘째 자리까지)",
     "answer": "3.67",
     "aliases": [
@@ -4059,7 +3271,7 @@ const QUESTIONS = [
   {
     "id": "q279",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "A, B, C가 시각 0에 이 순서로 준비 큐에 들어왔다. 실행 시간은 각각 6, 3, 9ms이다. FCFS의 평균 대기 시간은? (단위 제외, 필요하면 소수점 둘째 자리까지)",
     "answer": "5.0",
     "aliases": [
@@ -4072,7 +3284,7 @@ const QUESTIONS = [
   {
     "id": "q280",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "A, B, C가 시각 0에 이 순서로 준비 큐에 들어왔다. 실행 시간은 각각 2, 8, 5ms이다. FCFS의 평균 대기 시간은? (단위 제외, 필요하면 소수점 둘째 자리까지)",
     "answer": "4.0",
     "aliases": [
@@ -4085,7 +3297,7 @@ const QUESTIONS = [
   {
     "id": "q281",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "A, B, C가 시각 0에 이 순서로 준비 큐에 들어왔다. 실행 시간은 각각 5, 4, 3ms이다. FCFS의 평균 대기 시간은? (단위 제외, 필요하면 소수점 둘째 자리까지)",
     "answer": "4.67",
     "aliases": [
@@ -4098,7 +3310,7 @@ const QUESTIONS = [
   {
     "id": "q282",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "연결된 하나의 제어 흐름 그래프에 노드 3개, 간선 8개가 있다. McCabe 순환 복잡도 V(G)는?",
     "answer": "7",
     "aliases": [
@@ -4111,7 +3323,7 @@ const QUESTIONS = [
   {
     "id": "q283",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "연결된 하나의 제어 흐름 그래프에 노드 5개, 간선 11개가 있다. McCabe 순환 복잡도 V(G)는?",
     "answer": "8",
     "aliases": [
@@ -4124,7 +3336,7 @@ const QUESTIONS = [
   {
     "id": "q284",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "연결된 하나의 제어 흐름 그래프에 노드 2개, 간선 7개가 있다. McCabe 순환 복잡도 V(G)는?",
     "answer": "7",
     "aliases": [
@@ -4137,7 +3349,7 @@ const QUESTIONS = [
   {
     "id": "q285",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "연결된 하나의 제어 흐름 그래프에 노드 8개, 간선 15개가 있다. McCabe 순환 복잡도 V(G)는?",
     "answer": "9",
     "aliases": [
@@ -4150,7 +3362,7 @@ const QUESTIONS = [
   {
     "id": "q286",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "연결된 하나의 제어 흐름 그래프에 노드 4개, 간선 12개가 있다. McCabe 순환 복잡도 V(G)는?",
     "answer": "10",
     "aliases": [
@@ -4163,7 +3375,7 @@ const QUESTIONS = [
   {
     "id": "q287",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 6, 2, 8, 4을 오름차순 선택 정렬한다. 전체에서 최솟값을 찾아 첫 원소와 교환한 1회전 결과는? (쉼표로 구분)",
     "answer": "2, 6, 8, 4",
     "aliases": [
@@ -4176,7 +3388,7 @@ const QUESTIONS = [
   {
     "id": "q288",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 9, 1, 7, 3을 오름차순 선택 정렬한다. 전체에서 최솟값을 찾아 첫 원소와 교환한 1회전 결과는? (쉼표로 구분)",
     "answer": "1, 9, 7, 3",
     "aliases": [
@@ -4189,7 +3401,7 @@ const QUESTIONS = [
   {
     "id": "q289",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 5, 8, 2, 6을 오름차순 선택 정렬한다. 전체에서 최솟값을 찾아 첫 원소와 교환한 1회전 결과는? (쉼표로 구분)",
     "answer": "2, 8, 5, 6",
     "aliases": [
@@ -4202,7 +3414,7 @@ const QUESTIONS = [
   {
     "id": "q290",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 7, 4, 9, 1을 오름차순 선택 정렬한다. 전체에서 최솟값을 찾아 첫 원소와 교환한 1회전 결과는? (쉼표로 구분)",
     "answer": "1, 4, 9, 7",
     "aliases": [
@@ -4215,7 +3427,7 @@ const QUESTIONS = [
   {
     "id": "q291",
     "category": "계산",
-    "type": "short",
+    "type": "output",
     "prompt": "배열 8, 3, 6, 2을 오름차순 선택 정렬한다. 전체에서 최솟값을 찾아 첫 원소와 교환한 1회전 결과는? (쉼표로 구분)",
     "answer": "2, 3, 6, 8",
     "aliases": [
@@ -4228,7 +3440,7 @@ const QUESTIONS = [
   {
     "id": "q292",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 10, NULL, 30, 10가 들어 있다. SELECT COUNT(*) FROM T; 의 결과는?",
     "answer": "4",
     "aliases": [
@@ -4241,7 +3453,7 @@ const QUESTIONS = [
   {
     "id": "q293",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 10, NULL, 30, 10가 들어 있다. SELECT COUNT(v) FROM T; 의 결과는?",
     "answer": "3",
     "aliases": [
@@ -4254,7 +3466,7 @@ const QUESTIONS = [
   {
     "id": "q294",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 10, NULL, 30, 10가 들어 있다. SELECT COUNT(DISTINCT v) FROM T; 의 결과는?",
     "answer": "2",
     "aliases": [
@@ -4267,7 +3479,7 @@ const QUESTIONS = [
   {
     "id": "q295",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 NULL, 5, 5, 15, NULL가 들어 있다. SELECT COUNT(*) FROM T; 의 결과는?",
     "answer": "5",
     "aliases": [
@@ -4280,7 +3492,7 @@ const QUESTIONS = [
   {
     "id": "q296",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 NULL, 5, 5, 15, NULL가 들어 있다. SELECT COUNT(v) FROM T; 의 결과는?",
     "answer": "3",
     "aliases": [
@@ -4293,7 +3505,7 @@ const QUESTIONS = [
   {
     "id": "q297",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 NULL, 5, 5, 15, NULL가 들어 있다. SELECT COUNT(DISTINCT v) FROM T; 의 결과는?",
     "answer": "2",
     "aliases": [
@@ -4306,7 +3518,7 @@ const QUESTIONS = [
   {
     "id": "q298",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 2, 4, 6, 8가 들어 있다. SELECT COUNT(*) FROM T; 의 결과는?",
     "answer": "4",
     "aliases": [
@@ -4319,7 +3531,7 @@ const QUESTIONS = [
   {
     "id": "q299",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 2, 4, 6, 8가 들어 있다. SELECT COUNT(v) FROM T; 의 결과는?",
     "answer": "4",
     "aliases": [
@@ -4332,7 +3544,7 @@ const QUESTIONS = [
   {
     "id": "q300",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 2, 4, 6, 8가 들어 있다. SELECT COUNT(DISTINCT v) FROM T; 의 결과는?",
     "answer": "4",
     "aliases": [
@@ -4345,7 +3557,7 @@ const QUESTIONS = [
   {
     "id": "q301",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 NULL, NULL, 7가 들어 있다. SELECT COUNT(*) FROM T; 의 결과는?",
     "answer": "3",
     "aliases": [
@@ -4358,7 +3570,7 @@ const QUESTIONS = [
   {
     "id": "q302",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 NULL, NULL, 7가 들어 있다. SELECT COUNT(v) FROM T; 의 결과는?",
     "answer": "1",
     "aliases": [
@@ -4371,7 +3583,7 @@ const QUESTIONS = [
   {
     "id": "q303",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 NULL, NULL, 7가 들어 있다. SELECT COUNT(DISTINCT v) FROM T; 의 결과는?",
     "answer": "1",
     "aliases": [
@@ -4384,7 +3596,7 @@ const QUESTIONS = [
   {
     "id": "q304",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 1, 1, 1, 2, 2가 들어 있다. SELECT COUNT(*) FROM T; 의 결과는?",
     "answer": "5",
     "aliases": [
@@ -4397,7 +3609,7 @@ const QUESTIONS = [
   {
     "id": "q305",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 1, 1, 1, 2, 2가 들어 있다. SELECT COUNT(v) FROM T; 의 결과는?",
     "answer": "5",
     "aliases": [
@@ -4410,7 +3622,7 @@ const QUESTIONS = [
   {
     "id": "q306",
     "category": "데이터베이스",
-    "type": "short",
+    "type": "output",
     "prompt": "T의 열 v에는 순서대로 1, 1, 1, 2, 2가 들어 있다. SELECT COUNT(DISTINCT v) FROM T; 의 결과는?",
     "answer": "2",
     "aliases": [
@@ -4423,7 +3635,7 @@ const QUESTIONS = [
   {
     "id": "q307",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\ns = \"SECURITY\"\nprint(s[::-1])",
     "answer": "YTIRUCES",
     "aliases": [
@@ -4436,7 +3648,7 @@ const QUESTIONS = [
   {
     "id": "q308",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\na = [2, 5, 8, 11, 14]\nprint(a[-2])",
     "answer": "11",
     "aliases": [
@@ -4449,7 +3661,7 @@ const QUESTIONS = [
   {
     "id": "q309",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\na = [1, 2, 3]\nb = a\nb[0] = 9\nprint(a)",
     "answer": "[9, 2, 3]",
     "aliases": [
@@ -4462,7 +3674,7 @@ const QUESTIONS = [
   {
     "id": "q310",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\na = [1, 2, 3]\nb = a[:]\nb[0] = 9\nprint(a)",
     "answer": "[1, 2, 3]",
     "aliases": [
@@ -4475,7 +3687,7 @@ const QUESTIONS = [
   {
     "id": "q311",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\ntotal = 0\nfor i in range(1, 8):\n    if i % 2 == 0:\n        total += i\nprint(total)",
     "answer": "12",
     "aliases": [
@@ -4488,7 +3700,7 @@ const QUESTIONS = [
   {
     "id": "q312",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\na = {2, 4, 6}\nb = {4, 6, 8}\nprint(len(a & b))",
     "answer": "2",
     "aliases": [
@@ -4501,7 +3713,7 @@ const QUESTIONS = [
   {
     "id": "q313",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\na = {2, 4, 6}\nb = {4, 6, 8}\nprint(len(a | b))",
     "answer": "4",
     "aliases": [
@@ -4514,7 +3726,7 @@ const QUESTIONS = [
   {
     "id": "q314",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\nprint(17 // 5, 17 % 5)",
     "answer": "3 2",
     "aliases": [
@@ -4527,7 +3739,7 @@ const QUESTIONS = [
   {
     "id": "q315",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\nprint(3 - 11)",
     "answer": "-8",
     "aliases": [
@@ -4540,7 +3752,7 @@ const QUESTIONS = [
   {
     "id": "q316",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\nprint(3 / 2)",
     "answer": "1.5",
     "aliases": [
@@ -4553,7 +3765,7 @@ const QUESTIONS = [
   {
     "id": "q317",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\na = [3, 6]\na.extend([9, 12])\nprint(len(a))",
     "answer": "4",
     "aliases": [
@@ -4566,7 +3778,7 @@ const QUESTIONS = [
   {
     "id": "q318",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Python]\ndef f(n):\n    if n == 0:\n        return 0\n    return n + f(n - 1)\nprint(f(4))",
     "answer": "10",
     "aliases": [
@@ -4579,7 +3791,7 @@ const QUESTIONS = [
   {
     "id": "q319",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Java]\nclass Main {\n  public static void main(String[] args) {\n    int x = 5;\n    System.out.print(x++ + ++x);\n  }\n}",
     "answer": "12",
     "aliases": [
@@ -4592,7 +3804,7 @@ const QUESTIONS = [
   {
     "id": "q320",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Java]\nclass Main {\n  public static void main(String[] args) {\n    int sum = 0;\n    for (int i = 1; i <= 5; i++) {\n      if (i == 3) continue;\n      sum += i;\n    }\n    System.out.print(sum);\n  }\n}",
     "answer": "12",
     "aliases": [
@@ -4605,7 +3817,7 @@ const QUESTIONS = [
   {
     "id": "q321",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Java]\nclass Main {\n  public static void main(String[] args) {\n    int[] a = {2, 4, 6};\n    int[] b = a;\n    b[1] = 9;\n    System.out.print(a[1]);\n  }\n}",
     "answer": "9",
     "aliases": [
@@ -4618,7 +3830,7 @@ const QUESTIONS = [
   {
     "id": "q322",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "다음 코드의 출력 결과는?\n\n[Java]\nclass Parent { int value() { return 2; } }\nclass Child extends Parent { int value() { return 7; } }\nclass Main {\n  public static void main(String[] args) {\n    Parent p = new Child();\n    System.out.print(p.value());\n  }\n}",
     "answer": "7",
     "aliases": [
@@ -4631,7 +3843,7 @@ const QUESTIONS = [
   {
     "id": "q323",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a = 5, b = 3;\nprintf(\"%d\", a & b);",
     "answer": "1",
     "aliases": [
@@ -4644,7 +3856,7 @@ const QUESTIONS = [
   {
     "id": "q324",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a = 5, b = 3;\nprintf(\"%d\", a | b);",
     "answer": "7",
     "aliases": [
@@ -4657,7 +3869,7 @@ const QUESTIONS = [
   {
     "id": "q325",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a = 5, b = 3;\nprintf(\"%d\", a ^ b);",
     "answer": "6",
     "aliases": [
@@ -4670,7 +3882,7 @@ const QUESTIONS = [
   {
     "id": "q326",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a = 3;\nprintf(\"%d\", a << 2);",
     "answer": "12",
     "aliases": [
@@ -4683,7 +3895,7 @@ const QUESTIONS = [
   {
     "id": "q327",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a = 9, b = 4;\nprintf(\"%d\", a / b);",
     "answer": "2",
     "aliases": [
@@ -4696,7 +3908,7 @@ const QUESTIONS = [
   {
     "id": "q328",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a = 0, b = 3;\nprintf(\"%d\", a || b);",
     "answer": "1",
     "aliases": [
@@ -4709,7 +3921,7 @@ const QUESTIONS = [
   {
     "id": "q329",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint x = 4;\nint *p = &x;\n*p *= 3;\nprintf(\"%d\", x);",
     "answer": "12",
     "aliases": [
@@ -4722,7 +3934,7 @@ const QUESTIONS = [
   {
     "id": "q330",
     "category": "프로그래밍",
-    "type": "short",
+    "type": "output",
     "prompt": "stdio.h를 포함한 main 함수 안에서 다음 C 코드를 실행했다. 출력 결과는?\n\n[C]\nint a[] = {2, 5, 8};\nint *p = a;\nprintf(\"%d\", *(p + 2));",
     "answer": "8",
     "aliases": [
@@ -4731,6 +3943,630 @@ const QUESTIONS = [
     "explanation": "p + 2는 배열의 인덱스 2를 가리키므로 값은 8입니다.",
     "source": 1,
     "page": 77
+  },
+  {
+    "id": "q331",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT name FROM Student\n(     ) score >= 80;",
+    "answer": "WHERE",
+    "aliases": [
+      "WHERE"
+    ],
+    "explanation": "WHERE로 개별 행의 조건을 지정합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q332",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT dept, COUNT(*) FROM Employee\n(     ) dept;",
+    "answer": "GROUP BY",
+    "aliases": [
+      "GROUP BY"
+    ],
+    "explanation": "GROUP BY는 같은 부서 값을 가지는 행들을 그룹화합니다.",
+    "source": 2,
+    "page": 23
+  },
+  {
+    "id": "q333",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT dept, AVG(salary) FROM Employee\nGROUP BY dept\n(     ) AVG(salary) >= 3000;",
+    "answer": "HAVING",
+    "aliases": [
+      "HAVING"
+    ],
+    "explanation": "집계된 그룹의 조건은 HAVING으로 지정합니다.",
+    "source": 2,
+    "page": 23
+  },
+  {
+    "id": "q334",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT name FROM Student\nORDER BY score (     );\n단, 점수가 높은 학생부터 출력한다.",
+    "answer": "DESC",
+    "aliases": [
+      "DESC"
+    ],
+    "explanation": "DESC는 내림차순입니다.",
+    "source": 2,
+    "page": 23
+  },
+  {
+    "id": "q335",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT (     ) dept FROM Employee;\n단, 같은 부서명은 한 번만 출력한다.",
+    "answer": "DISTINCT",
+    "aliases": [
+      "DISTINCT"
+    ],
+    "explanation": "DISTINCT는 선택된 결과에서 중복을 제거합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q336",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nUPDATE Employee\n(     ) salary = 4000\nWHERE id = 7;",
+    "answer": "SET",
+    "aliases": [
+      "SET"
+    ],
+    "explanation": "UPDATE에서 변경할 속성과 값은 SET으로 지정합니다.",
+    "source": 2,
+    "page": 24
+  },
+  {
+    "id": "q337",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nINSERT INTO Student(id, name)\n(     ) (7, 'Mina');",
+    "answer": "VALUES",
+    "aliases": [
+      "VALUES"
+    ],
+    "explanation": "VALUES 뒤에 추가할 행의 값을 나열합니다.",
+    "source": 2,
+    "page": 24
+  },
+  {
+    "id": "q338",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\n(     ) FROM Student WHERE id = 7;\n단, 해당 학생의 행을 삭제한다.",
+    "answer": "DELETE",
+    "aliases": [
+      "DELETE"
+    ],
+    "explanation": "DELETE FROM으로 조건에 해당하는 행을 삭제합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q339",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT * FROM Employee E JOIN Department D\n(     ) E.dept_id = D.id;",
+    "answer": "ON",
+    "aliases": [
+      "ON"
+    ],
+    "explanation": "JOIN의 결합 조건은 ON 절로 지정할 수 있습니다.",
+    "source": 2,
+    "page": 23
+  },
+  {
+    "id": "q340",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT name FROM Student\nWHERE name (     ) 'K%';\n단, K로 시작하는 이름을 조회한다.",
+    "answer": "LIKE",
+    "aliases": [
+      "LIKE"
+    ],
+    "explanation": "LIKE는 패턴을 이용한 문자열 비교입니다. %는 0개 이상의 문자에 대응합니다.",
+    "source": 2,
+    "page": 23
+  },
+  {
+    "id": "q341",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\nSELECT * FROM Employee\nWHERE manager_id (     );\n단, 관리자가 지정되지 않은 행만 조회한다.",
+    "answer": "IS NULL",
+    "aliases": [
+      "IS NULL"
+    ],
+    "explanation": "NULL 비교에는 = 대신 IS NULL을 사용합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q342",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\n(     ) SELECT ON Student FROM learner;\n단, learner의 조회 권한을 취소한다.",
+    "answer": "REVOKE",
+    "aliases": [
+      "REVOKE"
+    ],
+    "explanation": "REVOKE는 이미 부여된 권한을 취소합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q343",
+    "category": "소프트웨어",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\n좋은 모듈 설계는 낮은 결합도와 높은 (     )를 지향한다.",
+    "answer": "응집도",
+    "aliases": [
+      "응집도"
+    ],
+    "explanation": "응집도는 모듈 내부의 기능들이 얼마나 관련되어 있는지를 뜻합니다.",
+    "source": 2,
+    "page": 7
+  },
+  {
+    "id": "q344",
+    "category": "소프트웨어",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\n상향식 통합 테스트는 상위 호출 모듈 대신 (     )를 사용한다.",
+    "answer": "드라이버",
+    "aliases": [
+      "드라이버"
+    ],
+    "explanation": "드라이버는 테스트 대상 모듈을 호출하고 입력을 제공합니다.",
+    "source": 2,
+    "page": 9
+  },
+  {
+    "id": "q345",
+    "category": "소프트웨어",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\n하향식 통합 테스트는 미구현 하위 모듈 대신 (     )을 사용한다.",
+    "answer": "스텁",
+    "aliases": [
+      "스텁"
+    ],
+    "explanation": "스텁은 호출받는 하위 모듈의 역할을 단순하게 대체합니다.",
+    "source": 2,
+    "page": 9
+  },
+  {
+    "id": "q346",
+    "category": "소프트웨어",
+    "type": "blank",
+    "prompt": "다음 빈칸에 들어갈 용어 또는 구문을 쓰시오.\n\n객체지향 설계에서 확장에는 열리고 수정에는 닫혀 있어야 하는 원칙의 약어는 (     )이다.",
+    "answer": "OCP",
+    "aliases": [
+      "OCP"
+    ],
+    "explanation": "OCP는 개방 폐쇄 원칙입니다.",
+    "source": 2,
+    "page": 7
+  },
+  {
+    "id": "q347",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 Python 코드의 빈칸을 채우시오.\n\na = [1, 2]\na.(     )(3)\nprint(a)\n\n출력: [1, 2, 3]",
+    "answer": "append",
+    "aliases": [
+      "append"
+    ],
+    "explanation": "append는 리스트 끝에 원소 하나를 추가합니다.",
+    "source": 1,
+    "page": 92
+  },
+  {
+    "id": "q348",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 Python 코드의 빈칸을 채우시오.\n\na = [2, 4, 6, 8, 10]\nprint(a[1:4:(     )])\n\n출력: [4, 8]",
+    "answer": "2",
+    "aliases": [
+      "2"
+    ],
+    "explanation": "인덱스 1과 3의 값을 얻으려면 증가값을 2로 지정합니다.",
+    "source": 1,
+    "page": 97
+  },
+  {
+    "id": "q349",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 Python 코드의 빈칸을 채우시오.\n\nf = (     ) x: x * x\nprint(f(3))\n\n출력: 9",
+    "answer": "lambda",
+    "aliases": [
+      "lambda"
+    ],
+    "explanation": "lambda는 간단한 익명 함수를 정의합니다.",
+    "source": 1,
+    "page": 94
+  },
+  {
+    "id": "q350",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 Python 코드의 빈칸을 채우시오.\n\nprint(17 (     ) 5)\n\n출력: 2",
+    "answer": "%",
+    "aliases": [
+      "%"
+    ],
+    "explanation": "%는 나머지 연산자입니다.",
+    "source": 1,
+    "page": 96
+  },
+  {
+    "id": "q351",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 C 코드의 빈칸을 채우시오.\nC 코드는 stdio.h를 포함한 main 함수 안에서 실행한다고 가정한다.\n\nint n = 4;\nint *p = (     )n;\nprintf(\"%d\", *p);\n\n출력: 4",
+    "answer": "&",
+    "aliases": [
+      "&"
+    ],
+    "explanation": "주소 연산자 &로 n의 주소를 포인터에 저장합니다.",
+    "source": 1,
+    "page": 77
+  },
+  {
+    "id": "q352",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 C 코드의 빈칸을 채우시오.\nC 코드는 stdio.h를 포함한 main 함수 안에서 실행한다고 가정한다.\n\nint a[] = {3, 6, 9};\nprintf(\"%d\", a[(     )]);\n\n출력: 9",
+    "answer": "2",
+    "aliases": [
+      "2"
+    ],
+    "explanation": "배열의 인덱스는 0부터 시작하므로 세 번째 원소의 인덱스는 2입니다.",
+    "source": 1,
+    "page": 72
+  },
+  {
+    "id": "q353",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 Java 코드의 빈칸을 채우시오.\n\nint[] a = {1, 2, 3};\nSystem.out.print(a.(     ));\n\n출력: 3",
+    "answer": "length",
+    "aliases": [
+      "length"
+    ],
+    "explanation": "Java 배열의 길이는 length 필드로 확인합니다.",
+    "source": 1,
+    "page": 85
+  },
+  {
+    "id": "q354",
+    "category": "프로그래밍",
+    "type": "blank",
+    "prompt": "다음 Java 코드의 빈칸을 채우시오.\n\nclass Child (     ) Parent { }\n\n단, Child가 Parent 클래스를 상속한다.",
+    "answer": "extends",
+    "aliases": [
+      "extends"
+    ],
+    "explanation": "클래스 상속을 선언할 때 extends를 사용합니다.",
+    "source": 1,
+    "page": 90
+  },
+  {
+    "id": "q355",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Student(id, name, score) 테이블에서 모든 열과 행을 조회하시오. SELECT *를 사용하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT * FROM Student;",
+    "aliases": [
+      "SELECT * FROM Student;"
+    ],
+    "explanation": "*는 모든 열을 선택하며 조건이 없으므로 모든 행을 조회합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q356",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Student(id, name, score) 테이블에서 score가 80 이상인 학생의 name만 조회하시오. 별칭은 사용하지 마시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT name FROM Student WHERE score >= 80;",
+    "aliases": [
+      "SELECT name FROM Student WHERE score >= 80;"
+    ],
+    "explanation": "WHERE로 점수 조건을 적용한 뒤 name을 출력합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q357",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Student(id, name, score) 테이블에서 name, score를 이 순서로 조회하시오. score의 내림차순으로 정렬하고 별칭은 사용하지 마시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT name, score FROM Student ORDER BY score DESC;",
+    "aliases": [
+      "SELECT name, score FROM Student ORDER BY score DESC;"
+    ],
+    "explanation": "ORDER BY score DESC는 점수가 높은 행부터 정렬합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q358",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Employee(id, dept, salary) 테이블의 중복 없는 dept 값만 조회하시오. DISTINCT를 사용하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT DISTINCT dept FROM Employee;",
+    "aliases": [
+      "SELECT DISTINCT dept FROM Employee;"
+    ],
+    "explanation": "DISTINCT로 중복 부서 값을 제거합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q359",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Student(id, name, score) 테이블에 id=7, name='Mina', score=90인 행을 삽입하시오. 열을 id, name, score 순서로 명시하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "INSERT INTO Student (id, name, score) VALUES (7, 'Mina', 90);",
+    "aliases": [
+      "INSERT INTO Student (id, name, score) VALUES (7, 'Mina', 90);"
+    ],
+    "explanation": "명시한 열의 순서와 VALUES의 값 순서를 일치시킵니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q360",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Employee(id, dept, salary) 테이블에서 id가 7인 직원의 salary를 4000으로 변경하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "UPDATE Employee SET salary = 4000 WHERE id = 7;",
+    "aliases": [
+      "UPDATE Employee SET salary = 4000 WHERE id = 7;"
+    ],
+    "explanation": "SET으로 변경 값을, WHERE로 대상 행을 지정합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q361",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Student(id, name, score) 테이블에서 id가 7인 행을 삭제하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "DELETE FROM Student WHERE id = 7;",
+    "aliases": [
+      "DELETE FROM Student WHERE id = 7;"
+    ],
+    "explanation": "WHERE가 없으면 모든 행을 삭제하므로 대상 조건을 명시합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q362",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Employee(id, dept, salary) 테이블에서 전체 행 수를 조회하시오. COUNT(*)를 사용하고 별칭은 생략하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT COUNT(*) FROM Employee;",
+    "aliases": [
+      "SELECT COUNT(*) FROM Employee;"
+    ],
+    "explanation": "COUNT(*)는 NULL 여부와 관계없이 모든 행을 셉니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q363",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Employee(id, dept, salary) 테이블에서 dept, AVG(salary)를 이 순서로 조회하시오. 부서별로 그룹화하며 별칭은 생략하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT dept, AVG(salary) FROM Employee GROUP BY dept;",
+    "aliases": [
+      "SELECT dept, AVG(salary) FROM Employee GROUP BY dept;"
+    ],
+    "explanation": "GROUP BY로 부서별 그룹을 만들고 AVG로 그룹의 평균 급여를 구합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q364",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Employee(id, dept, salary) 테이블에서 dept, COUNT(*)를 조회하시오. 부서별로 그룹화하며 3명 이상인 부서만 출력하시오. 별칭은 생략하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT dept, COUNT(*) FROM Employee GROUP BY dept HAVING COUNT(*) >= 3;",
+    "aliases": [
+      "SELECT dept, COUNT(*) FROM Employee GROUP BY dept HAVING COUNT(*) >= 3;"
+    ],
+    "explanation": "집계 함수 COUNT(*)에 대한 그룹 조건은 HAVING에 지정합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q365",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Employee(id, manager_id) 테이블에서 manager_id가 NULL인 행의 모든 열을 조회하시오. SELECT *를 사용하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "SELECT * FROM Employee WHERE manager_id IS NULL;",
+    "aliases": [
+      "SELECT * FROM Employee WHERE manager_id IS NULL;"
+    ],
+    "explanation": "NULL을 찾을 때는 IS NULL 조건을 사용합니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q366",
+    "category": "데이터베이스",
+    "type": "sql",
+    "prompt": "Student 테이블의 조회 권한을 learner 사용자에게 부여하시오.\n키워드 대소문자·공백·마지막 세미콜론은 자유롭게 작성하시오.",
+    "answer": "GRANT SELECT ON Student TO learner;",
+    "aliases": [
+      "GRANT SELECT ON Student TO learner;"
+    ],
+    "explanation": "권한 부여 구문은 GRANT 권한 ON 대상 TO 사용자입니다.",
+    "source": 2,
+    "page": 22
+  },
+  {
+    "id": "q367",
+    "category": "데이터베이스",
+    "type": "essay",
+    "prompt": "트랜잭션의 원자성과 지속성의 차이를 간단히 서술하시오.",
+    "answer": "원자성은 트랜잭션의 모든 연산이 전부 반영되거나 전부 취소되는 특성이다. 지속성은 성공적으로 완료된 트랜잭션의 결과가 장애 이후에도 보존되는 특성이다.",
+    "aliases": [
+      "원자성은 트랜잭션의 모든 연산이 전부 반영되거나 전부 취소되는 특성이다. 지속성은 성공적으로 완료된 트랜잭션의 결과가 장애 이후에도 보존되는 특성이다."
+    ],
+    "explanation": "핵심: 원자성은 전부 성공 또는 전부 취소, 지속성은 완료 결과의 보존입니다.",
+    "source": 2,
+    "page": 10
+  },
+  {
+    "id": "q368",
+    "category": "데이터베이스",
+    "type": "essay",
+    "prompt": "데이터베이스 정규화의 목적을 이상 현상과 관련하여 서술하시오.",
+    "answer": "데이터의 중복과 부적절한 종속 관계를 줄여 삽입·갱신·삭제 이상을 방지하고 데이터 무결성을 유지하기 위한 과정이다.",
+    "aliases": [
+      "데이터의 중복과 부적절한 종속 관계를 줄여 삽입·갱신·삭제 이상을 방지하고 데이터 무결성을 유지하기 위한 과정이다."
+    ],
+    "explanation": "핵심: 중복 감소, 종속 관계 정리, 이상 현상 방지입니다.",
+    "source": 2,
+    "page": 11
+  },
+  {
+    "id": "q369",
+    "category": "데이터베이스",
+    "type": "essay",
+    "prompt": "후보키가 만족해야 하는 두 조건을 쓰고 각각 설명하시오.",
+    "answer": "유일성과 최소성이다. 유일성은 튜플을 고유하게 식별할 수 있다는 뜻이고, 최소성은 키에서 속성을 하나라도 제거하면 유일성이 깨진다는 뜻이다.",
+    "aliases": [
+      "유일성과 최소성이다. 유일성은 튜플을 고유하게 식별할 수 있다는 뜻이고, 최소성은 키에서 속성을 하나라도 제거하면 유일성이 깨진다는 뜻이다."
+    ],
+    "explanation": "핵심: 유일성 및 최소성을 함께 설명해야 합니다.",
+    "source": 2,
+    "page": 10
+  },
+  {
+    "id": "q370",
+    "category": "데이터베이스",
+    "type": "essay",
+    "prompt": "SQL의 WHERE와 HAVING이 조건을 적용하는 대상의 차이를 서술하시오.",
+    "answer": "WHERE는 그룹화 전 개별 행을 필터링하며, HAVING은 GROUP BY로 만들어진 그룹에 조건을 적용한다.",
+    "aliases": [
+      "WHERE는 그룹화 전 개별 행을 필터링하며, HAVING은 GROUP BY로 만들어진 그룹에 조건을 적용한다."
+    ],
+    "explanation": "핵심: WHERE는 행, HAVING은 그룹입니다.",
+    "source": 2,
+    "page": 23
+  },
+  {
+    "id": "q371",
+    "category": "소프트웨어",
+    "type": "essay",
+    "prompt": "모듈 설계에서 결합도와 응집도의 의미 및 바람직한 방향을 서술하시오.",
+    "answer": "결합도는 모듈 간 의존 정도이고 응집도는 모듈 내부 요소의 기능적 관련 정도이다. 결합도는 낮추고 응집도는 높이는 것이 바람직하다.",
+    "aliases": [
+      "결합도는 모듈 간 의존 정도이고 응집도는 모듈 내부 요소의 기능적 관련 정도이다. 결합도는 낮추고 응집도는 높이는 것이 바람직하다."
+    ],
+    "explanation": "핵심: 외부 의존 감소, 내부 관련성 증가입니다.",
+    "source": 2,
+    "page": 7
+  },
+  {
+    "id": "q372",
+    "category": "소프트웨어",
+    "type": "essay",
+    "prompt": "회귀 테스트를 수행하는 이유를 서술하시오.",
+    "answer": "기능 추가나 코드 수정 후 기존에 정상 동작하던 기능에 새로운 결함이 발생하지 않았는지 확인하기 위해 수행한다.",
+    "aliases": [
+      "기능 추가나 코드 수정 후 기존에 정상 동작하던 기능에 새로운 결함이 발생하지 않았는지 확인하기 위해 수행한다."
+    ],
+    "explanation": "핵심: 변경이 기존 기능에 미친 부작용을 확인합니다.",
+    "source": 2,
+    "page": 9
+  },
+  {
+    "id": "q373",
+    "category": "소프트웨어",
+    "type": "essay",
+    "prompt": "화이트박스 테스트와 블랙박스 테스트의 관점 차이를 서술하시오.",
+    "answer": "화이트박스는 내부 코드의 구조와 논리 경로를 기준으로 검사한다. 블랙박스는 내부 구현보다 명세에 따른 입력과 출력의 동작을 검사한다.",
+    "aliases": [
+      "화이트박스는 내부 코드의 구조와 논리 경로를 기준으로 검사한다. 블랙박스는 내부 구현보다 명세에 따른 입력과 출력의 동작을 검사한다."
+    ],
+    "explanation": "핵심: 내부 구조와 외부 동작의 차이입니다.",
+    "source": 2,
+    "page": 8
+  },
+  {
+    "id": "q374",
+    "category": "소프트웨어",
+    "type": "essay",
+    "prompt": "캡슐화의 의미와 장점을 간단히 서술하시오.",
+    "answer": "데이터와 이를 처리하는 메서드를 묶고 외부에서 내부 구현에 직접 접근하지 못하도록 제한한다. 내부 구현의 변경 영향을 줄이고 인터페이스를 통해 사용할 수 있게 한다.",
+    "aliases": [
+      "데이터와 이를 처리하는 메서드를 묶고 외부에서 내부 구현에 직접 접근하지 못하도록 제한한다. 내부 구현의 변경 영향을 줄이고 인터페이스를 통해 사용할 수 있게 한다."
+    ],
+    "explanation": "핵심: 데이터·연산 묶음, 접근 제한, 변경 영향 감소입니다.",
+    "source": 2,
+    "page": 7
+  },
+  {
+    "id": "q375",
+    "category": "운영체제",
+    "type": "essay",
+    "prompt": "페이징과 세그먼테이션의 분할 단위 차이를 서술하시오.",
+    "answer": "페이징은 프로그램과 메모리를 고정 크기 단위로 나누고, 세그먼테이션은 함수나 데이터 등 의미 있는 논리 단위를 서로 다른 크기로 나눈다.",
+    "aliases": [
+      "페이징은 프로그램과 메모리를 고정 크기 단위로 나누고, 세그먼테이션은 함수나 데이터 등 의미 있는 논리 단위를 서로 다른 크기로 나눈다."
+    ],
+    "explanation": "핵심: 페이징은 고정 크기, 세그먼테이션은 가변 크기 논리 단위입니다.",
+    "source": 2,
+    "page": 13
+  },
+  {
+    "id": "q376",
+    "category": "운영체제",
+    "type": "essay",
+    "prompt": "스래싱이 발생하는 상황과 성능이 저하되는 이유를 서술하시오.",
+    "answer": "필요한 페이지에 비해 프레임이 부족하여 페이지 부재가 빈번해지고, CPU가 실제 작업보다 페이지 교체에 많은 시간을 소비하여 성능이 떨어지는 현상이다.",
+    "aliases": [
+      "필요한 페이지에 비해 프레임이 부족하여 페이지 부재가 빈번해지고, CPU가 실제 작업보다 페이지 교체에 많은 시간을 소비하여 성능이 떨어지는 현상이다."
+    ],
+    "explanation": "핵심: 잦은 페이지 부재와 교체로 인한 처리 시간 감소입니다.",
+    "source": 2,
+    "page": 13
+  },
+  {
+    "id": "q377",
+    "category": "보안",
+    "type": "essay",
+    "prompt": "대칭키 암호화와 비대칭키 암호화의 키 사용 방식 차이를 서술하시오.",
+    "answer": "대칭키는 암호화와 복호화에 같은 키를 사용한다. 비대칭키는 공개키와 개인키의 쌍을 사용하며 한 키로 암호화한 내용을 대응되는 다른 키로 복호화한다.",
+    "aliases": [
+      "대칭키는 암호화와 복호화에 같은 키를 사용한다. 비대칭키는 공개키와 개인키의 쌍을 사용하며 한 키로 암호화한 내용을 대응되는 다른 키로 복호화한다."
+    ],
+    "explanation": "핵심: 동일한 키와 공개키·개인키 쌍의 차이입니다.",
+    "source": 2,
+    "page": 18
+  },
+  {
+    "id": "q378",
+    "category": "네트워크",
+    "type": "essay",
+    "prompt": "TCP와 UDP의 연결 및 신뢰성 측면 차이를 서술하시오.",
+    "answer": "TCP는 연결을 설정하고 순서 제어 및 재전송 등으로 신뢰성 있는 전송을 제공한다. UDP는 연결 설정 없이 데이터그램을 보내며 전달이나 순서를 자체적으로 보장하지 않는다.",
+    "aliases": [
+      "TCP는 연결을 설정하고 순서 제어 및 재전송 등으로 신뢰성 있는 전송을 제공한다. UDP는 연결 설정 없이 데이터그램을 보내며 전달이나 순서를 자체적으로 보장하지 않는다."
+    ],
+    "explanation": "핵심: TCP는 연결 지향·신뢰성, UDP는 비연결·보장 없음입니다.",
+    "source": 2,
+    "page": 16
   }
 ];
 const SOURCES = [
@@ -4760,3 +4596,4 @@ const SOURCES = [
     "pages": 43
   }
 ];
+const QUESTION_ID_MIGRATIONS = {"q214": "q104", "q215": "q105", "q216": "q106", "q217": "q107", "q218": "q108", "q219": "q109", "q220": "q110", "q221": "q111", "q222": "q112", "q223": "q113", "q224": "q114", "q225": "q115", "q226": "q116", "q227": "q117", "q228": "q118", "q229": "q119", "q230": "q120", "q231": "q121", "q232": "q122", "q233": "q123", "q234": "q124", "q235": "q125", "q236": "q126", "q237": "q127", "q238": "q128", "q239": "q129", "q240": "q130", "q241": "q131", "q242": "q132", "q243": "q133", "q244": "q134", "q245": "q135", "q246": "q136", "q247": "q137", "q248": "q138", "q249": "q139", "q250": "q140", "q251": "q141", "q252": "q142", "q253": "q143", "q254": "q144", "q255": "q145", "q256": "q146", "q257": "q147", "q258": "q148", "q259": "q149", "q260": "q150", "q261": "q151"};
