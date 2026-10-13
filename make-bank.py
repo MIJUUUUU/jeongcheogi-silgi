@@ -108,5 +108,6 @@ for q in bank:
  if q['answer']=='BCNF': q['explanation']='보이스-코드 정규형(Boyce-Codd Normal Form)은 모든 결정자가 후보키인 정규형입니다.'
 exec(Path('extra-bank.py').read_text())
 exec(Path('practical-bank.py').read_text())
-Path('dist/questions.js').write_text('const QUESTIONS = '+json.dumps(bank,ensure_ascii=False,indent=2)+';\nconst SOURCES = '+Path('source-notes/sources.json').read_text()+';\nconst QUESTION_ID_MIGRATIONS = '+json.dumps(migrations)+';\n')
+exec(Path('focus-bank.py').read_text())
+Path('dist/questions.js').write_text('const QUESTIONS = '+json.dumps(bank,ensure_ascii=False,indent=2)+';\nconst SOURCES = '+Path('source-notes/sources.json').read_text()+';\nconst QUESTION_ID_MIGRATIONS = '+json.dumps(migrations)+';\nconst FOCUS_CONCEPTS = '+json.dumps(FOCUS_CONCEPTS,ensure_ascii=False)+';\n')
 print('Questions:',len(bank))

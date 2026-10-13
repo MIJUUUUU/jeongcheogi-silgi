@@ -225,7 +225,11 @@ const QUESTIONS = [
     ],
     "explanation": "Singleton은 하나의 인스턴스에 대한 공통 접근 지점을 제공합니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "topic": "pattern",
+    "concept": "singleton",
+    "exercise": "description",
+    "patternGroup": "생성"
   },
   {
     "id": "q16",
@@ -239,7 +243,11 @@ const QUESTIONS = [
     ],
     "explanation": "Adapter는 기존 인터페이스를 클라이언트가 기대하는 인터페이스로 변환합니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "topic": "pattern",
+    "concept": "adapter",
+    "exercise": "description",
+    "patternGroup": "구조"
   },
   {
     "id": "q17",
@@ -254,7 +262,11 @@ const QUESTIONS = [
     ],
     "explanation": "Observer는 일대다 의존 관계에서 상태 변화를 구독자에게 알립니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "topic": "pattern",
+    "concept": "observer",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q18",
@@ -1567,7 +1579,11 @@ const QUESTIONS = [
     ],
     "explanation": "Model은 데이터와 핵심 로직, View는 표시, Controller는 입력 처리를 맡습니다.",
     "source": 2,
-    "page": 6
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-layered",
+    "exercise": "description",
+    "patternGroup": ""
   },
   {
     "id": "q112",
@@ -1841,7 +1857,11 @@ const QUESTIONS = [
     ],
     "explanation": "Memento는 객체의 내부 상태를 보존하고 복원하는 데 사용됩니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "memento",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q131",
@@ -1856,7 +1876,11 @@ const QUESTIONS = [
     ],
     "explanation": "Strategy는 알고리즘들을 공통 인터페이스로 분리합니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "strategy",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q132",
@@ -1871,7 +1895,11 @@ const QUESTIONS = [
     ],
     "explanation": "State는 상태별 동작을 별도 객체로 분리합니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "state",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q133",
@@ -1886,7 +1914,11 @@ const QUESTIONS = [
     ],
     "explanation": "Iterator는 순회 동작을 컬렉션의 표현 방식과 분리합니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "iterator",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q134",
@@ -1900,7 +1932,11 @@ const QUESTIONS = [
     ],
     "explanation": "Mediator는 객체들이 서로를 직접 참조하는 관계를 줄입니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "mediator",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q135",
@@ -1915,7 +1951,11 @@ const QUESTIONS = [
     ],
     "explanation": "Command는 요청을 실행하는 대상과 호출자를 분리합니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "command",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q136",
@@ -1930,7 +1970,11 @@ const QUESTIONS = [
     ],
     "explanation": "Chain of Responsibility는 요청을 처리자들의 연결을 따라 넘깁니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "chain-of-responsibility",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q137",
@@ -1945,7 +1989,11 @@ const QUESTIONS = [
     ],
     "explanation": "Template Method는 공통 절차와 변경되는 단계를 분리합니다.",
     "source": 2,
-    "page": 8
+    "page": 8,
+    "topic": "pattern",
+    "concept": "template-method",
+    "exercise": "description",
+    "patternGroup": "행위"
   },
   {
     "id": "q138",
@@ -4567,6 +4615,2002 @@ const QUESTIONS = [
     "explanation": "핵심: TCP는 연결 지향·신뢰성, UDP는 비연결·보장 없음입니다.",
     "source": 2,
     "page": 16
+  },
+  {
+    "id": "q379",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.",
+    "answer": "추상 팩토리",
+    "aliases": [
+      "추상 팩토리",
+      "Abstract Factory",
+      "추상 팩토리 패턴",
+      "Abstract Factory Pattern"
+    ],
+    "explanation": "추상 팩토리는 GoF의 생성 패턴입니다. 팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "abstract-factory",
+    "exercise": "description",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q380",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "운영체제별로 어울리는 버튼과 창을 한 묶음으로 생성해야 한다. 제품군을 통째로 바꿀 수 있게 만들 때 적합한 패턴의 명칭을 쓰시오.",
+    "answer": "추상 팩토리",
+    "aliases": [
+      "추상 팩토리",
+      "Abstract Factory",
+      "추상 팩토리 패턴",
+      "Abstract Factory Pattern"
+    ],
+    "explanation": "추상 팩토리는 GoF의 생성 패턴입니다. 팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "abstract-factory",
+    "exercise": "scenario",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q381",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 추상 팩토리(Abstract Factory)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "생성",
+    "aliases": [
+      "생성",
+      "생성 패턴",
+      "Creational"
+    ],
+    "explanation": "추상 팩토리는 생성 패턴입니다. 서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "abstract-factory",
+    "exercise": "classification",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q382",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.",
+    "answer": "빌더",
+    "aliases": [
+      "빌더",
+      "Builder",
+      "빌더 패턴",
+      "Builder Pattern"
+    ],
+    "explanation": "빌더는 GoF의 생성 패턴입니다. 빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "builder",
+    "exercise": "description",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q383",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "문서의 제목, 본문, 첨부 파일을 차례로 설정하고 마지막 단계에서 완성된 문서 객체를 만든다. 이 생성 패턴의 명칭을 쓰시오.",
+    "answer": "빌더",
+    "aliases": [
+      "빌더",
+      "Builder",
+      "빌더 패턴",
+      "Builder Pattern"
+    ],
+    "explanation": "빌더는 GoF의 생성 패턴입니다. 빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "builder",
+    "exercise": "scenario",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q384",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 빌더(Builder)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "생성",
+    "aliases": [
+      "생성",
+      "생성 패턴",
+      "Creational"
+    ],
+    "explanation": "빌더는 생성 패턴입니다. 복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "builder",
+    "exercise": "classification",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q385",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.",
+    "answer": "팩토리 메서드",
+    "aliases": [
+      "팩토리 메서드",
+      "Factory Method",
+      "팩토리 메서드 패턴",
+      "Factory Method Pattern",
+      "팩토리 메소드"
+    ],
+    "explanation": "팩토리 메서드는 GoF의 생성 패턴입니다. 객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "factory-method",
+    "exercise": "description",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q386",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "파일을 여는 공통 흐름은 상위 클래스에 두고 PDF와 이미지 중 어떤 문서 객체를 만들지는 하위 클래스가 결정한다. 적용할 생성 패턴을 쓰시오.",
+    "answer": "팩토리 메서드",
+    "aliases": [
+      "팩토리 메서드",
+      "Factory Method",
+      "팩토리 메서드 패턴",
+      "Factory Method Pattern",
+      "팩토리 메소드"
+    ],
+    "explanation": "팩토리 메서드는 GoF의 생성 패턴입니다. 객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "factory-method",
+    "exercise": "scenario",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q387",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 팩토리 메서드(Factory Method)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "생성",
+    "aliases": [
+      "생성",
+      "생성 패턴",
+      "Creational"
+    ],
+    "explanation": "팩토리 메서드는 생성 패턴입니다. 상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "factory-method",
+    "exercise": "classification",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q388",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.",
+    "answer": "프로토타입",
+    "aliases": [
+      "프로토타입",
+      "Prototype",
+      "프로토타입 패턴",
+      "Prototype Pattern"
+    ],
+    "explanation": "프로토타입는 GoF의 생성 패턴입니다. 시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "prototype",
+    "exercise": "description",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q389",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "게임의 기본 몬스터 객체를 복제한 뒤 색상과 체력만 바꾸어 새로운 몬스터를 만든다. 이 생성 패턴의 명칭을 쓰시오.",
+    "answer": "프로토타입",
+    "aliases": [
+      "프로토타입",
+      "Prototype",
+      "프로토타입 패턴",
+      "Prototype Pattern"
+    ],
+    "explanation": "프로토타입는 GoF의 생성 패턴입니다. 시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "prototype",
+    "exercise": "scenario",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q390",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 프로토타입(Prototype)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "생성",
+    "aliases": [
+      "생성",
+      "생성 패턴",
+      "Creational"
+    ],
+    "explanation": "프로토타입는 생성 패턴입니다. 기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "prototype",
+    "exercise": "classification",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q391",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.",
+    "answer": "싱글톤",
+    "aliases": [
+      "싱글톤",
+      "Singleton",
+      "싱글톤 패턴",
+      "Singleton Pattern",
+      "싱글턴"
+    ],
+    "explanation": "싱글톤는 GoF의 생성 패턴입니다. 공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "singleton",
+    "exercise": "description",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q392",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "애플리케이션의 설정 관리 객체를 하나만 만들고 모든 모듈이 같은 객체에 접근하게 한다. 이 생성 패턴을 쓰시오.",
+    "answer": "싱글톤",
+    "aliases": [
+      "싱글톤",
+      "Singleton",
+      "싱글톤 패턴",
+      "Singleton Pattern",
+      "싱글턴"
+    ],
+    "explanation": "싱글톤는 GoF의 생성 패턴입니다. 공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "singleton",
+    "exercise": "scenario",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q393",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 싱글톤(Singleton)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "생성",
+    "aliases": [
+      "생성",
+      "생성 패턴",
+      "Creational"
+    ],
+    "explanation": "싱글톤는 생성 패턴입니다. 클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "singleton",
+    "exercise": "classification",
+    "patternGroup": "생성"
+  },
+  {
+    "id": "q394",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.",
+    "answer": "어댑터",
+    "aliases": [
+      "어댑터",
+      "Adapter",
+      "어댑터 패턴",
+      "Adapter Pattern"
+    ],
+    "explanation": "어댑터는 GoF의 구조 패턴입니다. 어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "adapter",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q395",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "기존 결제 라이브러리는 payAmount를 제공하지만 새 시스템은 checkout을 요구한다. 기존 라이브러리를 감싸 호출 규격을 맞추는 패턴을 쓰시오.",
+    "answer": "어댑터",
+    "aliases": [
+      "어댑터",
+      "Adapter",
+      "어댑터 패턴",
+      "Adapter Pattern"
+    ],
+    "explanation": "어댑터는 GoF의 구조 패턴입니다. 어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "adapter",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q396",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 어댑터(Adapter)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "어댑터는 구조 패턴입니다. 기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "adapter",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q397",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.",
+    "answer": "브리지",
+    "aliases": [
+      "브리지",
+      "Bridge",
+      "브리지 패턴",
+      "Bridge Pattern"
+    ],
+    "explanation": "브리지는 GoF의 구조 패턴입니다. 브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "bridge",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q398",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "도형의 종류와 그리는 방식이 각각 계속 늘어난다. 도형 계층과 렌더러 계층을 분리하여 모든 조합의 하위 클래스를 만들지 않도록 하는 패턴을 쓰시오.",
+    "answer": "브리지",
+    "aliases": [
+      "브리지",
+      "Bridge",
+      "브리지 패턴",
+      "Bridge Pattern"
+    ],
+    "explanation": "브리지는 GoF의 구조 패턴입니다. 브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "bridge",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q399",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 브리지(Bridge)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "브리지는 구조 패턴입니다. 추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "bridge",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q400",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.",
+    "answer": "컴포지트",
+    "aliases": [
+      "컴포지트",
+      "Composite",
+      "컴포지트 패턴",
+      "Composite Pattern"
+    ],
+    "explanation": "컴포지트는 GoF의 구조 패턴입니다. 전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "composite",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q401",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "파일과 폴더를 트리로 표현하고 파일 하나와 여러 파일을 담은 폴더 모두 같은 작업 인터페이스로 처리한다. 적용할 패턴을 쓰시오.",
+    "answer": "컴포지트",
+    "aliases": [
+      "컴포지트",
+      "Composite",
+      "컴포지트 패턴",
+      "Composite Pattern"
+    ],
+    "explanation": "컴포지트는 GoF의 구조 패턴입니다. 전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "composite",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q402",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 컴포지트(Composite)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "컴포지트는 구조 패턴입니다. 단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "composite",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q403",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.",
+    "answer": "데코레이터",
+    "aliases": [
+      "데코레이터",
+      "Decorator",
+      "데코레이터 패턴",
+      "Decorator Pattern"
+    ],
+    "explanation": "데코레이터는 GoF의 구조 패턴입니다. 데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "decorator",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q404",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "기본 데이터 스트림에 압축 기능과 암호화 기능을 필요에 따라 겹겹이 덧붙인다. 기능을 동적으로 추가하는 패턴을 쓰시오.",
+    "answer": "데코레이터",
+    "aliases": [
+      "데코레이터",
+      "Decorator",
+      "데코레이터 패턴",
+      "Decorator Pattern"
+    ],
+    "explanation": "데코레이터는 GoF의 구조 패턴입니다. 데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "decorator",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q405",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 데코레이터(Decorator)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "데코레이터는 구조 패턴입니다. 객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "decorator",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q406",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.",
+    "answer": "퍼사드",
+    "aliases": [
+      "퍼사드",
+      "Facade",
+      "퍼사드 패턴",
+      "Facade Pattern",
+      "파사드",
+      "퍼싸드"
+    ],
+    "explanation": "퍼사드는 GoF의 구조 패턴입니다. 퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "facade",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q407",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "동영상 변환에 필요한 코덱, 음성 처리, 파일 저장의 복잡한 호출을 convert 하나로 묶어 제공한다. 적용할 패턴을 쓰시오.",
+    "answer": "퍼사드",
+    "aliases": [
+      "퍼사드",
+      "Facade",
+      "퍼사드 패턴",
+      "Facade Pattern",
+      "파사드",
+      "퍼싸드"
+    ],
+    "explanation": "퍼사드는 GoF의 구조 패턴입니다. 퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "facade",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q408",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 퍼사드(Facade)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "퍼사드는 구조 패턴입니다. 여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "facade",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q409",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.",
+    "answer": "플라이웨이트",
+    "aliases": [
+      "플라이웨이트",
+      "Flyweight",
+      "플라이웨이트 패턴",
+      "Flyweight Pattern"
+    ],
+    "explanation": "플라이웨이트는 GoF의 구조 패턴입니다. 플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "flyweight",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q410",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "문서의 글자마다 글꼴 데이터를 복사하지 않고 동일한 글꼴 정보를 공유한다. 적용할 패턴을 쓰시오.",
+    "answer": "플라이웨이트",
+    "aliases": [
+      "플라이웨이트",
+      "Flyweight",
+      "플라이웨이트 패턴",
+      "Flyweight Pattern"
+    ],
+    "explanation": "플라이웨이트는 GoF의 구조 패턴입니다. 플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "flyweight",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q411",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 플라이웨이트(Flyweight)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "플라이웨이트는 구조 패턴입니다. 많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "flyweight",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q412",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.",
+    "answer": "프록시",
+    "aliases": [
+      "프록시",
+      "Proxy",
+      "프록시 패턴",
+      "Proxy Pattern",
+      "프록시",
+      "프록씨"
+    ],
+    "explanation": "프록시는 GoF의 구조 패턴입니다. 프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "proxy",
+    "exercise": "description",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q413",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "큰 이미지는 화면에 표시할 때까지 로딩하지 않고, 먼저 가벼운 대리 객체가 이미지 요청을 받는다. 적용할 패턴을 쓰시오.",
+    "answer": "프록시",
+    "aliases": [
+      "프록시",
+      "Proxy",
+      "프록시 패턴",
+      "Proxy Pattern",
+      "프록시",
+      "프록씨"
+    ],
+    "explanation": "프록시는 GoF의 구조 패턴입니다. 프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "proxy",
+    "exercise": "scenario",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q414",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 프록시(Proxy)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "구조",
+    "aliases": [
+      "구조",
+      "구조 패턴",
+      "Structural"
+    ],
+    "explanation": "프록시는 구조 패턴입니다. 실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "proxy",
+    "exercise": "classification",
+    "patternGroup": "구조"
+  },
+  {
+    "id": "q415",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.",
+    "answer": "책임 연쇄",
+    "aliases": [
+      "책임 연쇄",
+      "Chain of Responsibility",
+      "책임 연쇄 패턴",
+      "Chain of Responsibility Pattern"
+    ],
+    "explanation": "책임 연쇄는 GoF의 행위 패턴입니다. 처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "chain-of-responsibility",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q416",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "고객 문의를 상담원에게 보내고 처리 권한이 없으면 팀장, 그다음 관리자에게 전달한다. 적용할 패턴을 쓰시오.",
+    "answer": "책임 연쇄",
+    "aliases": [
+      "책임 연쇄",
+      "Chain of Responsibility",
+      "책임 연쇄 패턴",
+      "Chain of Responsibility Pattern"
+    ],
+    "explanation": "책임 연쇄는 GoF의 행위 패턴입니다. 처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "chain-of-responsibility",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q417",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 책임 연쇄(Chain of Responsibility)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "책임 연쇄는 행위 패턴입니다. 여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "chain-of-responsibility",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q418",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.",
+    "answer": "커맨드",
+    "aliases": [
+      "커맨드",
+      "Command",
+      "커맨드 패턴",
+      "Command Pattern",
+      "명령"
+    ],
+    "explanation": "커맨드는 GoF의 행위 패턴입니다. 커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "command",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q419",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "메뉴와 단축키가 같은 실행 객체를 호출하고, 실행한 요청을 목록에 저장하여 취소 기능을 구현한다. 요청 객체화 패턴의 명칭을 쓰시오.",
+    "answer": "커맨드",
+    "aliases": [
+      "커맨드",
+      "Command",
+      "커맨드 패턴",
+      "Command Pattern",
+      "명령"
+    ],
+    "explanation": "커맨드는 GoF의 행위 패턴입니다. 커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "command",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q420",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 커맨드(Command)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "커맨드는 행위 패턴입니다. 요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "command",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q421",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.",
+    "answer": "인터프리터",
+    "aliases": [
+      "인터프리터",
+      "Interpreter",
+      "인터프리터 패턴",
+      "Interpreter Pattern"
+    ],
+    "explanation": "인터프리터는 GoF의 행위 패턴입니다. 여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "interpreter",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q422",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "사용자가 입력한 간단한 계산식의 문법 규칙을 객체로 표현하여 해석기를 만든다. 적용할 GoF 행위 패턴을 쓰시오.",
+    "answer": "인터프리터",
+    "aliases": [
+      "인터프리터",
+      "Interpreter",
+      "인터프리터 패턴",
+      "Interpreter Pattern"
+    ],
+    "explanation": "인터프리터는 GoF의 행위 패턴입니다. 여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "interpreter",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q423",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 인터프리터(Interpreter)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "인터프리터는 행위 패턴입니다. 간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "interpreter",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q424",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.",
+    "answer": "반복자",
+    "aliases": [
+      "반복자",
+      "Iterator",
+      "반복자 패턴",
+      "Iterator Pattern",
+      "이터레이터"
+    ],
+    "explanation": "반복자는 GoF의 행위 패턴입니다. 컬렉션의 내부 구조와 탐색 과정을 분리합니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "iterator",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q425",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "자료가 배열인지 연결 리스트인지 몰라도 같은 순회 인터페이스로 원소를 하나씩 읽는다. 적용할 패턴을 쓰시오.",
+    "answer": "반복자",
+    "aliases": [
+      "반복자",
+      "Iterator",
+      "반복자 패턴",
+      "Iterator Pattern",
+      "이터레이터"
+    ],
+    "explanation": "반복자는 GoF의 행위 패턴입니다. 컬렉션의 내부 구조와 탐색 과정을 분리합니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "iterator",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q426",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 반복자(Iterator)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "반복자는 행위 패턴입니다. 컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "iterator",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q427",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.",
+    "answer": "중재자",
+    "aliases": [
+      "중재자",
+      "Mediator",
+      "중재자 패턴",
+      "Mediator Pattern"
+    ],
+    "explanation": "중재자는 GoF의 행위 패턴입니다. 중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "mediator",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q428",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "대화상자의 입력칸, 체크박스, 버튼이 서로 직접 참조하는 대신 하나의 조정 객체를 통해 상태를 맞춘다. 적용할 패턴을 쓰시오.",
+    "answer": "중재자",
+    "aliases": [
+      "중재자",
+      "Mediator",
+      "중재자 패턴",
+      "Mediator Pattern"
+    ],
+    "explanation": "중재자는 GoF의 행위 패턴입니다. 중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "mediator",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q429",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 중재자(Mediator)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "중재자는 행위 패턴입니다. 여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "mediator",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q430",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.",
+    "answer": "메멘토",
+    "aliases": [
+      "메멘토",
+      "Memento",
+      "메멘토 패턴",
+      "Memento Pattern"
+    ],
+    "explanation": "메멘토는 GoF의 행위 패턴입니다. 메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "memento",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q431",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "편집기의 특정 시점 상태를 스냅샷으로 저장했다가 이전 상태로 되돌린다. 상태 저장·복원에 적합한 패턴을 쓰시오.",
+    "answer": "메멘토",
+    "aliases": [
+      "메멘토",
+      "Memento",
+      "메멘토 패턴",
+      "Memento Pattern"
+    ],
+    "explanation": "메멘토는 GoF의 행위 패턴입니다. 메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "memento",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q432",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 메멘토(Memento)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "메멘토는 행위 패턴입니다. 객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "memento",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q433",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.",
+    "answer": "옵서버",
+    "aliases": [
+      "옵서버",
+      "Observer",
+      "옵서버 패턴",
+      "Observer Pattern"
+    ],
+    "explanation": "옵서버는 GoF의 행위 패턴입니다. 옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "observer",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q434",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "주식 가격 객체가 변경되면 등록된 여러 화면에 변경을 알린다. 대상은 화면의 구체 클래스에 의존하지 않는다. 적용할 패턴을 쓰시오.",
+    "answer": "옵서버",
+    "aliases": [
+      "옵서버",
+      "Observer",
+      "옵서버 패턴",
+      "Observer Pattern"
+    ],
+    "explanation": "옵서버는 GoF의 행위 패턴입니다. 옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "observer",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q435",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 옵서버(Observer)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "옵서버는 행위 패턴입니다. 관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "observer",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q436",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.",
+    "answer": "상태",
+    "aliases": [
+      "상태",
+      "State",
+      "상태 패턴",
+      "State Pattern"
+    ],
+    "explanation": "상태는 GoF의 행위 패턴입니다. 상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "state",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q437",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "자동판매기의 같은 버튼 입력이 대기, 결제 완료, 품절 상태에 따라 다른 동작을 하도록 상태별 객체에 위임한다. 적용할 패턴을 쓰시오.",
+    "answer": "상태",
+    "aliases": [
+      "상태",
+      "State",
+      "상태 패턴",
+      "State Pattern"
+    ],
+    "explanation": "상태는 GoF의 행위 패턴입니다. 상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "state",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q438",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 상태(State)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "상태는 행위 패턴입니다. 객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "state",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q439",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.",
+    "answer": "전략",
+    "aliases": [
+      "전략",
+      "Strategy",
+      "전략 패턴",
+      "Strategy Pattern"
+    ],
+    "explanation": "전략는 GoF의 행위 패턴입니다. 전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "strategy",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q440",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "가격 계산 시 정액 할인과 비율 할인 알고리즘을 별도 객체로 만들고 필요에 따라 선택한다. 적용할 패턴을 쓰시오.",
+    "answer": "전략",
+    "aliases": [
+      "전략",
+      "Strategy",
+      "전략 패턴",
+      "Strategy Pattern"
+    ],
+    "explanation": "전략는 GoF의 행위 패턴입니다. 전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "strategy",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q441",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 전략(Strategy)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "전략는 행위 패턴입니다. 같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "strategy",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q442",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.",
+    "answer": "템플릿 메서드",
+    "aliases": [
+      "템플릿 메서드",
+      "Template Method",
+      "템플릿 메서드 패턴",
+      "Template Method Pattern",
+      "템플릿 메소드"
+    ],
+    "explanation": "템플릿 메서드는 GoF의 행위 패턴입니다. 템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "template-method",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q443",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "파일을 읽고 변환하고 저장하는 순서는 고정한다. 형식별로 달라지는 변환 단계만 하위 클래스에서 구현한다. 적용할 패턴을 쓰시오.",
+    "answer": "템플릿 메서드",
+    "aliases": [
+      "템플릿 메서드",
+      "Template Method",
+      "템플릿 메서드 패턴",
+      "Template Method Pattern",
+      "템플릿 메소드"
+    ],
+    "explanation": "템플릿 메서드는 GoF의 행위 패턴입니다. 템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "template-method",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q444",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 템플릿 메서드(Template Method)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "템플릿 메서드는 행위 패턴입니다. 알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "template-method",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q445",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 GoF 디자인 패턴의 명칭을 쓰시오.\n\n객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.",
+    "answer": "방문자",
+    "aliases": [
+      "방문자",
+      "Visitor",
+      "방문자 패턴",
+      "Visitor Pattern"
+    ],
+    "explanation": "방문자는 GoF의 행위 패턴입니다. 방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "visitor",
+    "exercise": "description",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q446",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "문서 요소 클래스들은 유지한 채 HTML 내보내기와 통계 계산 같은 연산을 방문 객체로 추가한다. 적용할 패턴을 쓰시오.",
+    "answer": "방문자",
+    "aliases": [
+      "방문자",
+      "Visitor",
+      "방문자 패턴",
+      "Visitor Pattern"
+    ],
+    "explanation": "방문자는 GoF의 행위 패턴입니다. 방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "visitor",
+    "exercise": "scenario",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q447",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "GoF 디자인 패턴 중 방문자(Visitor)는 생성·구조·행위 중 어느 분류에 속하는가? 분류명을 쓰시오.",
+    "answer": "행위",
+    "aliases": [
+      "행위",
+      "행위 패턴",
+      "Behavioral"
+    ],
+    "explanation": "방문자는 행위 패턴입니다. 객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "visitor",
+    "exercise": "classification",
+    "patternGroup": "행위"
+  },
+  {
+    "id": "q448",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.",
+    "answer": "계층형",
+    "aliases": [
+      "계층형",
+      "Layered",
+      "계층형 아키텍처",
+      "계층형 패턴",
+      "Layered Pattern",
+      "Layer",
+      "Layered Architecture",
+      "레이어",
+      "계층화",
+      "계층형 아키텍처"
+    ],
+    "explanation": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-layered",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q449",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "표현, 업무 처리, 데이터 접근을 별도 계층으로 나누고 각 계층이 담당 역할을 수행한다. 적용한 아키텍처 패턴의 명칭을 쓰시오.",
+    "answer": "계층형",
+    "aliases": [
+      "계층형",
+      "Layered",
+      "계층형 아키텍처",
+      "계층형 패턴",
+      "Layered Pattern",
+      "Layer",
+      "Layered Architecture",
+      "레이어",
+      "계층화",
+      "계층형 아키텍처"
+    ],
+    "explanation": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-layered",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q450",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.",
+    "answer": "클라이언트 서버",
+    "aliases": [
+      "클라이언트 서버",
+      "Client Server",
+      "클라이언트 서버 아키텍처",
+      "클라이언트 서버 패턴",
+      "Client Server Pattern",
+      "Client-server",
+      "클라이언트-서버"
+    ],
+    "explanation": "요청자와 서비스 제공자의 구분이 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-client-server",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q451",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "여러 사용자의 프로그램이 중앙 서버에 자료를 요청하고 서버가 처리 결과를 응답한다. 이 아키텍처 패턴을 쓰시오.",
+    "answer": "클라이언트 서버",
+    "aliases": [
+      "클라이언트 서버",
+      "Client Server",
+      "클라이언트 서버 아키텍처",
+      "클라이언트 서버 패턴",
+      "Client Server Pattern",
+      "Client-server",
+      "클라이언트-서버"
+    ],
+    "explanation": "요청자와 서비스 제공자의 구분이 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-client-server",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q452",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.",
+    "answer": "파이프 필터",
+    "aliases": [
+      "파이프 필터",
+      "Pipe Filter",
+      "파이프 필터 아키텍처",
+      "파이프 필터 패턴",
+      "Pipe Filter Pattern",
+      "Pipe-Filter",
+      "파이프-필터",
+      "Pipe and Filter"
+    ],
+    "explanation": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-pipe-filter",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q453",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "로그를 읽어 불필요한 행 제거, 값 변환, 집계의 단계로 전달한다. 독립적인 각 단계는 출력 데이터를 다음 단계로 보낸다. 이 아키텍처를 쓰시오.",
+    "answer": "파이프 필터",
+    "aliases": [
+      "파이프 필터",
+      "Pipe Filter",
+      "파이프 필터 아키텍처",
+      "파이프 필터 패턴",
+      "Pipe Filter Pattern",
+      "Pipe-Filter",
+      "파이프-필터",
+      "Pipe and Filter"
+    ],
+    "explanation": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-pipe-filter",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q454",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.",
+    "answer": "MVC",
+    "aliases": [
+      "MVC",
+      "MVC",
+      "MVC 아키텍처",
+      "MVC 패턴",
+      "MVC Pattern"
+    ],
+    "explanation": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-mvc",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q455",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "사용자 입력 처리를 Controller에, 핵심 데이터 처리를 Model에, 화면 표시를 View에 둔다. 이 아키텍처의 약어를 쓰시오.",
+    "answer": "MVC",
+    "aliases": [
+      "MVC",
+      "MVC",
+      "MVC 아키텍처",
+      "MVC 패턴",
+      "MVC Pattern"
+    ],
+    "explanation": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-mvc",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q456",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.",
+    "answer": "마스터 슬레이브",
+    "aliases": [
+      "마스터 슬레이브",
+      "Master Slave",
+      "마스터 슬레이브 아키텍처",
+      "마스터 슬레이브 패턴",
+      "Master Slave Pattern",
+      "Master-slave",
+      "마스터-슬레이브"
+    ],
+    "explanation": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-master-slave",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q457",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "하나의 조정 컴포넌트가 대량 계산을 나누어 여러 작업자에 맡긴 후 결과를 모은다. 이 아키텍처 패턴을 쓰시오.",
+    "answer": "마스터 슬레이브",
+    "aliases": [
+      "마스터 슬레이브",
+      "Master Slave",
+      "마스터 슬레이브 아키텍처",
+      "마스터 슬레이브 패턴",
+      "Master Slave Pattern",
+      "Master-slave",
+      "마스터-슬레이브"
+    ],
+    "explanation": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-master-slave",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q458",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.",
+    "answer": "브로커",
+    "aliases": [
+      "브로커",
+      "Broker",
+      "브로커 아키텍처",
+      "브로커 패턴",
+      "Broker Pattern"
+    ],
+    "explanation": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-broker",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q459",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "클라이언트가 서비스의 실제 위치를 직접 알 필요 없이 중개 컴포넌트를 통해 원격 서비스를 호출한다. 이 아키텍처를 쓰시오.",
+    "answer": "브로커",
+    "aliases": [
+      "브로커",
+      "Broker",
+      "브로커 아키텍처",
+      "브로커 패턴",
+      "Broker Pattern"
+    ],
+    "explanation": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-broker",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q460",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.",
+    "answer": "피어 투 피어",
+    "aliases": [
+      "피어 투 피어",
+      "Peer to Peer",
+      "피어 투 피어 아키텍처",
+      "피어 투 피어 패턴",
+      "Peer to Peer Pattern",
+      "P2P",
+      "Peer-to-peer",
+      "피어투피어"
+    ],
+    "explanation": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-peer-to-peer",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q461",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "중앙 서버에만 의존하지 않고 참여 노드들이 파일 조각을 서로 요청하고 제공한다. 이 아키텍처의 명칭을 쓰시오.",
+    "answer": "피어 투 피어",
+    "aliases": [
+      "피어 투 피어",
+      "Peer to Peer",
+      "피어 투 피어 아키텍처",
+      "피어 투 피어 패턴",
+      "Peer to Peer Pattern",
+      "P2P",
+      "Peer-to-peer",
+      "피어투피어"
+    ],
+    "explanation": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-peer-to-peer",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q462",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.",
+    "answer": "이벤트 버스",
+    "aliases": [
+      "이벤트 버스",
+      "Event Bus",
+      "이벤트 버스 아키텍처",
+      "이벤트 버스 패턴",
+      "Event Bus Pattern",
+      "Event-bus"
+    ],
+    "explanation": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-event-bus",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q463",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "주문 서비스가 이벤트 채널에 주문 완료 메시지를 발행하면 해당 채널을 구독한 배송·통계 서비스가 이를 처리한다. 이 아키텍처를 쓰시오.",
+    "answer": "이벤트 버스",
+    "aliases": [
+      "이벤트 버스",
+      "Event Bus",
+      "이벤트 버스 아키텍처",
+      "이벤트 버스 패턴",
+      "Event Bus Pattern",
+      "Event-bus"
+    ],
+    "explanation": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-event-bus",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q464",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.",
+    "answer": "블랙보드",
+    "aliases": [
+      "블랙보드",
+      "Blackboard",
+      "블랙보드 아키텍처",
+      "블랙보드 패턴",
+      "Blackboard Pattern"
+    ],
+    "explanation": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-blackboard",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q465",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "음성 인식의 여러 분석 컴포넌트가 공유 작업 공간에 중간 결과를 올리고 다른 컴포넌트의 결과를 이용한다. 이 아키텍처를 쓰시오.",
+    "answer": "블랙보드",
+    "aliases": [
+      "블랙보드",
+      "Blackboard",
+      "블랙보드 아키텍처",
+      "블랙보드 패턴",
+      "Blackboard Pattern"
+    ],
+    "explanation": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-blackboard",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q466",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.",
+    "answer": "인터프리터",
+    "aliases": [
+      "인터프리터",
+      "Interpreter Architecture",
+      "인터프리터 아키텍처",
+      "인터프리터 패턴",
+      "Interpreter Architecture Pattern",
+      "Interpreter",
+      "해석기"
+    ],
+    "explanation": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-interpreter-architecture",
+    "exercise": "description",
+    "patternGroup": ""
+  },
+  {
+    "id": "q467",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "실행할 명령 데이터와 그 명령을 읽어 동작시키는 해석 엔진을 중심으로 시스템을 구성한다. 이 아키텍처 패턴을 쓰시오.",
+    "answer": "인터프리터",
+    "aliases": [
+      "인터프리터",
+      "Interpreter Architecture",
+      "인터프리터 아키텍처",
+      "인터프리터 패턴",
+      "Interpreter Architecture Pattern",
+      "Interpreter",
+      "해석기"
+    ],
+    "explanation": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-interpreter-architecture",
+    "exercise": "scenario",
+    "patternGroup": ""
+  },
+  {
+    "id": "q468",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "기존 코드의 호출 규격을 새 규격과 맞추려 한다. 복잡한 하위 시스템을 단순하게 묶는 것이 아니라 인터페이스 호환이 목적이다. 적용할 GoF 패턴을 쓰시오.",
+    "answer": "어댑터",
+    "aliases": [
+      "어댑터",
+      "Adapter"
+    ],
+    "explanation": "어댑터는 규격 변환, 퍼사드는 사용 단순화입니다.",
+    "source": 1,
+    "page": 39,
+    "topic": "pattern",
+    "concept": "adapter",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q469",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "여러 하위 시스템을 조합한 작업을 하나의 단순한 진입점으로 제공한다. 기존 인터페이스의 불일치를 변환하는 것은 주목적이 아니다. 적용할 패턴을 쓰시오.",
+    "answer": "퍼사드",
+    "aliases": [
+      "퍼사드",
+      "파사드",
+      "Facade"
+    ],
+    "explanation": "퍼사드는 단순한 상위 인터페이스를 제공합니다. 어댑터는 호환되지 않는 규격을 맞춥니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "facade",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q470",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "동일한 요청을 처리하는 방식이 객체 내부의 대기·실행·완료 상태에 따라 바뀐다. 사용자가 할인 알고리즘을 선택하는 상황과 구분되는 GoF 패턴을 쓰시오.",
+    "answer": "상태",
+    "aliases": [
+      "상태",
+      "State",
+      "상태 패턴"
+    ],
+    "explanation": "상태는 현재 상태의 동작 분리, 전략은 교체 가능한 알고리즘의 분리입니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "state",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q471",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "클라이언트가 여러 경로 탐색 알고리즘 중 하나를 선택해서 바꾸어 사용한다. 객체의 현재 상태 전이가 아닌 알고리즘 교환을 위한 패턴을 쓰시오.",
+    "answer": "전략",
+    "aliases": [
+      "전략",
+      "Strategy",
+      "전략 패턴"
+    ],
+    "explanation": "전략은 알고리즘 선택·교환을 가능하게 합니다.",
+    "source": 1,
+    "page": 41,
+    "topic": "pattern",
+    "concept": "strategy",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q472",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "원본 객체와 같은 인터페이스를 유지하면서 로깅·암호화 기능을 감싸는 객체로 추가한다. 접근 권한 확인을 위한 대리 객체와 구분되는 패턴을 쓰시오.",
+    "answer": "데코레이터",
+    "aliases": [
+      "데코레이터",
+      "Decorator"
+    ],
+    "explanation": "데코레이터는 기능 추가, 프록시는 접근 대행 및 제어입니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "decorator",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q473",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "원본 객체와 같은 인터페이스를 제공하되 권한을 검사하고 허용된 경우에만 원본으로 요청을 전달한다. 기능 추가보다 접근 제어가 목적인 패턴을 쓰시오.",
+    "answer": "프록시",
+    "aliases": [
+      "프록시",
+      "Proxy"
+    ],
+    "explanation": "프록시는 원본 객체에 대한 접근을 대신합니다.",
+    "source": 1,
+    "page": 40,
+    "topic": "pattern",
+    "concept": "proxy",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q474",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "MVC에서 사용자에게 정보를 표시하는 역할의 명칭을 쓰시오.",
+    "answer": "View",
+    "aliases": [
+      "View",
+      "뷰"
+    ],
+    "explanation": "View는 정보 표시, Model은 핵심 데이터와 처리, Controller는 입력 제어를 담당합니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-mvc",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q475",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "MVC에서 사용자의 입력을 받아 적절한 처리로 연결하는 역할의 명칭을 쓰시오.",
+    "answer": "Controller",
+    "aliases": [
+      "Controller",
+      "컨트롤러"
+    ],
+    "explanation": "Controller는 입력을 처리하고 Model 및 View 사이의 동작을 조정합니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-mvc",
+    "exercise": "compare",
+    "patternGroup": ""
+  },
+  {
+    "id": "q476",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "MVC에서 화면 표시와 분리하여 핵심 데이터와 업무 처리를 맡는 역할의 명칭을 쓰시오.",
+    "answer": "Model",
+    "aliases": [
+      "Model",
+      "모델"
+    ],
+    "explanation": "Model은 핵심 데이터 및 업무 처리를 담당합니다.",
+    "source": 2,
+    "page": 6,
+    "topic": "architecture",
+    "concept": "arch-mvc",
+    "exercise": "compare",
+    "patternGroup": ""
   }
 ];
 const SOURCES = [
@@ -4597,3 +6641,4 @@ const SOURCES = [
   }
 ];
 const QUESTION_ID_MIGRATIONS = {"q214": "q104", "q215": "q105", "q216": "q106", "q217": "q107", "q218": "q108", "q219": "q109", "q220": "q110", "q221": "q111", "q222": "q112", "q223": "q113", "q224": "q114", "q225": "q115", "q226": "q116", "q227": "q117", "q228": "q118", "q229": "q119", "q230": "q120", "q231": "q121", "q232": "q122", "q233": "q123", "q234": "q124", "q235": "q125", "q236": "q126", "q237": "q127", "q238": "q128", "q239": "q129", "q240": "q130", "q241": "q131", "q242": "q132", "q243": "q133", "q244": "q134", "q245": "q135", "q246": "q136", "q247": "q137", "q248": "q138", "q249": "q139", "q250": "q140", "q251": "q141", "q252": "q142", "q253": "q143", "q254": "q144", "q255": "q145", "q256": "q146", "q257": "q147", "q258": "q148", "q259": "q149", "q260": "q150", "q261": "q151"};
+const FOCUS_CONCEPTS = [{"id": "abstract-factory", "topic": "pattern", "name": "추상 팩토리", "english": "Abstract Factory", "group": "생성", "summary": "서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.", "contrast": "팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다."}, {"id": "builder", "topic": "pattern", "name": "빌더", "english": "Builder", "group": "생성", "summary": "복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.", "contrast": "빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다."}, {"id": "factory-method", "topic": "pattern", "name": "팩토리 메서드", "english": "Factory Method", "group": "생성", "summary": "상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.", "contrast": "객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다."}, {"id": "prototype", "topic": "pattern", "name": "프로토타입", "english": "Prototype", "group": "생성", "summary": "기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.", "contrast": "시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다."}, {"id": "singleton", "topic": "pattern", "name": "싱글톤", "english": "Singleton", "group": "생성", "summary": "클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.", "contrast": "공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다."}, {"id": "adapter", "topic": "pattern", "name": "어댑터", "english": "Adapter", "group": "구조", "summary": "기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.", "contrast": "어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다."}, {"id": "bridge", "topic": "pattern", "name": "브리지", "english": "Bridge", "group": "구조", "summary": "추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.", "contrast": "브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다."}, {"id": "composite", "topic": "pattern", "name": "컴포지트", "english": "Composite", "group": "구조", "summary": "단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.", "contrast": "전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다."}, {"id": "decorator", "topic": "pattern", "name": "데코레이터", "english": "Decorator", "group": "구조", "summary": "객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.", "contrast": "데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다."}, {"id": "facade", "topic": "pattern", "name": "퍼사드", "english": "Facade", "group": "구조", "summary": "여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.", "contrast": "퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다."}, {"id": "flyweight", "topic": "pattern", "name": "플라이웨이트", "english": "Flyweight", "group": "구조", "summary": "많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.", "contrast": "플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다."}, {"id": "proxy", "topic": "pattern", "name": "프록시", "english": "Proxy", "group": "구조", "summary": "실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.", "contrast": "프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다."}, {"id": "chain-of-responsibility", "topic": "pattern", "name": "책임 연쇄", "english": "Chain of Responsibility", "group": "행위", "summary": "여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.", "contrast": "처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다."}, {"id": "command", "topic": "pattern", "name": "커맨드", "english": "Command", "group": "행위", "summary": "요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.", "contrast": "커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다."}, {"id": "interpreter", "topic": "pattern", "name": "인터프리터", "english": "Interpreter", "group": "행위", "summary": "간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.", "contrast": "여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요."}, {"id": "iterator", "topic": "pattern", "name": "반복자", "english": "Iterator", "group": "행위", "summary": "컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.", "contrast": "컬렉션의 내부 구조와 탐색 과정을 분리합니다."}, {"id": "mediator", "topic": "pattern", "name": "중재자", "english": "Mediator", "group": "행위", "summary": "여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.", "contrast": "중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다."}, {"id": "memento", "topic": "pattern", "name": "메멘토", "english": "Memento", "group": "행위", "summary": "객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.", "contrast": "메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다."}, {"id": "observer", "topic": "pattern", "name": "옵서버", "english": "Observer", "group": "행위", "summary": "관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.", "contrast": "옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다."}, {"id": "state", "topic": "pattern", "name": "상태", "english": "State", "group": "행위", "summary": "객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.", "contrast": "상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다."}, {"id": "strategy", "topic": "pattern", "name": "전략", "english": "Strategy", "group": "행위", "summary": "같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.", "contrast": "전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다."}, {"id": "template-method", "topic": "pattern", "name": "템플릿 메서드", "english": "Template Method", "group": "행위", "summary": "알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.", "contrast": "템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다."}, {"id": "visitor", "topic": "pattern", "name": "방문자", "english": "Visitor", "group": "행위", "summary": "객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.", "contrast": "방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다."}, {"id": "arch-layered", "topic": "architecture", "name": "계층형", "english": "Layered", "group": "아키텍처", "summary": "시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.", "contrast": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다."}, {"id": "arch-client-server", "topic": "architecture", "name": "클라이언트 서버", "english": "Client Server", "group": "아키텍처", "summary": "서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.", "contrast": "요청자와 서비스 제공자의 구분이 핵심입니다."}, {"id": "arch-pipe-filter", "topic": "architecture", "name": "파이프 필터", "english": "Pipe Filter", "group": "아키텍처", "summary": "각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.", "contrast": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다."}, {"id": "arch-mvc", "topic": "architecture", "name": "MVC", "english": "MVC", "group": "아키텍처", "summary": "데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.", "contrast": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다."}, {"id": "arch-master-slave", "topic": "architecture", "name": "마스터 슬레이브", "english": "Master Slave", "group": "아키텍처", "summary": "한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.", "contrast": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다."}, {"id": "arch-broker", "topic": "architecture", "name": "브로커", "english": "Broker", "group": "아키텍처", "summary": "분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.", "contrast": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요."}, {"id": "arch-peer-to-peer", "topic": "architecture", "name": "피어 투 피어", "english": "Peer to Peer", "group": "아키텍처", "summary": "각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.", "contrast": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다."}, {"id": "arch-event-bus", "topic": "architecture", "name": "이벤트 버스", "english": "Event Bus", "group": "아키텍처", "summary": "발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.", "contrast": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다."}, {"id": "arch-blackboard", "topic": "architecture", "name": "블랙보드", "english": "Blackboard", "group": "아키텍처", "summary": "여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.", "contrast": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다."}, {"id": "arch-interpreter-architecture", "topic": "architecture", "name": "인터프리터", "english": "Interpreter Architecture", "group": "아키텍처", "summary": "실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.", "contrast": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다."}];
