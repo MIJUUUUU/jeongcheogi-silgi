@@ -196,7 +196,18 @@ const QUESTIONS = [
     ],
     "explanation": "모듈 내부의 관련성이 높을수록 응집도가 높습니다. 좋은 설계는 높은 응집도를 지향합니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2024.7",
+        "2021.7"
+      ],
+      "topic": "응집도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-cohesion"
   },
   {
     "id": "q14",
@@ -210,7 +221,20 @@ const QUESTIONS = [
     ],
     "explanation": "모듈 간 의존성이 낮을수록 독립적인 수정과 재사용이 쉬워집니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2025.4",
+        "2024.7",
+        "2021.10",
+        "2021.4"
+      ],
+      "topic": "결합도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-coupling"
   },
   {
     "id": "q15",
@@ -247,7 +271,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "adapter",
     "exercise": "description",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2025.4"
+      ],
+      "topic": "어댑터",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-adapter"
   },
   {
     "id": "q17",
@@ -266,7 +300,18 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "observer",
     "exercise": "description",
-    "patternGroup": "행위"
+    "patternGroup": "행위",
+    "examEvidence": {
+      "source": 1,
+      "page": 41,
+      "dates": [
+        "2022.10",
+        "2020.7"
+      ],
+      "topic": "옵서버",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-observer"
   },
   {
     "id": "q18",
@@ -355,7 +400,18 @@ const QUESTIONS = [
     ],
     "explanation": "Atomicity는 All or Nothing을 의미합니다.",
     "source": 2,
-    "page": 10
+    "page": 10,
+    "examEvidence": {
+      "source": 1,
+      "page": 26,
+      "dates": [
+        "2021.7",
+        "2020.5"
+      ],
+      "topic": "트랜잭션 특성",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-transaction"
   },
   {
     "id": "q24",
@@ -370,7 +426,18 @@ const QUESTIONS = [
     ],
     "explanation": "Durability는 성공적으로 커밋된 결과의 영속적 보존을 의미합니다.",
     "source": 2,
-    "page": 10
+    "page": 10,
+    "examEvidence": {
+      "source": 1,
+      "page": 26,
+      "dates": [
+        "2021.7",
+        "2020.5"
+      ],
+      "topic": "트랜잭션 특성",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-transaction"
   },
   {
     "id": "q25",
@@ -385,7 +452,18 @@ const QUESTIONS = [
     ],
     "explanation": "Isolation은 동시 실행되는 트랜잭션 사이의 간섭을 제한합니다.",
     "source": 2,
-    "page": 10
+    "page": 10,
+    "examEvidence": {
+      "source": 1,
+      "page": 26,
+      "dates": [
+        "2021.7",
+        "2020.5"
+      ],
+      "topic": "트랜잭션 특성",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-transaction"
   },
   {
     "id": "q26",
@@ -399,7 +477,18 @@ const QUESTIONS = [
     ],
     "explanation": "Consistency는 트랜잭션 전후에 데이터베이스의 일관된 상태를 보장합니다.",
     "source": 2,
-    "page": 10
+    "page": 10,
+    "examEvidence": {
+      "source": 1,
+      "page": 26,
+      "dates": [
+        "2021.7",
+        "2020.5"
+      ],
+      "topic": "트랜잭션 특성",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-transaction"
   },
   {
     "id": "q27",
@@ -443,7 +532,18 @@ const QUESTIONS = [
     ],
     "explanation": "제1정규형은 반복 그룹을 제거하고 속성을 원자값으로 구성합니다.",
     "source": 2,
-    "page": 11
+    "page": 11,
+    "examEvidence": {
+      "source": 1,
+      "page": 22,
+      "dates": [
+        "2024.4",
+        "2021.7"
+      ],
+      "topic": "정규화·함수 종속",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-normalization"
   },
   {
     "id": "q30",
@@ -459,7 +559,18 @@ const QUESTIONS = [
     ],
     "explanation": "제2정규형은 기본키 전체에 완전 함수 종속되도록 합니다.",
     "source": 2,
-    "page": 11
+    "page": 11,
+    "examEvidence": {
+      "source": 1,
+      "page": 22,
+      "dates": [
+        "2024.4",
+        "2021.7"
+      ],
+      "topic": "정규화·함수 종속",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-normalization"
   },
   {
     "id": "q31",
@@ -475,7 +586,18 @@ const QUESTIONS = [
     ],
     "explanation": "키가 아닌 속성이 다른 비키 속성을 통해 종속되는 관계를 제거합니다.",
     "source": 2,
-    "page": 11
+    "page": 11,
+    "examEvidence": {
+      "source": 1,
+      "page": 22,
+      "dates": [
+        "2024.4",
+        "2021.7"
+      ],
+      "topic": "정규화·함수 종속",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-normalization"
   },
   {
     "id": "q32",
@@ -490,7 +612,18 @@ const QUESTIONS = [
     ],
     "explanation": "보이스-코드 정규형(Boyce-Codd Normal Form)은 모든 결정자가 후보키인 정규형입니다.",
     "source": 2,
-    "page": 11
+    "page": 11,
+    "examEvidence": {
+      "source": 1,
+      "page": 22,
+      "dates": [
+        "2024.4",
+        "2021.7"
+      ],
+      "topic": "정규화·함수 종속",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-normalization"
   },
   {
     "id": "q33",
@@ -516,7 +649,20 @@ const QUESTIONS = [
     ],
     "explanation": "WHERE는 그룹화 전 행을, HAVING은 그룹화 후 그룹을 필터링합니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
   },
   {
     "id": "q35",
@@ -1568,24 +1714,6 @@ const QUESTIONS = [
     "page": 6
   },
   {
-    "id": "q111",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "데이터·화면·입력 제어를 Model, View, Controller로 나누는 아키텍처의 약어는?",
-    "answer": "MVC",
-    "aliases": [
-      "MVC",
-      "Model View Controller"
-    ],
-    "explanation": "Model은 데이터와 핵심 로직, View는 표시, Controller는 입력 처리를 맡습니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-layered",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q112",
     "category": "소프트웨어",
     "type": "short",
@@ -1755,7 +1883,20 @@ const QUESTIONS = [
     ],
     "explanation": "공유 전역 데이터의 변경이 여러 모듈에 영향을 줄 수 있습니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2025.4",
+        "2024.7",
+        "2021.10",
+        "2021.4"
+      ],
+      "topic": "결합도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-coupling"
   },
   {
     "id": "q124",
@@ -1769,7 +1910,20 @@ const QUESTIONS = [
     ],
     "explanation": "다른 모듈의 내부에 직접 의존하므로 결합도가 매우 높습니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2025.4",
+        "2024.7",
+        "2021.10",
+        "2021.4"
+      ],
+      "topic": "결합도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-coupling"
   },
   {
     "id": "q125",
@@ -1783,7 +1937,20 @@ const QUESTIONS = [
     ],
     "explanation": "데이터뿐 아니라 상대 모듈의 처리 방식에 대한 정보도 전달합니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2025.4",
+        "2024.7",
+        "2021.10",
+        "2021.4"
+      ],
+      "topic": "결합도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-coupling"
   },
   {
     "id": "q126",
@@ -1798,7 +1965,20 @@ const QUESTIONS = [
     ],
     "explanation": "자료 구조 변경이 전달받는 모듈에도 영향을 줍니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2025.4",
+        "2024.7",
+        "2021.10",
+        "2021.4"
+      ],
+      "topic": "결합도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-coupling"
   },
   {
     "id": "q127",
@@ -1813,7 +1993,18 @@ const QUESTIONS = [
     ],
     "explanation": "하나의 목적을 위한 요소들로 구성되어 관련성이 높습니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2024.7",
+        "2021.7"
+      ],
+      "topic": "응집도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-cohesion"
   },
   {
     "id": "q128",
@@ -1828,7 +2019,18 @@ const QUESTIONS = [
     ],
     "explanation": "처리 단계가 데이터의 흐름으로 연결됩니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2024.7",
+        "2021.7"
+      ],
+      "topic": "응집도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-cohesion"
   },
   {
     "id": "q129",
@@ -1843,7 +2045,18 @@ const QUESTIONS = [
     ],
     "explanation": "여러 처리가 같은 데이터를 사용하는 관계로 묶입니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2024.7",
+        "2021.7"
+      ],
+      "topic": "응집도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-cohesion"
   },
   {
     "id": "q130",
@@ -1918,7 +2131,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "iterator",
     "exercise": "description",
-    "patternGroup": "행위"
+    "patternGroup": "행위",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2024.7"
+      ],
+      "topic": "반복자",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-iterator"
   },
   {
     "id": "q134",
@@ -2368,7 +2591,18 @@ const QUESTIONS = [
     ],
     "explanation": "DESC는 내림차순, ASC는 오름차순 정렬입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 59,
+      "dates": [
+        "2022.5",
+        "2021.7"
+      ],
+      "topic": "SQL 정렬",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-sort"
   },
   {
     "id": "q164",
@@ -2394,7 +2628,17 @@ const QUESTIONS = [
     ],
     "explanation": "UNION은 중복을 제거하고 UNION ALL은 중복 행을 그대로 유지합니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2023.10"
+      ],
+      "topic": "SQL 집합 연산",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-set"
   },
   {
     "id": "q166",
@@ -3496,7 +3740,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(*)는 모든 행을 셉니다. 따라서 4입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q293",
@@ -3509,7 +3766,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(v)는 NULL이 아닌 값만 셉니다. 따라서 3입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q294",
@@ -3522,7 +3792,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(DISTINCT v)는 NULL을 제외하고 중복을 제거한 값의 수를 셉니다. 따라서 2입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q295",
@@ -3535,7 +3818,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(*)는 모든 행을 셉니다. 따라서 5입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q296",
@@ -3548,7 +3844,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(v)는 NULL이 아닌 값만 셉니다. 따라서 3입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q297",
@@ -3561,7 +3870,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(DISTINCT v)는 NULL을 제외하고 중복을 제거한 값의 수를 셉니다. 따라서 2입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q298",
@@ -3574,7 +3896,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(*)는 모든 행을 셉니다. 따라서 4입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q299",
@@ -3587,7 +3922,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(v)는 NULL이 아닌 값만 셉니다. 따라서 4입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q300",
@@ -3600,7 +3948,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(DISTINCT v)는 NULL을 제외하고 중복을 제거한 값의 수를 셉니다. 따라서 4입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q301",
@@ -3613,7 +3974,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(*)는 모든 행을 셉니다. 따라서 3입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q302",
@@ -3626,7 +4000,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(v)는 NULL이 아닌 값만 셉니다. 따라서 1입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q303",
@@ -3639,7 +4026,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(DISTINCT v)는 NULL을 제외하고 중복을 제거한 값의 수를 셉니다. 따라서 1입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q304",
@@ -3652,7 +4052,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(*)는 모든 행을 셉니다. 따라서 5입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q305",
@@ -3665,7 +4078,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(v)는 NULL이 아닌 값만 셉니다. 따라서 5입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q306",
@@ -3678,7 +4104,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(DISTINCT v)는 NULL을 제외하고 중복을 제거한 값의 수를 셉니다. 따라서 2입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q307",
@@ -4016,7 +4455,20 @@ const QUESTIONS = [
     ],
     "explanation": "GROUP BY는 같은 부서 값을 가지는 행들을 그룹화합니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
   },
   {
     "id": "q333",
@@ -4029,7 +4481,20 @@ const QUESTIONS = [
     ],
     "explanation": "집계된 그룹의 조건은 HAVING으로 지정합니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
   },
   {
     "id": "q334",
@@ -4042,7 +4507,18 @@ const QUESTIONS = [
     ],
     "explanation": "DESC는 내림차순입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 59,
+      "dates": [
+        "2022.5",
+        "2021.7"
+      ],
+      "topic": "SQL 정렬",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-sort"
   },
   {
     "id": "q335",
@@ -4159,7 +4635,18 @@ const QUESTIONS = [
     ],
     "explanation": "응집도는 모듈 내부의 기능들이 얼마나 관련되어 있는지를 뜻합니다.",
     "source": 2,
-    "page": 7
+    "page": 7,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2024.7",
+        "2021.7"
+      ],
+      "topic": "응집도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-cohesion"
   },
   {
     "id": "q344",
@@ -4341,7 +4828,18 @@ const QUESTIONS = [
     ],
     "explanation": "ORDER BY score DESC는 점수가 높은 행부터 정렬합니다.",
     "source": 2,
-    "page": 22
+    "page": 22,
+    "examEvidence": {
+      "source": 1,
+      "page": 59,
+      "dates": [
+        "2022.5",
+        "2021.7"
+      ],
+      "topic": "SQL 정렬",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-sort"
   },
   {
     "id": "q358",
@@ -4406,7 +4904,20 @@ const QUESTIONS = [
     ],
     "explanation": "COUNT(*)는 NULL 여부와 관계없이 모든 행을 셉니다.",
     "source": 2,
-    "page": 22
+    "page": 22,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2025.11",
+        "2023.4",
+        "2022.10",
+        "2021.4"
+      ],
+      "topic": "SQL 집계·NULL",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-aggregate"
   },
   {
     "id": "q363",
@@ -4419,7 +4930,20 @@ const QUESTIONS = [
     ],
     "explanation": "GROUP BY로 부서별 그룹을 만들고 AVG로 그룹의 평균 급여를 구합니다.",
     "source": 2,
-    "page": 22
+    "page": 22,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
   },
   {
     "id": "q364",
@@ -4432,7 +4956,20 @@ const QUESTIONS = [
     ],
     "explanation": "집계 함수 COUNT(*)에 대한 그룹 조건은 HAVING에 지정합니다.",
     "source": 2,
-    "page": 22
+    "page": 22,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
   },
   {
     "id": "q365",
@@ -4510,7 +5047,20 @@ const QUESTIONS = [
     ],
     "explanation": "핵심: WHERE는 행, HAVING은 그룹입니다.",
     "source": 2,
-    "page": 23
+    "page": 23,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
   },
   {
     "id": "q371",
@@ -4634,7 +5184,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "abstract-factory",
     "exercise": "description",
-    "patternGroup": "생성"
+    "patternGroup": "생성",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2024.4"
+      ],
+      "topic": "추상 팩토리",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-abstract-factory"
   },
   {
     "id": "q380",
@@ -4654,7 +5214,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "abstract-factory",
     "exercise": "scenario",
-    "patternGroup": "생성"
+    "patternGroup": "생성",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2024.4"
+      ],
+      "topic": "추상 팩토리",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-abstract-factory"
   },
   {
     "id": "q381",
@@ -4753,7 +5323,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "factory-method",
     "exercise": "description",
-    "patternGroup": "생성"
+    "patternGroup": "생성",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2021.10"
+      ],
+      "topic": "팩토리 메서드",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-factory-method"
   },
   {
     "id": "q386",
@@ -4774,7 +5354,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "factory-method",
     "exercise": "scenario",
-    "patternGroup": "생성"
+    "patternGroup": "생성",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2021.10"
+      ],
+      "topic": "팩토리 메서드",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-factory-method"
   },
   {
     "id": "q387",
@@ -4933,7 +5523,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "adapter",
     "exercise": "description",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2025.4"
+      ],
+      "topic": "어댑터",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-adapter"
   },
   {
     "id": "q395",
@@ -4953,7 +5553,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "adapter",
     "exercise": "scenario",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2025.4"
+      ],
+      "topic": "어댑터",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-adapter"
   },
   {
     "id": "q396",
@@ -4992,7 +5602,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "bridge",
     "exercise": "description",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2022.10"
+      ],
+      "topic": "브리지",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-bridge"
   },
   {
     "id": "q398",
@@ -5012,7 +5632,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "bridge",
     "exercise": "scenario",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2022.10"
+      ],
+      "topic": "브리지",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-bridge"
   },
   {
     "id": "q399",
@@ -5293,7 +5923,18 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "proxy",
     "exercise": "description",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2025.7",
+        "2023.4"
+      ],
+      "topic": "프록시",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-proxy"
   },
   {
     "id": "q413",
@@ -5315,7 +5956,18 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "proxy",
     "exercise": "scenario",
-    "patternGroup": "구조"
+    "patternGroup": "구조",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2025.7",
+        "2023.4"
+      ],
+      "topic": "프록시",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-proxy"
   },
   {
     "id": "q414",
@@ -5534,7 +6186,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "iterator",
     "exercise": "description",
-    "patternGroup": "행위"
+    "patternGroup": "행위",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2024.7"
+      ],
+      "topic": "반복자",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-iterator"
   },
   {
     "id": "q425",
@@ -5555,7 +6217,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "iterator",
     "exercise": "scenario",
-    "patternGroup": "행위"
+    "patternGroup": "행위",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2024.7"
+      ],
+      "topic": "반복자",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-iterator"
   },
   {
     "id": "q426",
@@ -5712,7 +6384,18 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "observer",
     "exercise": "description",
-    "patternGroup": "행위"
+    "patternGroup": "행위",
+    "examEvidence": {
+      "source": 1,
+      "page": 41,
+      "dates": [
+        "2022.10",
+        "2020.7"
+      ],
+      "topic": "옵서버",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-observer"
   },
   {
     "id": "q434",
@@ -5732,7 +6415,18 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "observer",
     "exercise": "scenario",
-    "patternGroup": "행위"
+    "patternGroup": "행위",
+    "examEvidence": {
+      "source": 1,
+      "page": 41,
+      "dates": [
+        "2022.10",
+        "2020.7"
+      ],
+      "topic": "옵서버",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-observer"
   },
   {
     "id": "q435",
@@ -5992,32 +6686,6 @@ const QUESTIONS = [
     "patternGroup": "행위"
   },
   {
-    "id": "q448",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.",
-    "answer": "계층형",
-    "aliases": [
-      "계층형",
-      "Layered",
-      "계층형 아키텍처",
-      "계층형 패턴",
-      "Layered Pattern",
-      "Layer",
-      "Layered Architecture",
-      "레이어",
-      "계층화",
-      "계층형 아키텍처"
-    ],
-    "explanation": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-layered",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q449",
     "category": "소프트웨어",
     "type": "short",
@@ -6044,29 +6712,6 @@ const QUESTIONS = [
     "patternGroup": ""
   },
   {
-    "id": "q450",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.",
-    "answer": "클라이언트 서버",
-    "aliases": [
-      "클라이언트 서버",
-      "Client Server",
-      "클라이언트 서버 아키텍처",
-      "클라이언트 서버 패턴",
-      "Client Server Pattern",
-      "Client-server",
-      "클라이언트-서버"
-    ],
-    "explanation": "요청자와 서비스 제공자의 구분이 핵심입니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-client-server",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q451",
     "category": "소프트웨어",
     "type": "short",
@@ -6087,30 +6732,6 @@ const QUESTIONS = [
     "topic": "architecture",
     "concept": "arch-client-server",
     "exercise": "scenario",
-    "patternGroup": ""
-  },
-  {
-    "id": "q452",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.",
-    "answer": "파이프 필터",
-    "aliases": [
-      "파이프 필터",
-      "Pipe Filter",
-      "파이프 필터 아키텍처",
-      "파이프 필터 패턴",
-      "Pipe Filter Pattern",
-      "Pipe-Filter",
-      "파이프-필터",
-      "Pipe and Filter"
-    ],
-    "explanation": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-pipe-filter",
-    "exercise": "description",
     "patternGroup": ""
   },
   {
@@ -6138,27 +6759,6 @@ const QUESTIONS = [
     "patternGroup": ""
   },
   {
-    "id": "q454",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.",
-    "answer": "MVC",
-    "aliases": [
-      "MVC",
-      "MVC",
-      "MVC 아키텍처",
-      "MVC 패턴",
-      "MVC Pattern"
-    ],
-    "explanation": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-mvc",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q455",
     "category": "소프트웨어",
     "type": "short",
@@ -6177,29 +6777,6 @@ const QUESTIONS = [
     "topic": "architecture",
     "concept": "arch-mvc",
     "exercise": "scenario",
-    "patternGroup": ""
-  },
-  {
-    "id": "q456",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.",
-    "answer": "마스터 슬레이브",
-    "aliases": [
-      "마스터 슬레이브",
-      "Master Slave",
-      "마스터 슬레이브 아키텍처",
-      "마스터 슬레이브 패턴",
-      "Master Slave Pattern",
-      "Master-slave",
-      "마스터-슬레이브"
-    ],
-    "explanation": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-master-slave",
-    "exercise": "description",
     "patternGroup": ""
   },
   {
@@ -6226,27 +6803,6 @@ const QUESTIONS = [
     "patternGroup": ""
   },
   {
-    "id": "q458",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.",
-    "answer": "브로커",
-    "aliases": [
-      "브로커",
-      "Broker",
-      "브로커 아키텍처",
-      "브로커 패턴",
-      "Broker Pattern"
-    ],
-    "explanation": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-broker",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q459",
     "category": "소프트웨어",
     "type": "short",
@@ -6265,30 +6821,6 @@ const QUESTIONS = [
     "topic": "architecture",
     "concept": "arch-broker",
     "exercise": "scenario",
-    "patternGroup": ""
-  },
-  {
-    "id": "q460",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.",
-    "answer": "피어 투 피어",
-    "aliases": [
-      "피어 투 피어",
-      "Peer to Peer",
-      "피어 투 피어 아키텍처",
-      "피어 투 피어 패턴",
-      "Peer to Peer Pattern",
-      "P2P",
-      "Peer-to-peer",
-      "피어투피어"
-    ],
-    "explanation": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-peer-to-peer",
-    "exercise": "description",
     "patternGroup": ""
   },
   {
@@ -6316,28 +6848,6 @@ const QUESTIONS = [
     "patternGroup": ""
   },
   {
-    "id": "q462",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.",
-    "answer": "이벤트 버스",
-    "aliases": [
-      "이벤트 버스",
-      "Event Bus",
-      "이벤트 버스 아키텍처",
-      "이벤트 버스 패턴",
-      "Event Bus Pattern",
-      "Event-bus"
-    ],
-    "explanation": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-event-bus",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q463",
     "category": "소프트웨어",
     "type": "short",
@@ -6360,27 +6870,6 @@ const QUESTIONS = [
     "patternGroup": ""
   },
   {
-    "id": "q464",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.",
-    "answer": "블랙보드",
-    "aliases": [
-      "블랙보드",
-      "Blackboard",
-      "블랙보드 아키텍처",
-      "블랙보드 패턴",
-      "Blackboard Pattern"
-    ],
-    "explanation": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-blackboard",
-    "exercise": "description",
-    "patternGroup": ""
-  },
-  {
     "id": "q465",
     "category": "소프트웨어",
     "type": "short",
@@ -6399,29 +6888,6 @@ const QUESTIONS = [
     "topic": "architecture",
     "concept": "arch-blackboard",
     "exercise": "scenario",
-    "patternGroup": ""
-  },
-  {
-    "id": "q466",
-    "category": "소프트웨어",
-    "type": "short",
-    "prompt": "다음 설명에 해당하는 아키텍처 패턴의 명칭을 쓰시오.\n\n실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.",
-    "answer": "인터프리터",
-    "aliases": [
-      "인터프리터",
-      "Interpreter Architecture",
-      "인터프리터 아키텍처",
-      "인터프리터 패턴",
-      "Interpreter Architecture Pattern",
-      "Interpreter",
-      "해석기"
-    ],
-    "explanation": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다.",
-    "source": 2,
-    "page": 6,
-    "topic": "architecture",
-    "concept": "arch-interpreter-architecture",
-    "exercise": "description",
     "patternGroup": ""
   },
   {
@@ -6463,7 +6929,17 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "adapter",
     "exercise": "compare",
-    "patternGroup": ""
+    "patternGroup": "",
+    "examEvidence": {
+      "source": 1,
+      "page": 39,
+      "dates": [
+        "2025.4"
+      ],
+      "topic": "어댑터",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-adapter"
   },
   {
     "id": "q469",
@@ -6556,7 +7032,18 @@ const QUESTIONS = [
     "topic": "pattern",
     "concept": "proxy",
     "exercise": "compare",
-    "patternGroup": ""
+    "patternGroup": "",
+    "examEvidence": {
+      "source": 1,
+      "page": 40,
+      "dates": [
+        "2025.7",
+        "2023.4"
+      ],
+      "topic": "프록시",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-pattern-proxy"
   },
   {
     "id": "q474",
@@ -6611,6 +7098,209 @@ const QUESTIONS = [
     "concept": "arch-mvc",
     "exercise": "compare",
     "patternGroup": ""
+  },
+  {
+    "id": "q477",
+    "category": "데이터베이스",
+    "type": "short",
+    "prompt": "R(학번, 학과코드, 학과명)의 기본키는 학번이다. 학번 → 학과코드, 학과코드 → 학과명이 성립한다. 학과명이 학번에 대해 갖는 함수 종속의 종류를 쓰시오.",
+    "answer": "이행 함수 종속",
+    "aliases": [
+      "이행 함수 종속",
+      "이행적 함수 종속",
+      "Transitive Dependency"
+    ],
+    "explanation": "학번 → 학과코드 → 학과명으로 다른 속성을 거쳐 종속됩니다.",
+    "source": 1,
+    "page": 22,
+    "examEvidence": {
+      "source": 1,
+      "page": 22,
+      "dates": [
+        "2024.4",
+        "2021.7"
+      ],
+      "topic": "정규화·함수 종속",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-normalization"
+  },
+  {
+    "id": "q478",
+    "category": "데이터베이스",
+    "type": "short",
+    "prompt": "수강(학번, 과목코드, 학생이름, 성적)의 기본키는 (학번, 과목코드)이다. 학생이름은 학번에만 종속된다. 제2정규형으로 만들 때 제거해야 할 함수 종속의 종류를 쓰시오.",
+    "answer": "부분 함수 종속",
+    "aliases": [
+      "부분 함수 종속",
+      "부분적 함수 종속",
+      "Partial Dependency"
+    ],
+    "explanation": "복합키 일부인 학번만으로 학생이름이 결정되므로 부분 함수 종속입니다.",
+    "source": 1,
+    "page": 22,
+    "examEvidence": {
+      "source": 1,
+      "page": 22,
+      "dates": [
+        "2024.4",
+        "2021.7"
+      ],
+      "topic": "정규화·함수 종속",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-normalization"
+  },
+  {
+    "id": "q479",
+    "category": "데이터베이스",
+    "type": "short",
+    "prompt": "계좌 이체에서 출금은 성공했지만 입금에 실패하여 출금도 취소했다. 이 처리가 보장하려는 트랜잭션 특성의 명칭을 쓰시오.",
+    "answer": "원자성",
+    "aliases": [
+      "원자성",
+      "Atomicity"
+    ],
+    "explanation": "이체의 모든 연산을 전부 성공시키거나 전부 취소하는 원자성입니다.",
+    "source": 1,
+    "page": 26,
+    "examEvidence": {
+      "source": 1,
+      "page": 26,
+      "dates": [
+        "2021.7",
+        "2020.5"
+      ],
+      "topic": "트랜잭션 특성",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-transaction"
+  },
+  {
+    "id": "q480",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "모듈 A가 정렬 방식을 나타내는 flag 값을 B에 전달하고, B는 flag에 따라 다른 내부 처리 경로를 선택한다. 두 모듈 사이 결합도의 종류를 쓰시오.",
+    "answer": "제어 결합도",
+    "aliases": [
+      "제어 결합도",
+      "Control Coupling"
+    ],
+    "explanation": "단순 데이터가 아니라 처리 흐름을 선택하는 제어 요소를 전달합니다.",
+    "source": 1,
+    "page": 36,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2025.4",
+        "2024.7",
+        "2021.10",
+        "2021.4"
+      ],
+      "topic": "결합도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-coupling"
+  },
+  {
+    "id": "q481",
+    "category": "소프트웨어",
+    "type": "short",
+    "prompt": "모듈의 1단계에서 만든 정제 데이터가 2단계 변환의 입력이 되고, 변환 결과가 3단계 저장의 입력이 된다. 이 모듈의 응집도 종류를 쓰시오.",
+    "answer": "순차적 응집도",
+    "aliases": [
+      "순차적 응집도",
+      "Sequential Cohesion"
+    ],
+    "explanation": "한 활동의 출력이 다음 활동의 입력으로 이어지는 것이 단서입니다.",
+    "source": 1,
+    "page": 36,
+    "examEvidence": {
+      "source": 1,
+      "page": 36,
+      "dates": [
+        "2024.7",
+        "2021.7"
+      ],
+      "topic": "응집도",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-cohesion"
+  },
+  {
+    "id": "q482",
+    "category": "데이터베이스",
+    "type": "blank",
+    "prompt": "Employee(dept, salary)에서 부서별 평균 급여가 3000 이상인 부서만 조회한다. 빈칸의 절을 쓰시오.\n\nSELECT dept, AVG(salary)\nFROM Employee\nGROUP BY dept\n(     ) AVG(salary) >= 3000;",
+    "answer": "HAVING",
+    "aliases": [
+      "HAVING"
+    ],
+    "explanation": "그룹화 이후 집계 결과에 조건을 적용하므로 HAVING입니다.",
+    "source": 1,
+    "page": 61,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2024.7",
+        "2023.4",
+        "2020.11",
+        "2020.10"
+      ],
+      "topic": "GROUP BY·HAVING",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-group"
+  },
+  {
+    "id": "q483",
+    "category": "데이터베이스",
+    "type": "output",
+    "prompt": "A(x)는 [1, 1, 2], B(x)는 [2, 3]의 행을 가진다. 다음 쿼리의 결과 행 수를 순서대로 쓰시오.\n① SELECT x FROM A UNION SELECT x FROM B;\n② SELECT x FROM A UNION ALL SELECT x FROM B;",
+    "answer": "3, 5",
+    "aliases": [
+      "3, 5"
+    ],
+    "explanation": "UNION은 중복 제거 후 1, 2, 3의 3행, UNION ALL은 원래 행 3+2의 5행입니다.",
+    "source": 1,
+    "page": 61,
+    "examEvidence": {
+      "source": 1,
+      "page": 61,
+      "dates": [
+        "2023.10"
+      ],
+      "topic": "SQL 집합 연산",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-set"
+  },
+  {
+    "id": "q484",
+    "category": "데이터베이스",
+    "type": "output",
+    "prompt": "R(id, dept)는 (1,A), (2,B), (3,A), (4,C)이고 S(dept, enabled)는 (A,1), (B,0), (C,1)이다. 다음 SQL 결과의 id를 오름차순으로 쓰시오.\n\nSELECT id FROM R\nWHERE dept IN (SELECT dept FROM S WHERE enabled = 1)\nORDER BY id;",
+    "answer": "1, 3, 4",
+    "aliases": [
+      "1, 3, 4"
+    ],
+    "explanation": "하위 질의의 부서는 A, C이므로 해당하는 id는 1, 3, 4입니다.",
+    "source": 1,
+    "page": 60,
+    "examEvidence": {
+      "source": 1,
+      "page": 60,
+      "dates": [
+        "2024.10",
+        "2024.4",
+        "2022.7"
+      ],
+      "topic": "SQL 하위 질의",
+      "kind": "교재 실기 출제 표기"
+    },
+    "coreConcept": "exam-sql-subquery"
   }
 ];
 const SOURCES = [
@@ -6640,5 +7330,5 @@ const SOURCES = [
     "pages": 43
   }
 ];
-const QUESTION_ID_MIGRATIONS = {"q214": "q104", "q215": "q105", "q216": "q106", "q217": "q107", "q218": "q108", "q219": "q109", "q220": "q110", "q221": "q111", "q222": "q112", "q223": "q113", "q224": "q114", "q225": "q115", "q226": "q116", "q227": "q117", "q228": "q118", "q229": "q119", "q230": "q120", "q231": "q121", "q232": "q122", "q233": "q123", "q234": "q124", "q235": "q125", "q236": "q126", "q237": "q127", "q238": "q128", "q239": "q129", "q240": "q130", "q241": "q131", "q242": "q132", "q243": "q133", "q244": "q134", "q245": "q135", "q246": "q136", "q247": "q137", "q248": "q138", "q249": "q139", "q250": "q140", "q251": "q141", "q252": "q142", "q253": "q143", "q254": "q144", "q255": "q145", "q256": "q146", "q257": "q147", "q258": "q148", "q259": "q149", "q260": "q150", "q261": "q151"};
-const FOCUS_CONCEPTS = [{"id": "abstract-factory", "topic": "pattern", "name": "추상 팩토리", "english": "Abstract Factory", "group": "생성", "summary": "서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.", "contrast": "팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다."}, {"id": "builder", "topic": "pattern", "name": "빌더", "english": "Builder", "group": "생성", "summary": "복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.", "contrast": "빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다."}, {"id": "factory-method", "topic": "pattern", "name": "팩토리 메서드", "english": "Factory Method", "group": "생성", "summary": "상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.", "contrast": "객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다."}, {"id": "prototype", "topic": "pattern", "name": "프로토타입", "english": "Prototype", "group": "생성", "summary": "기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.", "contrast": "시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다."}, {"id": "singleton", "topic": "pattern", "name": "싱글톤", "english": "Singleton", "group": "생성", "summary": "클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.", "contrast": "공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다."}, {"id": "adapter", "topic": "pattern", "name": "어댑터", "english": "Adapter", "group": "구조", "summary": "기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.", "contrast": "어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다."}, {"id": "bridge", "topic": "pattern", "name": "브리지", "english": "Bridge", "group": "구조", "summary": "추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.", "contrast": "브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다."}, {"id": "composite", "topic": "pattern", "name": "컴포지트", "english": "Composite", "group": "구조", "summary": "단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.", "contrast": "전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다."}, {"id": "decorator", "topic": "pattern", "name": "데코레이터", "english": "Decorator", "group": "구조", "summary": "객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.", "contrast": "데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다."}, {"id": "facade", "topic": "pattern", "name": "퍼사드", "english": "Facade", "group": "구조", "summary": "여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.", "contrast": "퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다."}, {"id": "flyweight", "topic": "pattern", "name": "플라이웨이트", "english": "Flyweight", "group": "구조", "summary": "많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.", "contrast": "플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다."}, {"id": "proxy", "topic": "pattern", "name": "프록시", "english": "Proxy", "group": "구조", "summary": "실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.", "contrast": "프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다."}, {"id": "chain-of-responsibility", "topic": "pattern", "name": "책임 연쇄", "english": "Chain of Responsibility", "group": "행위", "summary": "여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.", "contrast": "처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다."}, {"id": "command", "topic": "pattern", "name": "커맨드", "english": "Command", "group": "행위", "summary": "요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.", "contrast": "커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다."}, {"id": "interpreter", "topic": "pattern", "name": "인터프리터", "english": "Interpreter", "group": "행위", "summary": "간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.", "contrast": "여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요."}, {"id": "iterator", "topic": "pattern", "name": "반복자", "english": "Iterator", "group": "행위", "summary": "컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.", "contrast": "컬렉션의 내부 구조와 탐색 과정을 분리합니다."}, {"id": "mediator", "topic": "pattern", "name": "중재자", "english": "Mediator", "group": "행위", "summary": "여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.", "contrast": "중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다."}, {"id": "memento", "topic": "pattern", "name": "메멘토", "english": "Memento", "group": "행위", "summary": "객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.", "contrast": "메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다."}, {"id": "observer", "topic": "pattern", "name": "옵서버", "english": "Observer", "group": "행위", "summary": "관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.", "contrast": "옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다."}, {"id": "state", "topic": "pattern", "name": "상태", "english": "State", "group": "행위", "summary": "객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.", "contrast": "상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다."}, {"id": "strategy", "topic": "pattern", "name": "전략", "english": "Strategy", "group": "행위", "summary": "같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.", "contrast": "전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다."}, {"id": "template-method", "topic": "pattern", "name": "템플릿 메서드", "english": "Template Method", "group": "행위", "summary": "알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.", "contrast": "템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다."}, {"id": "visitor", "topic": "pattern", "name": "방문자", "english": "Visitor", "group": "행위", "summary": "객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.", "contrast": "방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다."}, {"id": "arch-layered", "topic": "architecture", "name": "계층형", "english": "Layered", "group": "아키텍처", "summary": "시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.", "contrast": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다."}, {"id": "arch-client-server", "topic": "architecture", "name": "클라이언트 서버", "english": "Client Server", "group": "아키텍처", "summary": "서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.", "contrast": "요청자와 서비스 제공자의 구분이 핵심입니다."}, {"id": "arch-pipe-filter", "topic": "architecture", "name": "파이프 필터", "english": "Pipe Filter", "group": "아키텍처", "summary": "각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.", "contrast": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다."}, {"id": "arch-mvc", "topic": "architecture", "name": "MVC", "english": "MVC", "group": "아키텍처", "summary": "데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.", "contrast": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다."}, {"id": "arch-master-slave", "topic": "architecture", "name": "마스터 슬레이브", "english": "Master Slave", "group": "아키텍처", "summary": "한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.", "contrast": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다."}, {"id": "arch-broker", "topic": "architecture", "name": "브로커", "english": "Broker", "group": "아키텍처", "summary": "분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.", "contrast": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요."}, {"id": "arch-peer-to-peer", "topic": "architecture", "name": "피어 투 피어", "english": "Peer to Peer", "group": "아키텍처", "summary": "각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.", "contrast": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다."}, {"id": "arch-event-bus", "topic": "architecture", "name": "이벤트 버스", "english": "Event Bus", "group": "아키텍처", "summary": "발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.", "contrast": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다."}, {"id": "arch-blackboard", "topic": "architecture", "name": "블랙보드", "english": "Blackboard", "group": "아키텍처", "summary": "여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.", "contrast": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다."}, {"id": "arch-interpreter-architecture", "topic": "architecture", "name": "인터프리터", "english": "Interpreter Architecture", "group": "아키텍처", "summary": "실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.", "contrast": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다."}];
+const QUESTION_ID_MIGRATIONS = {"q214": "q104", "q215": "q105", "q216": "q106", "q217": "q107", "q218": "q108", "q219": "q109", "q220": "q110", "q221": "q449", "q222": "q112", "q223": "q113", "q224": "q114", "q225": "q115", "q226": "q116", "q227": "q117", "q228": "q118", "q229": "q119", "q230": "q120", "q231": "q121", "q232": "q122", "q233": "q123", "q234": "q124", "q235": "q125", "q236": "q126", "q237": "q127", "q238": "q128", "q239": "q129", "q240": "q130", "q241": "q131", "q242": "q132", "q243": "q133", "q244": "q134", "q245": "q135", "q246": "q136", "q247": "q137", "q248": "q138", "q249": "q139", "q250": "q140", "q251": "q141", "q252": "q142", "q253": "q143", "q254": "q144", "q255": "q145", "q256": "q146", "q257": "q147", "q258": "q148", "q259": "q149", "q260": "q150", "q261": "q151", "q111": "q449", "q448": "q449", "q450": "q451", "q452": "q453", "q454": "q455", "q456": "q457", "q458": "q459", "q460": "q461", "q462": "q463", "q464": "q465", "q466": "q467"};
+const FOCUS_CONCEPTS = [{"id": "abstract-factory", "topic": "pattern", "name": "추상 팩토리", "english": "Abstract Factory", "group": "생성", "summary": "서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.", "contrast": "팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다."}, {"id": "builder", "topic": "pattern", "name": "빌더", "english": "Builder", "group": "생성", "summary": "복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.", "contrast": "빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다."}, {"id": "factory-method", "topic": "pattern", "name": "팩토리 메서드", "english": "Factory Method", "group": "생성", "summary": "상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.", "contrast": "객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다."}, {"id": "prototype", "topic": "pattern", "name": "프로토타입", "english": "Prototype", "group": "생성", "summary": "기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.", "contrast": "시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다."}, {"id": "singleton", "topic": "pattern", "name": "싱글톤", "english": "Singleton", "group": "생성", "summary": "클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.", "contrast": "공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다."}, {"id": "adapter", "topic": "pattern", "name": "어댑터", "english": "Adapter", "group": "구조", "summary": "기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.", "contrast": "어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다."}, {"id": "bridge", "topic": "pattern", "name": "브리지", "english": "Bridge", "group": "구조", "summary": "추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.", "contrast": "브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다."}, {"id": "composite", "topic": "pattern", "name": "컴포지트", "english": "Composite", "group": "구조", "summary": "단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.", "contrast": "전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다."}, {"id": "decorator", "topic": "pattern", "name": "데코레이터", "english": "Decorator", "group": "구조", "summary": "객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.", "contrast": "데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다."}, {"id": "facade", "topic": "pattern", "name": "퍼사드", "english": "Facade", "group": "구조", "summary": "여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.", "contrast": "퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다."}, {"id": "flyweight", "topic": "pattern", "name": "플라이웨이트", "english": "Flyweight", "group": "구조", "summary": "많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.", "contrast": "플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다."}, {"id": "proxy", "topic": "pattern", "name": "프록시", "english": "Proxy", "group": "구조", "summary": "실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.", "contrast": "프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다."}, {"id": "chain-of-responsibility", "topic": "pattern", "name": "책임 연쇄", "english": "Chain of Responsibility", "group": "행위", "summary": "여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.", "contrast": "처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다."}, {"id": "command", "topic": "pattern", "name": "커맨드", "english": "Command", "group": "행위", "summary": "요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.", "contrast": "커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다."}, {"id": "interpreter", "topic": "pattern", "name": "인터프리터", "english": "Interpreter", "group": "행위", "summary": "간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.", "contrast": "여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요."}, {"id": "iterator", "topic": "pattern", "name": "반복자", "english": "Iterator", "group": "행위", "summary": "컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.", "contrast": "컬렉션의 내부 구조와 탐색 과정을 분리합니다."}, {"id": "mediator", "topic": "pattern", "name": "중재자", "english": "Mediator", "group": "행위", "summary": "여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.", "contrast": "중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다."}, {"id": "memento", "topic": "pattern", "name": "메멘토", "english": "Memento", "group": "행위", "summary": "객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.", "contrast": "메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다."}, {"id": "observer", "topic": "pattern", "name": "옵서버", "english": "Observer", "group": "행위", "summary": "관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.", "contrast": "옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다."}, {"id": "state", "topic": "pattern", "name": "상태", "english": "State", "group": "행위", "summary": "객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.", "contrast": "상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다."}, {"id": "strategy", "topic": "pattern", "name": "전략", "english": "Strategy", "group": "행위", "summary": "같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.", "contrast": "전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다."}, {"id": "template-method", "topic": "pattern", "name": "템플릿 메서드", "english": "Template Method", "group": "행위", "summary": "알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.", "contrast": "템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다."}, {"id": "visitor", "topic": "pattern", "name": "방문자", "english": "Visitor", "group": "행위", "summary": "객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.", "contrast": "방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다."}, {"id": "arch-layered", "topic": "architecture", "name": "계층형", "english": "Layered", "group": "아키텍처", "summary": "시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.", "contrast": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다."}, {"id": "arch-client-server", "topic": "architecture", "name": "클라이언트 서버", "english": "Client Server", "group": "아키텍처", "summary": "서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.", "contrast": "요청자와 서비스 제공자의 구분이 핵심입니다."}, {"id": "arch-pipe-filter", "topic": "architecture", "name": "파이프 필터", "english": "Pipe Filter", "group": "아키텍처", "summary": "각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.", "contrast": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다."}, {"id": "arch-mvc", "topic": "architecture", "name": "MVC", "english": "MVC", "group": "아키텍처", "summary": "데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.", "contrast": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다."}, {"id": "arch-master-slave", "topic": "architecture", "name": "마스터 슬레이브", "english": "Master Slave", "group": "아키텍처", "summary": "한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.", "contrast": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다."}, {"id": "arch-broker", "topic": "architecture", "name": "브로커", "english": "Broker", "group": "아키텍처", "summary": "분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.", "contrast": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요."}, {"id": "arch-peer-to-peer", "topic": "architecture", "name": "피어 투 피어", "english": "Peer to Peer", "group": "아키텍처", "summary": "각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.", "contrast": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다."}, {"id": "arch-event-bus", "topic": "architecture", "name": "이벤트 버스", "english": "Event Bus", "group": "아키텍처", "summary": "발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.", "contrast": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다."}, {"id": "arch-blackboard", "topic": "architecture", "name": "블랙보드", "english": "Blackboard", "group": "아키텍처", "summary": "여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.", "contrast": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다."}, {"id": "arch-interpreter-architecture", "topic": "architecture", "name": "인터프리터", "english": "Interpreter Architecture", "group": "아키텍처", "summary": "실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.", "contrast": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다."}, {"id": "exam-normalization", "topic": "core", "name": "정규화·함수 종속", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.4, 2021.7 · PDF 22쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-transaction", "topic": "core", "name": "트랜잭션 특성", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2021.7, 2020.5 · PDF 26쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-coupling", "topic": "core", "name": "결합도", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.4, 2024.7, 2021.10, 2021.4 · PDF 36쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-cohesion", "topic": "core", "name": "응집도", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7, 2021.7 · PDF 36쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-group", "topic": "core", "name": "GROUP BY·HAVING", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7, 2023.4, 2020.11, 2020.10 · PDF 61쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-aggregate", "topic": "core", "name": "SQL 집계·NULL", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.11, 2023.4, 2022.10, 2021.4 · PDF 60쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-set", "topic": "core", "name": "SQL 집합 연산", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2023.10 · PDF 61쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-sort", "topic": "core", "name": "SQL 정렬", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.5, 2021.7 · PDF 59쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-subquery", "topic": "core", "name": "SQL 하위 질의", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.10, 2024.4, 2022.7 · PDF 60쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-abstract-factory", "topic": "core", "name": "추상 팩토리", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.4 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-factory-method", "topic": "core", "name": "팩토리 메서드", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2021.10 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-adapter", "topic": "core", "name": "어댑터", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.4 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-bridge", "topic": "core", "name": "브리지", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.10 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-proxy", "topic": "core", "name": "프록시", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.7, 2023.4 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-iterator", "topic": "core", "name": "반복자", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-observer", "topic": "core", "name": "옵서버", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.10, 2020.7 · PDF 41쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}];
