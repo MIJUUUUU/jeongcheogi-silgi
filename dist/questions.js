@@ -918,11 +918,18 @@ const QUESTIONS = [
     "aliases": [
       "XSS",
       "Cross Site Scripting",
-      "크로스 사이트 스크립팅"
+      "크로스 사이트 스크립팅",
+      "Cross-Site Scripting",
+      "XSS 공격",
+      "Cross-Site Scripting Attack"
     ],
     "explanation": "Cross Site Scripting은 출력 시 적절한 이스케이프 등으로 예방합니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-xss",
+    "exercise": "description",
+    "patternGroup": "웹 공격"
   },
   {
     "id": "q53",
@@ -934,11 +941,17 @@ const QUESTIONS = [
       "SQL Injection",
       "SQL 삽입",
       "SQL 인젝션",
-      "SQL 주입"
+      "SQL 주입",
+      "SQL 삽입 공격",
+      "SQL Injection Attack"
     ],
     "explanation": "매개변수화된 쿼리를 사용해 입력 데이터와 SQL 명령을 분리해야 합니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-sql-injection",
+    "exercise": "description",
+    "patternGroup": "웹 공격"
   },
   {
     "id": "q54",
@@ -947,11 +960,19 @@ const QUESTIONS = [
     "prompt": "여러 장치에서 동시에 트래픽을 보내 서비스를 마비시키는 분산 서비스 거부 공격의 약어는?",
     "answer": "DDoS",
     "aliases": [
-      "DDoS"
+      "DDoS",
+      "Distributed Denial of Service",
+      "DDoS 공격",
+      "Distributed Denial of Service Attack",
+      "분산 서비스 거부 공격"
     ],
     "explanation": "DDoS는 여러 공격원을 사용하여 대상 서비스의 가용성을 침해합니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-ddos",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
   },
   {
     "id": "q55",
@@ -3064,11 +3085,18 @@ const QUESTIONS = [
     "aliases": [
       "CSRF",
       "Cross Site Request Forgery",
-      "크로스 사이트 요청 위조"
+      "크로스 사이트 요청 위조",
+      "Cross-Site Request Forgery",
+      "CSRF 공격",
+      "Cross-Site Request Forgery Attack"
     ],
     "explanation": "사용자가 인증된 상태를 악용해 요청을 위조하는 공격입니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-csrf",
+    "exercise": "description",
+    "patternGroup": "웹 공격"
   },
   {
     "id": "q195",
@@ -3078,11 +3106,17 @@ const QUESTIONS = [
     "answer": "랜섬웨어",
     "aliases": [
       "랜섬웨어",
-      "Ransomware"
+      "Ransomware",
+      "랜섬웨어 공격",
+      "Ransomware Attack"
     ],
     "explanation": "복구를 대가로 금전을 요구하는 악성코드입니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-ransomware",
+    "exercise": "description",
+    "patternGroup": "악성코드"
   },
   {
     "id": "q196",
@@ -3092,11 +3126,17 @@ const QUESTIONS = [
     "answer": "웜",
     "aliases": [
       "웜",
-      "Worm"
+      "Worm",
+      "웜 공격",
+      "Worm Attack"
     ],
     "explanation": "웜은 독립적으로 실행되며 네트워크 등을 통해 전파할 수 있습니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-worm",
+    "exercise": "description",
+    "patternGroup": "악성코드"
   },
   {
     "id": "q197",
@@ -3107,11 +3147,18 @@ const QUESTIONS = [
     "aliases": [
       "트로이 목마",
       "Trojan Horse",
-      "트로이목마"
+      "트로이목마",
+      "트로이 목마 공격",
+      "Trojan Horse Attack",
+      "Trojan"
     ],
     "explanation": "정상 프로그램으로 가장하며 자체 복제 기능은 일반적인 특징이 아닙니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-trojan",
+    "exercise": "description",
+    "patternGroup": "악성코드"
   },
   {
     "id": "q198",
@@ -3121,11 +3168,17 @@ const QUESTIONS = [
     "answer": "피싱",
     "aliases": [
       "피싱",
-      "Phishing"
+      "Phishing",
+      "피싱 공격",
+      "Phishing Attack"
     ],
     "explanation": "신뢰할 만한 발신자인 것처럼 속여 정보를 탈취합니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-phishing",
+    "exercise": "description",
+    "patternGroup": "정보 탈취"
   },
   {
     "id": "q199",
@@ -3135,11 +3188,17 @@ const QUESTIONS = [
     "answer": "스미싱",
     "aliases": [
       "스미싱",
-      "Smishing"
+      "Smishing",
+      "스미싱 공격",
+      "Smishing Attack"
     ],
     "explanation": "SMS를 이용한 피싱 공격입니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-smishing",
+    "exercise": "description",
+    "patternGroup": "정보 탈취"
   },
   {
     "id": "q200",
@@ -3149,11 +3208,17 @@ const QUESTIONS = [
     "answer": "스니핑",
     "aliases": [
       "스니핑",
-      "Sniffing"
+      "Sniffing",
+      "스니핑 공격",
+      "Sniffing Attack"
     ],
     "explanation": "Sniffing은 통신 데이터를 도청하는 행위입니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-sniffing",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
   },
   {
     "id": "q201",
@@ -3163,11 +3228,17 @@ const QUESTIONS = [
     "answer": "스푸핑",
     "aliases": [
       "스푸핑",
-      "Spoofing"
+      "Spoofing",
+      "스푸핑 공격",
+      "Spoofing Attack"
     ],
     "explanation": "Spoofing에는 IP, ARP, DNS 등을 이용한 위장이 있습니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-spoofing",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
   },
   {
     "id": "q202",
@@ -3178,11 +3249,17 @@ const QUESTIONS = [
     "aliases": [
       "워터링 홀",
       "Watering Hole",
-      "워터링홀"
+      "워터링홀",
+      "워터링 홀 공격",
+      "Watering Hole Attack"
     ],
     "explanation": "Watering Hole은 대상의 방문 경로를 이용하여 감염을 유도합니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-watering-hole",
+    "exercise": "description",
+    "patternGroup": "정보 탈취"
   },
   {
     "id": "q203",
@@ -3192,11 +3269,18 @@ const QUESTIONS = [
     "answer": "크리덴셜 스터핑",
     "aliases": [
       "크리덴셜 스터핑",
-      "Credential Stuffing"
+      "Credential Stuffing",
+      "크리덴셜 스터핑 공격",
+      "Credential Stuffing Attack",
+      "크리덴셜스터핑"
     ],
     "explanation": "여러 사이트에서 같은 인증 정보를 재사용하는 습관을 악용합니다.",
     "source": 2,
-    "page": 19
+    "page": 19,
+    "topic": "security",
+    "concept": "security-credential-stuffing",
+    "exercise": "description",
+    "patternGroup": "정보 탈취"
   },
   {
     "id": "q204",
@@ -7301,6 +7385,945 @@ const QUESTIONS = [
       "kind": "교재 실기 출제 표기"
     },
     "coreConcept": "exam-sql-subquery"
+  },
+  {
+    "id": "q485",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n다른 실행 파일이나 부트 영역 등에 자신의 코드를 붙여 감염시키고 숙주가 실행될 때 함께 동작한다.",
+    "answer": "바이러스",
+    "aliases": [
+      "바이러스",
+      "Virus",
+      "바이러스 공격",
+      "Virus Attack"
+    ],
+    "explanation": "바이러스는 숙주 감염, 웜은 독립적인 자기 전파가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-virus",
+    "exercise": "description",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q486",
+    "category": "보안",
+    "type": "short",
+    "prompt": "프로그램 파일에 악성 코드가 삽입되었다. 그 파일이 실행되면 악성 코드도 동작하고 다른 파일을 감염시킨다. 이 악성코드의 명칭을 쓰시오.",
+    "answer": "바이러스",
+    "aliases": [
+      "바이러스",
+      "Virus",
+      "바이러스 공격",
+      "Virus Attack"
+    ],
+    "explanation": "바이러스는 숙주 감염, 웜은 독립적인 자기 전파가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-virus",
+    "exercise": "scenario",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q487",
+    "category": "보안",
+    "type": "short",
+    "prompt": "취약한 장치를 통해 악성 프로그램이 스스로 다음 장치로 전파된다. 다른 실행 파일에 기생하지 않는 이 악성코드의 명칭을 쓰시오.",
+    "answer": "웜",
+    "aliases": [
+      "웜",
+      "Worm",
+      "웜 공격",
+      "Worm Attack"
+    ],
+    "explanation": "웜은 자기 전파, 트로이 목마는 정상 프로그램 위장이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-worm",
+    "exercise": "scenario",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q488",
+    "category": "보안",
+    "type": "short",
+    "prompt": "무료 문서 변환기로 소개된 프로그램을 설치했더니 숨겨진 악성 기능이 실행되었다. 정상 프로그램으로 위장한 이 악성코드의 명칭을 쓰시오.",
+    "answer": "트로이 목마",
+    "aliases": [
+      "트로이 목마",
+      "Trojan Horse",
+      "트로이 목마 공격",
+      "Trojan Horse Attack",
+      "트로이목마",
+      "Trojan"
+    ],
+    "explanation": "트로이 목마는 위장 실행입니다. 파일 감염·자기 전파와 구분하세요.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-trojan",
+    "exercise": "scenario",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q489",
+    "category": "보안",
+    "type": "short",
+    "prompt": "회사 문서를 열 수 없게 되었고 화면에 복구 비용을 지급하라는 메시지가 나타났다. 해당 악성코드의 명칭을 쓰시오.",
+    "answer": "랜섬웨어",
+    "aliases": [
+      "랜섬웨어",
+      "Ransomware",
+      "랜섬웨어 공격",
+      "Ransomware Attack"
+    ],
+    "explanation": "암호화·이용 방해 후 금전 요구가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-ransomware",
+    "exercise": "scenario",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q490",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n정상적인 인증이나 접근 통제를 우회하여 시스템에 접근하도록 남겨 둔 숨은 통로이다.",
+    "answer": "백도어",
+    "aliases": [
+      "백도어",
+      "Backdoor",
+      "백도어 공격",
+      "Backdoor Attack",
+      "Back Door"
+    ],
+    "explanation": "백도어는 우회 접근 통로입니다. 루트킷은 침해 흔적이나 악성 동작을 숨기는 도구 모음에 초점을 둡니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-backdoor",
+    "exercise": "description",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q491",
+    "category": "보안",
+    "type": "short",
+    "prompt": "공격자가 다시 들어올 수 있도록 정상 로그인 절차를 거치지 않는 비밀 접근 통로를 남겼다. 이 통로의 명칭을 쓰시오.",
+    "answer": "백도어",
+    "aliases": [
+      "백도어",
+      "Backdoor",
+      "백도어 공격",
+      "Backdoor Attack",
+      "Back Door"
+    ],
+    "explanation": "백도어는 우회 접근 통로입니다. 루트킷은 침해 흔적이나 악성 동작을 숨기는 도구 모음에 초점을 둡니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-backdoor",
+    "exercise": "scenario",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q492",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n침해된 시스템에서 권한 유지와 악성 활동의 은폐 등을 위해 사용하는 도구들의 모음이다.",
+    "answer": "루트킷",
+    "aliases": [
+      "루트킷",
+      "Rootkit",
+      "루트킷 공격",
+      "Rootkit Attack",
+      "루트 키트"
+    ],
+    "explanation": "루트킷은 도구 모음과 은폐, 백도어는 우회 접근 통로입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-rootkit",
+    "exercise": "description",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q493",
+    "category": "보안",
+    "type": "short",
+    "prompt": "침해 조사 중 악성 프로세스와 파일의 존재를 감추고 공격자의 권한 유지를 돕는 도구 모음이 발견되었다. 명칭을 쓰시오.",
+    "answer": "루트킷",
+    "aliases": [
+      "루트킷",
+      "Rootkit",
+      "루트킷 공격",
+      "Rootkit Attack",
+      "루트 키트"
+    ],
+    "explanation": "루트킷은 도구 모음과 은폐, 백도어는 우회 접근 통로입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-rootkit",
+    "exercise": "scenario",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q494",
+    "category": "보안",
+    "type": "short",
+    "prompt": "게시판 글에 삽입된 악성 스크립트가 그 글을 읽은 방문자의 브라우저에서 실행되었다. 공격 기법의 약어를 쓰시오.",
+    "answer": "XSS",
+    "aliases": [
+      "XSS",
+      "Cross-Site Scripting",
+      "XSS 공격",
+      "Cross-Site Scripting Attack",
+      "크로스 사이트 스크립팅",
+      "Cross Site Scripting"
+    ],
+    "explanation": "XSS는 브라우저에서 스크립트 실행, CSRF는 인증된 사용자의 의도하지 않은 요청입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-xss",
+    "exercise": "scenario",
+    "patternGroup": "웹 공격"
+  },
+  {
+    "id": "q495",
+    "category": "보안",
+    "type": "short",
+    "prompt": "로그인 상태인 사용자가 외부 페이지를 방문하자 본인 의도와 달리 계정 정보 변경 요청이 원래 사이트로 전송되었다. 공격의 약어를 쓰시오.",
+    "answer": "CSRF",
+    "aliases": [
+      "CSRF",
+      "Cross-Site Request Forgery",
+      "CSRF 공격",
+      "Cross-Site Request Forgery Attack",
+      "크로스 사이트 요청 위조",
+      "Cross Site Request Forgery"
+    ],
+    "explanation": "이미 인증된 사용자의 권한을 이용한 요청 위조가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-csrf",
+    "exercise": "scenario",
+    "patternGroup": "웹 공격"
+  },
+  {
+    "id": "q496",
+    "category": "보안",
+    "type": "short",
+    "prompt": "서버가 사용자 입력을 SQL 문자열에 직접 붙이고 있다. 조작된 입력으로 원래 질의의 조건이 바뀌어 비인가 데이터가 조회되었다. 공격 기법의 명칭을 쓰시오.",
+    "answer": "SQL 삽입",
+    "aliases": [
+      "SQL 삽입",
+      "SQL Injection",
+      "SQL 삽입 공격",
+      "SQL Injection Attack",
+      "SQL 인젝션",
+      "SQL 주입"
+    ],
+    "explanation": "SQL 삽입은 서버의 데이터베이스 질의 조작입니다. XSS는 방문자 브라우저의 스크립트 실행입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-sql-injection",
+    "exercise": "scenario",
+    "patternGroup": "웹 공격"
+  },
+  {
+    "id": "q497",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n과도한 요청이나 취약점 악용 등으로 시스템이 정상적인 서비스를 제공하지 못하게 하는 공격이다.",
+    "answer": "DoS",
+    "aliases": [
+      "DoS",
+      "Denial of Service",
+      "DoS 공격",
+      "Denial of Service Attack",
+      "서비스 거부 공격"
+    ],
+    "explanation": "DoS는 서비스 거부 공격의 통칭입니다. 여러 공격원에서 분산 수행하면 DDoS라고 합니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-dos",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q498",
+    "category": "보안",
+    "type": "short",
+    "prompt": "하나의 공격원에서 요청을 집중시켜 서버 자원을 고갈시키고 정상 사용자의 접속을 방해했다. 서비스 거부 공격의 약어를 쓰시오.",
+    "answer": "DoS",
+    "aliases": [
+      "DoS",
+      "Denial of Service",
+      "DoS 공격",
+      "Denial of Service Attack",
+      "서비스 거부 공격"
+    ],
+    "explanation": "DoS는 서비스 거부 공격의 통칭입니다. 여러 공격원에서 분산 수행하면 DDoS라고 합니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-dos",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q499",
+    "category": "보안",
+    "type": "short",
+    "prompt": "여러 지역의 감염된 장치들이 동시에 한 서버에 요청을 보내 정상 서비스를 마비시켰다. 공격의 약어를 쓰시오.",
+    "answer": "DDoS",
+    "aliases": [
+      "DDoS",
+      "Distributed Denial of Service",
+      "DDoS 공격",
+      "Distributed Denial of Service Attack",
+      "분산 서비스 거부 공격"
+    ],
+    "explanation": "여러 공격원의 분산 수행이 DDoS의 구별 단서입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-ddos",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q500",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n피해자 주소로 위장한 ICMP 요청을 브로드캐스트하여 다수의 응답이 피해자에게 집중되게 한다.",
+    "answer": "스머프",
+    "aliases": [
+      "스머프",
+      "Smurf",
+      "스머프 공격",
+      "Smurf Attack",
+      "스머핑",
+      "Smurfing"
+    ],
+    "explanation": "ICMP·브로드캐스트·응답 집중이 스머프의 핵심 단서입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-smurf",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q501",
+    "category": "보안",
+    "type": "short",
+    "prompt": "출발지 주소가 피해자로 위장된 ICMP 요청이 브로드캐스트되었고, 여러 장치의 응답이 피해자에게 몰렸다. 이 공격 기법을 쓰시오.",
+    "answer": "스머프",
+    "aliases": [
+      "스머프",
+      "Smurf",
+      "스머프 공격",
+      "Smurf Attack",
+      "스머핑",
+      "Smurfing"
+    ],
+    "explanation": "ICMP·브로드캐스트·응답 집중이 스머프의 핵심 단서입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-smurf",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q502",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n패킷의 출발지와 목적지 주소를 모두 공격 대상의 주소로 설정하는 공격이다.",
+    "answer": "랜드",
+    "aliases": [
+      "랜드",
+      "LAND",
+      "랜드 공격",
+      "LAND Attack"
+    ],
+    "explanation": "출발지와 목적지가 모두 피해자 주소라는 단서를 확인하세요.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-land",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q503",
+    "category": "보안",
+    "type": "short",
+    "prompt": "비정상 패킷을 분석하니 출발지와 목적지 IP가 모두 피해 시스템의 IP로 설정되어 있었다. 공격 기법의 명칭을 쓰시오.",
+    "answer": "랜드",
+    "aliases": [
+      "랜드",
+      "LAND",
+      "랜드 공격",
+      "LAND Attack"
+    ],
+    "explanation": "출발지와 목적지가 모두 피해자 주소라는 단서를 확인하세요.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-land",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q504",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n조각난 IP 패킷의 오프셋 등 단편 정보를 비정상적으로 조작하여 재조립 처리를 방해한다.",
+    "answer": "티어드롭",
+    "aliases": [
+      "티어드롭",
+      "Teardrop",
+      "티어드롭 공격",
+      "Teardrop Attack",
+      "Tear Drop",
+      "TearDrop",
+      "티어 드롭"
+    ],
+    "explanation": "단편화 정보와 재조립 오류가 핵심입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-teardrop",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q505",
+    "category": "보안",
+    "type": "short",
+    "prompt": "비정상적으로 겹치는 단편 정보가 전달되어 IP 패킷의 재조립 과정에서 문제가 발생했다. 이 공격 기법의 명칭을 쓰시오.",
+    "answer": "티어드롭",
+    "aliases": [
+      "티어드롭",
+      "Teardrop",
+      "티어드롭 공격",
+      "Teardrop Attack",
+      "Tear Drop",
+      "TearDrop",
+      "티어 드롭"
+    ],
+    "explanation": "단편화 정보와 재조립 오류가 핵심입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-teardrop",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q506",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\nTCP 연결 설정을 끝내지 않는 요청을 대량으로 보내 반쯤 열린 연결 자원을 소모시킨다.",
+    "answer": "SYN 플러딩",
+    "aliases": [
+      "SYN 플러딩",
+      "SYN Flooding",
+      "SYN 플러딩 공격",
+      "SYN Flooding Attack",
+      "SYN Flood"
+    ],
+    "explanation": "연결 설정 미완료 상태로 대기 자원을 소모하는 SYN 플러딩입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-syn-flooding",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q507",
+    "category": "보안",
+    "type": "short",
+    "prompt": "TCP 연결 요청이 대량으로 도착하지만 마지막 확인 응답이 오지 않아 미완료 연결이 쌓인다. 이 공격 기법을 쓰시오.",
+    "answer": "SYN 플러딩",
+    "aliases": [
+      "SYN 플러딩",
+      "SYN Flooding",
+      "SYN 플러딩 공격",
+      "SYN Flooding Attack",
+      "SYN Flood"
+    ],
+    "explanation": "연결 설정 미완료 상태로 대기 자원을 소모하는 SYN 플러딩입니다.",
+    "source": 2,
+    "page": 18,
+    "topic": "security",
+    "concept": "security-syn-flooding",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q508",
+    "category": "보안",
+    "type": "short",
+    "prompt": "통신 상대방의 신원을 위장한 것이 아니라, 전송 중인 패킷을 엿보아 계정 정보를 수집했다. 이 행위의 명칭을 쓰시오.",
+    "answer": "스니핑",
+    "aliases": [
+      "스니핑",
+      "Sniffing",
+      "스니핑 공격",
+      "Sniffing Attack"
+    ],
+    "explanation": "스니핑은 엿보기, 스푸핑은 신원·주소 위장입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-sniffing",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q509",
+    "category": "보안",
+    "type": "short",
+    "prompt": "수신자가 신뢰하는 시스템에서 온 것처럼 보이도록 발신 주소를 위장했다. 이러한 공격의 일반적인 명칭을 쓰시오.",
+    "answer": "스푸핑",
+    "aliases": [
+      "스푸핑",
+      "Spoofing",
+      "스푸핑 공격",
+      "Spoofing Attack"
+    ],
+    "explanation": "위장이 핵심입니다. 패킷을 수동적으로 엿보는 스니핑과 구분하세요.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-spoofing",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q510",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n정상 사용자의 세션 식별 정보 등을 가로채 그 사용자로 가장하여 연결을 이용한다.",
+    "answer": "세션 하이재킹",
+    "aliases": [
+      "세션 하이재킹",
+      "Session Hijacking",
+      "세션 하이재킹 공격",
+      "Session Hijacking Attack",
+      "세션 하이잭킹"
+    ],
+    "explanation": "인증된 세션의 탈취·가로채기가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-session-hijacking",
+    "exercise": "description",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q511",
+    "category": "보안",
+    "type": "short",
+    "prompt": "공격자가 정상 사용자의 세션 정보를 탈취한 뒤 이미 인증된 사용자처럼 서비스를 이용했다. 공격 명칭을 쓰시오.",
+    "answer": "세션 하이재킹",
+    "aliases": [
+      "세션 하이재킹",
+      "Session Hijacking",
+      "세션 하이재킹 공격",
+      "Session Hijacking Attack",
+      "세션 하이잭킹"
+    ],
+    "explanation": "인증된 세션의 탈취·가로채기가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-session-hijacking",
+    "exercise": "scenario",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q512",
+    "category": "보안",
+    "type": "short",
+    "prompt": "금융기관에서 보낸 것처럼 꾸민 이메일이 위조 로그인 페이지로 접속을 유도하며 계정 정보를 요구했다. 이 기법의 명칭을 쓰시오.",
+    "answer": "피싱",
+    "aliases": [
+      "피싱",
+      "Phishing",
+      "피싱 공격",
+      "Phishing Attack"
+    ],
+    "explanation": "발신자·기관 사칭과 정보 제공 유도가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-phishing",
+    "exercise": "scenario",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q513",
+    "category": "보안",
+    "type": "short",
+    "prompt": "택배 배송 안내로 위장한 문자 메시지가 악성 링크 방문을 유도했다. 문자 메시지를 이용한 이 피싱 기법의 명칭을 쓰시오.",
+    "answer": "스미싱",
+    "aliases": [
+      "스미싱",
+      "Smishing",
+      "스미싱 공격",
+      "Smishing Attack"
+    ],
+    "explanation": "문자 메시지(SMS)가 스미싱의 구별 단서입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-smishing",
+    "exercise": "scenario",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q514",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n이름 해석이나 호스트 설정 등을 조작하여 정상 주소로 접속하려는 사용자를 위조 사이트로 보낸다.",
+    "answer": "파밍",
+    "aliases": [
+      "파밍",
+      "Pharming",
+      "파밍 공격",
+      "Pharming Attack"
+    ],
+    "explanation": "파밍은 주소 해석·접속 경로 조작, 피싱은 사칭 메시지 등으로 정보를 유도하는 것이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-pharming",
+    "exercise": "description",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q515",
+    "category": "보안",
+    "type": "short",
+    "prompt": "사용자는 올바른 은행 주소를 입력했지만 조작된 이름 해석 때문에 위조 사이트에 연결되었다. 이 기법의 명칭을 쓰시오.",
+    "answer": "파밍",
+    "aliases": [
+      "파밍",
+      "Pharming",
+      "파밍 공격",
+      "Pharming Attack"
+    ],
+    "explanation": "파밍은 주소 해석·접속 경로 조작, 피싱은 사칭 메시지 등으로 정보를 유도하는 것이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-pharming",
+    "exercise": "scenario",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q516",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다음 설명에 해당하는 악성코드 또는 공격 기법의 명칭을 쓰시오.\n\n특정 개인이나 조직을 표적으로 삼아 맞춤형 사칭 메시지로 정보를 탈취한다.",
+    "answer": "스피어 피싱",
+    "aliases": [
+      "스피어 피싱",
+      "Spear Phishing",
+      "스피어 피싱 공격",
+      "Spear Phishing Attack",
+      "스피어피싱"
+    ],
+    "explanation": "불특정 다수보다 특정 표적에 맞춘 공격이라는 점이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-spear-phishing",
+    "exercise": "description",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q517",
+    "category": "보안",
+    "type": "short",
+    "prompt": "특정 회사의 담당 업무와 동료 이름을 조사한 뒤 해당 직원 한 명에게 맞춤형 사칭 이메일을 보냈다. 이 피싱 유형을 쓰시오.",
+    "answer": "스피어 피싱",
+    "aliases": [
+      "스피어 피싱",
+      "Spear Phishing",
+      "스피어 피싱 공격",
+      "Spear Phishing Attack",
+      "스피어피싱"
+    ],
+    "explanation": "불특정 다수보다 특정 표적에 맞춘 공격이라는 점이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-spear-phishing",
+    "exercise": "scenario",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q518",
+    "category": "보안",
+    "type": "short",
+    "prompt": "한 서비스에서 유출된 아이디와 비밀번호 조합들을 다른 서비스의 로그인에 그대로 대입했다. 이 공격 기법의 명칭을 쓰시오.",
+    "answer": "크리덴셜 스터핑",
+    "aliases": [
+      "크리덴셜 스터핑",
+      "Credential Stuffing",
+      "크리덴셜 스터핑 공격",
+      "Credential Stuffing Attack",
+      "크리덴셜스터핑"
+    ],
+    "explanation": "유출된 자격 증명의 재사용입니다. 가능한 모든 조합을 만드는 무차별 대입과 구분하세요.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-credential-stuffing",
+    "exercise": "scenario",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q519",
+    "category": "보안",
+    "type": "short",
+    "prompt": "특정 조직 직원들이 자주 이용하는 업계 사이트를 먼저 감염시킨 후 그 직원들이 방문하기를 기다렸다. 이 공격의 명칭을 쓰시오.",
+    "answer": "워터링 홀",
+    "aliases": [
+      "워터링 홀",
+      "Watering Hole",
+      "워터링 홀 공격",
+      "Watering Hole Attack",
+      "워터링홀"
+    ],
+    "explanation": "대상이 자주 가는 사이트를 먼저 침해한다는 것이 단서입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-watering-hole",
+    "exercise": "scenario",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q520",
+    "category": "보안",
+    "type": "short",
+    "prompt": "다른 파일에 기생하여 그 파일의 실행과 함께 동작한다. 독립적인 프로그램으로 네트워크에서 스스로 전파하는 웜과 구별되는 악성코드의 명칭을 쓰시오.",
+    "answer": "바이러스",
+    "aliases": [
+      "바이러스",
+      "Virus",
+      "바이러스 공격",
+      "Virus Attack"
+    ],
+    "explanation": "바이러스는 숙주 감염, 웜은 독립적인 자기 전파가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-virus",
+    "exercise": "compare",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q521",
+    "category": "보안",
+    "type": "short",
+    "prompt": "정상 실행 파일에 코드를 붙이는 방식이 아니라 독립적으로 복제·전파한다. 바이러스와 구별되는 이 악성코드의 명칭을 쓰시오.",
+    "answer": "웜",
+    "aliases": [
+      "웜",
+      "Worm",
+      "웜 공격",
+      "Worm Attack"
+    ],
+    "explanation": "웜은 자기 전파, 트로이 목마는 정상 프로그램 위장이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-worm",
+    "exercise": "compare",
+    "patternGroup": "악성코드"
+  },
+  {
+    "id": "q522",
+    "category": "보안",
+    "type": "short",
+    "prompt": "두 공격을 구별하려 한다. 인증 상태로 다른 사이트에 요청을 보내게 하는 기법이 아니라, 삽입한 스크립트가 방문자 브라우저에서 실행되는 기법의 약어를 쓰시오.",
+    "answer": "XSS",
+    "aliases": [
+      "XSS",
+      "Cross Site Scripting",
+      "크로스 사이트 스크립팅",
+      "Cross-Site Scripting",
+      "XSS 공격",
+      "Cross-Site Scripting Attack"
+    ],
+    "explanation": "XSS는 브라우저에서 스크립트 실행, CSRF는 인증된 사용자의 의도하지 않은 요청입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-xss",
+    "exercise": "compare",
+    "patternGroup": "웹 공격"
+  },
+  {
+    "id": "q523",
+    "category": "보안",
+    "type": "short",
+    "prompt": "방문자의 브라우저에서 주입한 스크립트를 실행하는 것이 핵심이 아니라, 이미 로그인한 사용자의 권한으로 의도하지 않은 요청을 보내게 하는 공격의 약어를 쓰시오.",
+    "answer": "CSRF",
+    "aliases": [
+      "CSRF",
+      "Cross Site Request Forgery",
+      "크로스 사이트 요청 위조",
+      "Cross-Site Request Forgery",
+      "CSRF 공격",
+      "Cross-Site Request Forgery Attack"
+    ],
+    "explanation": "이미 인증된 사용자의 권한을 이용한 요청 위조가 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-csrf",
+    "exercise": "compare",
+    "patternGroup": "웹 공격"
+  },
+  {
+    "id": "q524",
+    "category": "보안",
+    "type": "short",
+    "prompt": "주소나 신원을 바꾸지 않고 전송되는 패킷을 엿보는 행위를 스푸핑과 구분하여 무엇이라고 하는가?",
+    "answer": "스니핑",
+    "aliases": [
+      "스니핑",
+      "Sniffing",
+      "스니핑 공격",
+      "Sniffing Attack"
+    ],
+    "explanation": "스니핑은 엿보기, 스푸핑은 신원·주소 위장입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-sniffing",
+    "exercise": "compare",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q525",
+    "category": "보안",
+    "type": "short",
+    "prompt": "패킷을 엿보는 행위가 아니라 다른 시스템의 주소·신원인 것처럼 가장하는 행위를 무엇이라고 하는가?",
+    "answer": "스푸핑",
+    "aliases": [
+      "스푸핑",
+      "Spoofing",
+      "스푸핑 공격",
+      "Spoofing Attack"
+    ],
+    "explanation": "위장이 핵심입니다. 패킷을 수동적으로 엿보는 스니핑과 구분하세요.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-spoofing",
+    "exercise": "compare",
+    "patternGroup": "네트워크 공격"
+  },
+  {
+    "id": "q526",
+    "category": "보안",
+    "type": "short",
+    "prompt": "정보 탈취 시도에서 조작된 DNS가 아니라 SMS에 포함된 사칭 안내와 링크를 이용했다. 이 기법을 파밍과 구분하여 쓰시오.",
+    "answer": "스미싱",
+    "aliases": [
+      "스미싱",
+      "Smishing",
+      "스미싱 공격",
+      "Smishing Attack"
+    ],
+    "explanation": "문자 메시지(SMS)가 스미싱의 구별 단서입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-smishing",
+    "exercise": "compare",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q527",
+    "category": "보안",
+    "type": "short",
+    "prompt": "사용자는 주소를 올바르게 입력했으나 조작된 이름 해석으로 위조 사이트에 연결되었다. 문자 메시지를 이용한 스미싱과 구분되는 기법을 쓰시오.",
+    "answer": "파밍",
+    "aliases": [
+      "파밍",
+      "Pharming",
+      "파밍 공격",
+      "Pharming Attack"
+    ],
+    "explanation": "파밍은 주소 해석·접속 경로 조작, 피싱은 사칭 메시지 등으로 정보를 유도하는 것이 핵심입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-pharming",
+    "exercise": "compare",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q528",
+    "category": "보안",
+    "type": "short",
+    "prompt": "가능한 비밀번호를 전부 생성한 것이 아니라, 유출된 아이디·비밀번호 조합을 재활용하여 여러 사이트 로그인을 시도했다. 이 기법의 명칭을 쓰시오.",
+    "answer": "크리덴셜 스터핑",
+    "aliases": [
+      "크리덴셜 스터핑",
+      "Credential Stuffing",
+      "크리덴셜 스터핑 공격",
+      "Credential Stuffing Attack",
+      "크리덴셜스터핑"
+    ],
+    "explanation": "유출된 자격 증명의 재사용입니다. 가능한 모든 조합을 만드는 무차별 대입과 구분하세요.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-credential-stuffing",
+    "exercise": "compare",
+    "patternGroup": "정보 탈취"
+  },
+  {
+    "id": "q529",
+    "category": "보안",
+    "type": "short",
+    "prompt": "서비스 거부라는 목적은 같지만 한 공격원이 아니라 여러 장치가 동시에 공격을 수행했다. DoS보다 구체적인 분산 공격의 약어를 쓰시오.",
+    "answer": "DDoS",
+    "aliases": [
+      "DDoS",
+      "Distributed Denial of Service",
+      "DDoS 공격",
+      "Distributed Denial of Service Attack",
+      "분산 서비스 거부 공격"
+    ],
+    "explanation": "여러 공격원의 분산 수행이 DDoS의 구별 단서입니다.",
+    "source": 2,
+    "page": 19,
+    "topic": "security",
+    "concept": "security-ddos",
+    "exercise": "compare",
+    "patternGroup": "네트워크 공격"
   }
 ];
 const SOURCES = [
@@ -7331,4 +8354,4 @@ const SOURCES = [
   }
 ];
 const QUESTION_ID_MIGRATIONS = {"q214": "q104", "q215": "q105", "q216": "q106", "q217": "q107", "q218": "q108", "q219": "q109", "q220": "q110", "q221": "q449", "q222": "q112", "q223": "q113", "q224": "q114", "q225": "q115", "q226": "q116", "q227": "q117", "q228": "q118", "q229": "q119", "q230": "q120", "q231": "q121", "q232": "q122", "q233": "q123", "q234": "q124", "q235": "q125", "q236": "q126", "q237": "q127", "q238": "q128", "q239": "q129", "q240": "q130", "q241": "q131", "q242": "q132", "q243": "q133", "q244": "q134", "q245": "q135", "q246": "q136", "q247": "q137", "q248": "q138", "q249": "q139", "q250": "q140", "q251": "q141", "q252": "q142", "q253": "q143", "q254": "q144", "q255": "q145", "q256": "q146", "q257": "q147", "q258": "q148", "q259": "q149", "q260": "q150", "q261": "q151", "q111": "q449", "q448": "q449", "q450": "q451", "q452": "q453", "q454": "q455", "q456": "q457", "q458": "q459", "q460": "q461", "q462": "q463", "q464": "q465", "q466": "q467"};
-const FOCUS_CONCEPTS = [{"id": "abstract-factory", "topic": "pattern", "name": "추상 팩토리", "english": "Abstract Factory", "group": "생성", "summary": "서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.", "contrast": "팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다."}, {"id": "builder", "topic": "pattern", "name": "빌더", "english": "Builder", "group": "생성", "summary": "복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.", "contrast": "빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다."}, {"id": "factory-method", "topic": "pattern", "name": "팩토리 메서드", "english": "Factory Method", "group": "생성", "summary": "상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.", "contrast": "객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다."}, {"id": "prototype", "topic": "pattern", "name": "프로토타입", "english": "Prototype", "group": "생성", "summary": "기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.", "contrast": "시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다."}, {"id": "singleton", "topic": "pattern", "name": "싱글톤", "english": "Singleton", "group": "생성", "summary": "클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.", "contrast": "공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다."}, {"id": "adapter", "topic": "pattern", "name": "어댑터", "english": "Adapter", "group": "구조", "summary": "기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.", "contrast": "어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다."}, {"id": "bridge", "topic": "pattern", "name": "브리지", "english": "Bridge", "group": "구조", "summary": "추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.", "contrast": "브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다."}, {"id": "composite", "topic": "pattern", "name": "컴포지트", "english": "Composite", "group": "구조", "summary": "단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.", "contrast": "전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다."}, {"id": "decorator", "topic": "pattern", "name": "데코레이터", "english": "Decorator", "group": "구조", "summary": "객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.", "contrast": "데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다."}, {"id": "facade", "topic": "pattern", "name": "퍼사드", "english": "Facade", "group": "구조", "summary": "여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.", "contrast": "퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다."}, {"id": "flyweight", "topic": "pattern", "name": "플라이웨이트", "english": "Flyweight", "group": "구조", "summary": "많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.", "contrast": "플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다."}, {"id": "proxy", "topic": "pattern", "name": "프록시", "english": "Proxy", "group": "구조", "summary": "실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.", "contrast": "프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다."}, {"id": "chain-of-responsibility", "topic": "pattern", "name": "책임 연쇄", "english": "Chain of Responsibility", "group": "행위", "summary": "여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.", "contrast": "처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다."}, {"id": "command", "topic": "pattern", "name": "커맨드", "english": "Command", "group": "행위", "summary": "요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.", "contrast": "커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다."}, {"id": "interpreter", "topic": "pattern", "name": "인터프리터", "english": "Interpreter", "group": "행위", "summary": "간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.", "contrast": "여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요."}, {"id": "iterator", "topic": "pattern", "name": "반복자", "english": "Iterator", "group": "행위", "summary": "컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.", "contrast": "컬렉션의 내부 구조와 탐색 과정을 분리합니다."}, {"id": "mediator", "topic": "pattern", "name": "중재자", "english": "Mediator", "group": "행위", "summary": "여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.", "contrast": "중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다."}, {"id": "memento", "topic": "pattern", "name": "메멘토", "english": "Memento", "group": "행위", "summary": "객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.", "contrast": "메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다."}, {"id": "observer", "topic": "pattern", "name": "옵서버", "english": "Observer", "group": "행위", "summary": "관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.", "contrast": "옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다."}, {"id": "state", "topic": "pattern", "name": "상태", "english": "State", "group": "행위", "summary": "객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.", "contrast": "상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다."}, {"id": "strategy", "topic": "pattern", "name": "전략", "english": "Strategy", "group": "행위", "summary": "같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.", "contrast": "전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다."}, {"id": "template-method", "topic": "pattern", "name": "템플릿 메서드", "english": "Template Method", "group": "행위", "summary": "알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.", "contrast": "템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다."}, {"id": "visitor", "topic": "pattern", "name": "방문자", "english": "Visitor", "group": "행위", "summary": "객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.", "contrast": "방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다."}, {"id": "arch-layered", "topic": "architecture", "name": "계층형", "english": "Layered", "group": "아키텍처", "summary": "시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.", "contrast": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다."}, {"id": "arch-client-server", "topic": "architecture", "name": "클라이언트 서버", "english": "Client Server", "group": "아키텍처", "summary": "서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.", "contrast": "요청자와 서비스 제공자의 구분이 핵심입니다."}, {"id": "arch-pipe-filter", "topic": "architecture", "name": "파이프 필터", "english": "Pipe Filter", "group": "아키텍처", "summary": "각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.", "contrast": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다."}, {"id": "arch-mvc", "topic": "architecture", "name": "MVC", "english": "MVC", "group": "아키텍처", "summary": "데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.", "contrast": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다."}, {"id": "arch-master-slave", "topic": "architecture", "name": "마스터 슬레이브", "english": "Master Slave", "group": "아키텍처", "summary": "한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.", "contrast": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다."}, {"id": "arch-broker", "topic": "architecture", "name": "브로커", "english": "Broker", "group": "아키텍처", "summary": "분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.", "contrast": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요."}, {"id": "arch-peer-to-peer", "topic": "architecture", "name": "피어 투 피어", "english": "Peer to Peer", "group": "아키텍처", "summary": "각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.", "contrast": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다."}, {"id": "arch-event-bus", "topic": "architecture", "name": "이벤트 버스", "english": "Event Bus", "group": "아키텍처", "summary": "발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.", "contrast": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다."}, {"id": "arch-blackboard", "topic": "architecture", "name": "블랙보드", "english": "Blackboard", "group": "아키텍처", "summary": "여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.", "contrast": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다."}, {"id": "arch-interpreter-architecture", "topic": "architecture", "name": "인터프리터", "english": "Interpreter Architecture", "group": "아키텍처", "summary": "실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.", "contrast": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다."}, {"id": "exam-normalization", "topic": "core", "name": "정규화·함수 종속", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.4, 2021.7 · PDF 22쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-transaction", "topic": "core", "name": "트랜잭션 특성", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2021.7, 2020.5 · PDF 26쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-coupling", "topic": "core", "name": "결합도", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.4, 2024.7, 2021.10, 2021.4 · PDF 36쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-cohesion", "topic": "core", "name": "응집도", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7, 2021.7 · PDF 36쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-group", "topic": "core", "name": "GROUP BY·HAVING", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7, 2023.4, 2020.11, 2020.10 · PDF 61쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-aggregate", "topic": "core", "name": "SQL 집계·NULL", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.11, 2023.4, 2022.10, 2021.4 · PDF 60쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-set", "topic": "core", "name": "SQL 집합 연산", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2023.10 · PDF 61쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-sort", "topic": "core", "name": "SQL 정렬", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.5, 2021.7 · PDF 59쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-subquery", "topic": "core", "name": "SQL 하위 질의", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.10, 2024.4, 2022.7 · PDF 60쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-abstract-factory", "topic": "core", "name": "추상 팩토리", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.4 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-factory-method", "topic": "core", "name": "팩토리 메서드", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2021.10 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-adapter", "topic": "core", "name": "어댑터", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.4 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-bridge", "topic": "core", "name": "브리지", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.10 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-proxy", "topic": "core", "name": "프록시", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.7, 2023.4 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-iterator", "topic": "core", "name": "반복자", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-observer", "topic": "core", "name": "옵서버", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.10, 2020.7 · PDF 41쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}];
+const FOCUS_CONCEPTS = [{"id": "abstract-factory", "topic": "pattern", "name": "추상 팩토리", "english": "Abstract Factory", "group": "생성", "summary": "서로 관련된 객체들을 제품군 단위로 생성한다. 구체 클래스에 직접 의존하지 않는 생성 인터페이스를 제공한다.", "contrast": "팩토리 메서드는 생성 메서드를 하위 클래스에서 결정하고, 추상 팩토리는 연관된 제품군을 생성합니다."}, {"id": "builder", "topic": "pattern", "name": "빌더", "english": "Builder", "group": "생성", "summary": "복잡한 객체를 단계별로 조립한다. 생성 절차와 완성된 표현을 분리할 수 있다.", "contrast": "빌더는 단계별 조립, 추상 팩토리는 관련 제품군의 생성에 초점을 둡니다."}, {"id": "factory-method", "topic": "pattern", "name": "팩토리 메서드", "english": "Factory Method", "group": "생성", "summary": "상위 클래스가 생성 메서드의 틀을 제공하고 실제로 만들 객체의 클래스는 하위 클래스가 결정한다.", "contrast": "객체 생성의 결정을 하위 클래스로 위임한다는 단서가 핵심입니다."}, {"id": "prototype", "topic": "pattern", "name": "프로토타입", "english": "Prototype", "group": "생성", "summary": "기존 객체를 복제하여 새 객체를 만든다. 초기화 비용이 큰 객체를 재사용할 때 유용하다.", "contrast": "시제품으로 요구사항을 확인하는 개발 모형과 이름은 같지만, GoF에서는 객체 복제 방식입니다."}, {"id": "singleton", "topic": "pattern", "name": "싱글톤", "english": "Singleton", "group": "생성", "summary": "클래스의 인스턴스가 하나만 존재하도록 하고 공통 접근 지점을 제공한다.", "contrast": "공유 인스턴스 한 개를 보장하는 것이 핵심입니다. 플라이웨이트는 여러 객체의 공통 상태를 공유합니다."}, {"id": "adapter", "topic": "pattern", "name": "어댑터", "english": "Adapter", "group": "구조", "summary": "기존 클래스의 인터페이스를 이용자가 기대하는 인터페이스로 변환한다.", "contrast": "어댑터는 인터페이스 호환, 퍼사드는 복잡한 기능의 사용 단순화가 목적입니다."}, {"id": "bridge", "topic": "pattern", "name": "브리지", "english": "Bridge", "group": "구조", "summary": "추상화와 구현을 분리하여 두 부분을 서로 독립적으로 확장하게 한다.", "contrast": "브리지는 처음부터 추상화와 구현을 분리합니다. 어댑터는 이미 다른 인터페이스 사이를 맞춥니다."}, {"id": "composite", "topic": "pattern", "name": "컴포지트", "english": "Composite", "group": "구조", "summary": "단일 객체와 복합 객체를 같은 인터페이스로 다룬다. 전체와 부분을 트리로 구성한다.", "contrast": "전체·부분의 트리 구조와 단일·복합 객체의 동일한 처리가 핵심입니다."}, {"id": "decorator", "topic": "pattern", "name": "데코레이터", "english": "Decorator", "group": "구조", "summary": "객체를 감싸는 방식으로 부가 기능을 동적으로 추가한다. 기본 인터페이스는 유지한다.", "contrast": "데코레이터는 부가 기능을 추가합니다. 프록시는 원본에 대한 접근을 대신 관리합니다."}, {"id": "facade", "topic": "pattern", "name": "퍼사드", "english": "Facade", "group": "구조", "summary": "여러 하위 시스템을 쉽게 이용하도록 단순한 상위 인터페이스를 제공한다.", "contrast": "퍼사드는 복잡한 시스템의 사용을 단순하게 합니다. 어댑터는 호출 규격을 맞춥니다."}, {"id": "flyweight", "topic": "pattern", "name": "플라이웨이트", "english": "Flyweight", "group": "구조", "summary": "많은 객체가 공통으로 사용하는 상태를 공유하여 메모리를 줄인다.", "contrast": "플라이웨이트는 공통 상태 공유, 싱글톤은 클래스 인스턴스 수 제한입니다."}, {"id": "proxy", "topic": "pattern", "name": "프록시", "english": "Proxy", "group": "구조", "summary": "실제 객체를 대신하는 대리 객체로 접근을 제어한다. 지연 생성이나 권한 확인 등을 맡길 수 있다.", "contrast": "프록시는 원본 접근을 대신합니다. 데코레이터는 원본 동작에 기능을 덧붙입니다."}, {"id": "chain-of-responsibility", "topic": "pattern", "name": "책임 연쇄", "english": "Chain of Responsibility", "group": "행위", "summary": "여러 처리자를 연결하여 요청을 처리할 수 있는 객체로 순서대로 전달한다.", "contrast": "처리자들의 연결을 따라 책임이 이동하는 것이 핵심입니다."}, {"id": "command", "topic": "pattern", "name": "커맨드", "english": "Command", "group": "행위", "summary": "요청을 객체로 캡슐화하여 실행, 저장, 취소 등을 독립적으로 다룬다.", "contrast": "커맨드는 요청 자체를 객체로 만듭니다. 메멘토는 객체 상태의 저장·복원이 핵심입니다."}, {"id": "interpreter", "topic": "pattern", "name": "인터프리터", "english": "Interpreter", "group": "행위", "summary": "간단한 언어의 문법 규칙을 표현하고 그 규칙에 따라 문장을 해석한다.", "contrast": "여기서는 GoF의 문법 규칙 및 해석 패턴을 묻습니다. 아키텍처의 해석기 구성과 범위를 구분하세요."}, {"id": "iterator", "topic": "pattern", "name": "반복자", "english": "Iterator", "group": "행위", "summary": "컬렉션의 내부 표현을 공개하지 않고 요소를 순서대로 탐색한다.", "contrast": "컬렉션의 내부 구조와 탐색 과정을 분리합니다."}, {"id": "mediator", "topic": "pattern", "name": "중재자", "english": "Mediator", "group": "행위", "summary": "여러 객체의 상호작용을 중재 객체에 모아 객체 사이의 직접 의존을 줄인다.", "contrast": "중재자는 객체 사이의 조정, 옵서버는 상태 변화의 일대다 통지가 핵심입니다."}, {"id": "memento", "topic": "pattern", "name": "메멘토", "english": "Memento", "group": "행위", "summary": "객체 내부 상태를 보관하고 나중에 해당 시점의 상태로 복원한다.", "contrast": "메멘토는 상태 보관, 커맨드는 실행 요청의 객체화입니다."}, {"id": "observer", "topic": "pattern", "name": "옵서버", "english": "Observer", "group": "행위", "summary": "관찰 대상의 상태가 바뀌면 등록된 관찰자들에게 알려 주는 일대다 관계를 정의한다.", "contrast": "옵서버는 구독자에게 상태 변화를 통지합니다. 중재자는 객체 간 상호작용을 조정합니다."}, {"id": "state", "topic": "pattern", "name": "상태", "english": "State", "group": "행위", "summary": "객체의 현재 상태별 동작을 각각 캡슐화하여 동일한 요청이 상태에 따라 다르게 처리되게 한다.", "contrast": "상태는 객체의 상태에 따른 동작, 전략은 교체 가능한 알고리즘의 선택입니다."}, {"id": "strategy", "topic": "pattern", "name": "전략", "english": "Strategy", "group": "행위", "summary": "같은 목적을 가진 여러 알고리즘을 캡슐화하여 상호 교환하게 한다.", "contrast": "전략은 알고리즘 교체, 상태는 상태 변화에 따른 동작 변경입니다."}, {"id": "template-method", "topic": "pattern", "name": "템플릿 메서드", "english": "Template Method", "group": "행위", "summary": "알고리즘의 공통 골격을 상위 클래스에 정의하고 일부 단계를 하위 클래스가 구현하게 한다.", "contrast": "템플릿 메서드는 상속으로 세부 단계를 바꿉니다. 전략은 알고리즘을 별도 객체로 교체합니다."}, {"id": "visitor", "topic": "pattern", "name": "방문자", "english": "Visitor", "group": "행위", "summary": "객체 구조를 크게 바꾸지 않고 외부 방문 객체에 새로운 연산을 추가한다.", "contrast": "방문자는 처리 연산을 객체 구조와 분리합니다. 반복자는 원소 탐색에 초점을 둡니다."}, {"id": "arch-layered", "topic": "architecture", "name": "계층형", "english": "Layered", "group": "아키텍처", "summary": "시스템을 책임별 계층으로 나누어 계층 사이의 정해진 인터페이스로 처리한다.", "contrast": "계층형은 전체 시스템의 책임 분할입니다. MVC는 데이터·표시·입력 제어의 역할 분리에 초점을 둡니다."}, {"id": "arch-client-server", "topic": "architecture", "name": "클라이언트 서버", "english": "Client Server", "group": "아키텍처", "summary": "서비스를 요청하는 클라이언트와 요청을 처리하는 서버로 구성한다.", "contrast": "요청자와 서비스 제공자의 구분이 핵심입니다."}, {"id": "arch-pipe-filter", "topic": "architecture", "name": "파이프 필터", "english": "Pipe Filter", "group": "아키텍처", "summary": "각 처리 단계를 필터로 분리하고 단계 사이의 데이터 흐름을 파이프로 연결한다.", "contrast": "독립된 변환 단계와 단계 사이 데이터 전달이 핵심입니다."}, {"id": "arch-mvc", "topic": "architecture", "name": "MVC", "english": "MVC", "group": "아키텍처", "summary": "데이터 및 핵심 처리, 화면 표시, 사용자 입력 제어를 서로 다른 역할로 분리한다.", "contrast": "Model·View·Controller의 역할을 구분하세요. GoF 생성·구조·행위 분류에는 넣지 않습니다."}, {"id": "arch-master-slave", "topic": "architecture", "name": "마스터 슬레이브", "english": "Master Slave", "group": "아키텍처", "summary": "한 컴포넌트가 작업을 분할·배포하고 여러 작업 컴포넌트의 결과를 취합한다.", "contrast": "마스터는 작업 분배와 결과 취합, 슬레이브는 할당된 작업 처리를 맡습니다."}, {"id": "arch-broker", "topic": "architecture", "name": "브로커", "english": "Broker", "group": "아키텍처", "summary": "분산된 서비스 제공자와 이용자 사이에서 중개 컴포넌트가 요청과 응답을 연결한다.", "contrast": "브로커는 분산 서비스의 호출 중개입니다. GoF 중재자와 설계 범위를 구분하세요."}, {"id": "arch-peer-to-peer", "topic": "architecture", "name": "피어 투 피어", "english": "Peer to Peer", "group": "아키텍처", "summary": "각 참여 노드가 서비스 이용자와 제공자의 역할을 모두 수행할 수 있다.", "contrast": "노드가 클라이언트와 서버 역할을 함께 수행한다는 점이 핵심입니다."}, {"id": "arch-event-bus", "topic": "architecture", "name": "이벤트 버스", "english": "Event Bus", "group": "아키텍처", "summary": "발행한 이벤트를 채널에 등록된 구독자들이 전달받아 처리한다.", "contrast": "이벤트 버스는 채널을 통한 시스템 간 이벤트 전달입니다. 옵서버는 관찰 대상과 관찰자의 일대다 관계입니다."}, {"id": "arch-blackboard", "topic": "architecture", "name": "블랙보드", "english": "Blackboard", "group": "아키텍처", "summary": "여러 전문 처리 컴포넌트가 공통 작업 공간의 결과를 읽고 갱신하며 문제를 해결한다.", "contrast": "공유 지식·작업 공간을 중심으로 여러 처리자가 협력한다는 단서가 핵심입니다."}, {"id": "arch-interpreter-architecture", "topic": "architecture", "name": "인터프리터", "english": "Interpreter Architecture", "group": "아키텍처", "summary": "실행할 프로그램이나 명령을 표현하는 데이터와 이를 해석하는 엔진을 중심으로 구성한다.", "contrast": "아키텍처에서는 해석 엔진을 중심으로 한 시스템 구성, GoF에서는 문법 규칙의 객체화를 묻습니다."}, {"id": "exam-normalization", "topic": "core", "name": "정규화·함수 종속", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.4, 2021.7 · PDF 22쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-transaction", "topic": "core", "name": "트랜잭션 특성", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2021.7, 2020.5 · PDF 26쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-coupling", "topic": "core", "name": "결합도", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.4, 2024.7, 2021.10, 2021.4 · PDF 36쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-cohesion", "topic": "core", "name": "응집도", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7, 2021.7 · PDF 36쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-group", "topic": "core", "name": "GROUP BY·HAVING", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7, 2023.4, 2020.11, 2020.10 · PDF 61쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-aggregate", "topic": "core", "name": "SQL 집계·NULL", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.11, 2023.4, 2022.10, 2021.4 · PDF 60쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-set", "topic": "core", "name": "SQL 집합 연산", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2023.10 · PDF 61쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-sort", "topic": "core", "name": "SQL 정렬", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.5, 2021.7 · PDF 59쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-sql-subquery", "topic": "core", "name": "SQL 하위 질의", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.10, 2024.4, 2022.7 · PDF 60쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-abstract-factory", "topic": "core", "name": "추상 팩토리", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.4 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-factory-method", "topic": "core", "name": "팩토리 메서드", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2021.10 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-adapter", "topic": "core", "name": "어댑터", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.4 · PDF 39쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-bridge", "topic": "core", "name": "브리지", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.10 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-proxy", "topic": "core", "name": "프록시", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2025.7, 2023.4 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-iterator", "topic": "core", "name": "반복자", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2024.7 · PDF 40쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "exam-pattern-observer", "topic": "core", "name": "옵서버", "english": "", "group": "실기 출제 표기 확인", "summary": "첨부한 시나공 실기 핵심요약에서 해당 주제의 실기 출제 표기를 확인했습니다.", "contrast": "교재 표기: 2022.10, 2020.7 · PDF 41쪽. 문제는 이 개념을 바탕으로 재구성한 변형이며 기출 원문이 아닙니다."}, {"id": "security-virus", "topic": "security", "name": "바이러스", "english": "Virus", "group": "악성코드", "summary": "다른 실행 파일이나 부트 영역 등에 자신의 코드를 붙여 감염시키고 숙주가 실행될 때 함께 동작한다.", "contrast": "바이러스는 숙주 감염, 웜은 독립적인 자기 전파가 핵심입니다."}, {"id": "security-worm", "topic": "security", "name": "웜", "english": "Worm", "group": "악성코드", "summary": "다른 프로그램에 기생하지 않고 독립적으로 실행되며 네트워크 등을 통해 자신을 복제하고 전파한다.", "contrast": "웜은 자기 전파, 트로이 목마는 정상 프로그램 위장이 핵심입니다."}, {"id": "security-trojan", "topic": "security", "name": "트로이 목마", "english": "Trojan Horse", "group": "악성코드", "summary": "정상적인 프로그램처럼 보이게 위장하여 사용자가 실행하도록 유도한다. 자기 복제는 일반적인 특징이 아니다.", "contrast": "트로이 목마는 위장 실행입니다. 파일 감염·자기 전파와 구분하세요."}, {"id": "security-ransomware", "topic": "security", "name": "랜섬웨어", "english": "Ransomware", "group": "악성코드", "summary": "데이터를 암호화하거나 이용을 막은 뒤 복구를 대가로 금전을 요구한다.", "contrast": "암호화·이용 방해 후 금전 요구가 핵심입니다."}, {"id": "security-backdoor", "topic": "security", "name": "백도어", "english": "Backdoor", "group": "악성코드", "summary": "정상적인 인증이나 접근 통제를 우회하여 시스템에 접근하도록 남겨 둔 숨은 통로이다.", "contrast": "백도어는 우회 접근 통로입니다. 루트킷은 침해 흔적이나 악성 동작을 숨기는 도구 모음에 초점을 둡니다."}, {"id": "security-rootkit", "topic": "security", "name": "루트킷", "english": "Rootkit", "group": "악성코드", "summary": "침해된 시스템에서 권한 유지와 악성 활동의 은폐 등을 위해 사용하는 도구들의 모음이다.", "contrast": "루트킷은 도구 모음과 은폐, 백도어는 우회 접근 통로입니다."}, {"id": "security-xss", "topic": "security", "name": "XSS", "english": "Cross-Site Scripting", "group": "웹 공격", "summary": "웹 페이지에 주입한 스크립트가 방문자의 브라우저에서 실행되도록 하는 공격이다.", "contrast": "XSS는 브라우저에서 스크립트 실행, CSRF는 인증된 사용자의 의도하지 않은 요청입니다."}, {"id": "security-csrf", "topic": "security", "name": "CSRF", "english": "Cross-Site Request Forgery", "group": "웹 공격", "summary": "인증된 사용자가 자신의 의도와 다른 요청을 웹사이트에 보내도록 유도한다.", "contrast": "이미 인증된 사용자의 권한을 이용한 요청 위조가 핵심입니다."}, {"id": "security-sql-injection", "topic": "security", "name": "SQL 삽입", "english": "SQL Injection", "group": "웹 공격", "summary": "검증되지 않은 입력이 SQL 명령의 일부로 해석되어 데이터베이스 질의의 의미가 바뀌는 공격이다.", "contrast": "SQL 삽입은 서버의 데이터베이스 질의 조작입니다. XSS는 방문자 브라우저의 스크립트 실행입니다."}, {"id": "security-dos", "topic": "security", "name": "DoS", "english": "Denial of Service", "group": "네트워크 공격", "summary": "과도한 요청이나 취약점 악용 등으로 시스템이 정상적인 서비스를 제공하지 못하게 하는 공격이다.", "contrast": "DoS는 서비스 거부 공격의 통칭입니다. 여러 공격원에서 분산 수행하면 DDoS라고 합니다."}, {"id": "security-ddos", "topic": "security", "name": "DDoS", "english": "Distributed Denial of Service", "group": "네트워크 공격", "summary": "여러 장치에서 동시에 하나의 서비스에 공격을 가하여 가용성을 방해하는 분산 서비스 거부 공격이다.", "contrast": "여러 공격원의 분산 수행이 DDoS의 구별 단서입니다."}, {"id": "security-smurf", "topic": "security", "name": "스머프", "english": "Smurf", "group": "네트워크 공격", "summary": "피해자 주소로 위장한 ICMP 요청을 브로드캐스트하여 다수의 응답이 피해자에게 집중되게 한다.", "contrast": "ICMP·브로드캐스트·응답 집중이 스머프의 핵심 단서입니다."}, {"id": "security-land", "topic": "security", "name": "랜드", "english": "LAND", "group": "네트워크 공격", "summary": "패킷의 출발지와 목적지 주소를 모두 공격 대상의 주소로 설정하는 공격이다.", "contrast": "출발지와 목적지가 모두 피해자 주소라는 단서를 확인하세요."}, {"id": "security-teardrop", "topic": "security", "name": "티어드롭", "english": "Teardrop", "group": "네트워크 공격", "summary": "조각난 IP 패킷의 오프셋 등 단편 정보를 비정상적으로 조작하여 재조립 처리를 방해한다.", "contrast": "단편화 정보와 재조립 오류가 핵심입니다."}, {"id": "security-syn-flooding", "topic": "security", "name": "SYN 플러딩", "english": "SYN Flooding", "group": "네트워크 공격", "summary": "TCP 연결 설정을 끝내지 않는 요청을 대량으로 보내 반쯤 열린 연결 자원을 소모시킨다.", "contrast": "연결 설정 미완료 상태로 대기 자원을 소모하는 SYN 플러딩입니다."}, {"id": "security-sniffing", "topic": "security", "name": "스니핑", "english": "Sniffing", "group": "네트워크 공격", "summary": "네트워크에서 전달되는 패킷을 도청하여 통신 내용을 수집한다.", "contrast": "스니핑은 엿보기, 스푸핑은 신원·주소 위장입니다."}, {"id": "security-spoofing", "topic": "security", "name": "스푸핑", "english": "Spoofing", "group": "네트워크 공격", "summary": "신뢰할 수 있는 다른 시스템이나 사용자처럼 주소·신원을 위장한다.", "contrast": "위장이 핵심입니다. 패킷을 수동적으로 엿보는 스니핑과 구분하세요."}, {"id": "security-session-hijacking", "topic": "security", "name": "세션 하이재킹", "english": "Session Hijacking", "group": "네트워크 공격", "summary": "정상 사용자의 세션 식별 정보 등을 가로채 그 사용자로 가장하여 연결을 이용한다.", "contrast": "인증된 세션의 탈취·가로채기가 핵심입니다."}, {"id": "security-phishing", "topic": "security", "name": "피싱", "english": "Phishing", "group": "정보 탈취", "summary": "신뢰할 만한 기관이나 사람을 사칭하여 민감한 정보를 제공하도록 속인다.", "contrast": "발신자·기관 사칭과 정보 제공 유도가 핵심입니다."}, {"id": "security-smishing", "topic": "security", "name": "스미싱", "english": "Smishing", "group": "정보 탈취", "summary": "문자 메시지를 이용하여 악성 링크 접속이나 앱 설치를 유도하고 정보를 탈취한다.", "contrast": "문자 메시지(SMS)가 스미싱의 구별 단서입니다."}, {"id": "security-pharming", "topic": "security", "name": "파밍", "english": "Pharming", "group": "정보 탈취", "summary": "이름 해석이나 호스트 설정 등을 조작하여 정상 주소로 접속하려는 사용자를 위조 사이트로 보낸다.", "contrast": "파밍은 주소 해석·접속 경로 조작, 피싱은 사칭 메시지 등으로 정보를 유도하는 것이 핵심입니다."}, {"id": "security-spear-phishing", "topic": "security", "name": "스피어 피싱", "english": "Spear Phishing", "group": "정보 탈취", "summary": "특정 개인이나 조직을 표적으로 삼아 맞춤형 사칭 메시지로 정보를 탈취한다.", "contrast": "불특정 다수보다 특정 표적에 맞춘 공격이라는 점이 핵심입니다."}, {"id": "security-credential-stuffing", "topic": "security", "name": "크리덴셜 스터핑", "english": "Credential Stuffing", "group": "정보 탈취", "summary": "다른 곳에서 유출된 계정·비밀번호 조합을 여러 서비스의 로그인에 재사용한다.", "contrast": "유출된 자격 증명의 재사용입니다. 가능한 모든 조합을 만드는 무차별 대입과 구분하세요."}, {"id": "security-watering-hole", "topic": "security", "name": "워터링 홀", "english": "Watering Hole", "group": "정보 탈취", "summary": "공격 대상이 자주 방문하는 웹사이트를 미리 침해하여 대상의 방문을 기다린다.", "contrast": "대상이 자주 가는 사이트를 먼저 침해한다는 것이 단서입니다."}];
